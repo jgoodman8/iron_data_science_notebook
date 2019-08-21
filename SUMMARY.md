@@ -4,7 +4,6 @@
 
 ## Group
 
-* [Untitled](group/untitled/README.md)
-  * [Untitled](group/untitled/untitled/README.md)
-    * [Untitled](group/untitled/untitled/untitled.md)
+* [Frequent Questions](group/untitled/README.md)
+  * [Bias-Variance Tradeoff](group/untitled/untitled.md)
 
