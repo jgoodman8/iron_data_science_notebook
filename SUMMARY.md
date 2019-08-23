@@ -4,6 +4,6 @@
 
 ## Group
 
-* [Frequent Questions](group/untitled/README.md)
-  * [Bias-Variance Tradeoff](group/untitled/untitled.md)
+* [Frequent Questions](group/frequent-questions/README.md)
+  * [Bias-Variance Tradeoff](group/frequent-questions/bias-variance-tradeoff.md)
 
