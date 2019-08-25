@@ -8,3 +8,9 @@ description: >-
 
 ![](.gitbook/assets/ironman.jpg)
 
+## Index
+
+{% page-ref page="group/frequent-questions/" %}
+
+{% page-ref page="group/machine-learning-algorithms.md" %}
+
