@@ -9,5 +9,7 @@
   * [Batch vs Online Learning](group/frequent-questions/batch-vs-online-learning.md)
   * [Instance-based vs Model-based Learning](group/frequent-questions/instance-based-vs-model-based-learning.md)
   * [Bias-Variance Tradeoff](group/frequent-questions/bias-variance-tradeoff.md)
+  * [Probability vs Likelihood](group/frequent-questions/probability-vs-likelihood.md)
+  * [How a ROC curve works](group/frequent-questions/how-a-roc-curve-works.md)
 * [Machine Learning Algorithms](group/machine-learning-algorithms.md)
 
