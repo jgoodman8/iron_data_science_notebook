@@ -2,7 +2,7 @@
 
 _More reading:_ [_Bias-Variance Tradeoff \(Wikipedia\)_](https://en.wikipedia.org/wiki/Bias-variance_tradeoff)
 
-![](../../.gitbook/assets/image%20%287%29.png)
+![](../../.gitbook/assets/image%20%289%29.png)
 
 ### What is bias error?
 

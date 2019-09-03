@@ -12,5 +12,5 @@ description: >-
 
 {% page-ref page="group/frequent-questions/" %}
 
-{% page-ref page="group/machine-learning-algorithms.md" %}
+{% page-ref page="group/machine-learning-algorithms/" %}
 
