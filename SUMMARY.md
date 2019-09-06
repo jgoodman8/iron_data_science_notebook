@@ -15,4 +15,5 @@
   * [Markov Monte Carlo Chain](group/machine-learning-algorithms/markov-monte-carlo-chain.md)
 * [Statistics](group/statistics/README.md)
   * [The bayesian basis](group/statistics/the-bayesian-basis.md)
+  * [Distributions](group/statistics/distributions.md)
 
