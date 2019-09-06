@@ -18,7 +18,7 @@ This distribution is defined by **two parameters**: minimum $$a$$ and maximum $$
 
 ![](../../.gitbook/assets/image%20%285%29.png)
 
-A normal distribution, sometimes called the bell curve, is a distribution that occurs naturally in many situations. It is expressed as $$Z \sim Norm(\mu, \sigma)$$ It has some properties:
+A normal distribution, sometimes called the bell curve, is a distribution that occurs naturally in many situations. It is expressed as $$Z \sim Norm(\mu, \sigma²)$$ It has some properties:
 
 * The [mean, mode and median](https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/statistics-definitions/mean-median-mode/) are all equal.
 * The curve is symmetric at the center \(i.e. around the mean, μ\).
