@@ -10,13 +10,13 @@
 
 A uniform distribution, also called a **rectangular distribution**, is a probability distribution that has **constant probability**.
 
-![](../../.gitbook/assets/image%20%286%29.png)
+![](../../.gitbook/assets/image%20%288%29.png)
 
 This distribution is defined by **two parameters**: minimum $$a$$ and maximum $$b$$. So, for a random variable $$Z \sim Uniform(a, b)$$. And the expected value will be: $$E(X) = \frac{a+b}{2}$$.
 
 ### Normal
 
-![](../../.gitbook/assets/image%20%285%29.png)
+![](../../.gitbook/assets/image%20%287%29.png)
 
 A normal distribution, sometimes called the bell curve, is a distribution that occurs naturally in many situations. It is expressed as $$Z \sim Norm(\mu, \sigma²)$$ It has some properties:
 
@@ -29,7 +29,7 @@ A normal distribution, sometimes called the bell curve, is a distribution that o
 
 A lognormal \(or Galton\) distribution is a probability distribution with a normally distributed logarithm. [Skewed distributions](https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/skewed-distribution/) with low mean values, large variance, and all-positive values often fit this type of distribution. Values must be positive as $$log(x)$$ exists only for positive values of $$x$$.
 
-![](../../.gitbook/assets/image%20%2812%29.png)
+![](../../.gitbook/assets/image%20%2814%29.png)
 
 ### Bivariate Normal
 
@@ -57,7 +57,7 @@ When a random variable $$Z$$ has an exponential distribution with parameter $$\l
 
 ### Binomial
 
-![](../../.gitbook/assets/image%20%2821%29.png)
+![](../../.gitbook/assets/image%20%2823%29.png)
 
 The binomial distribution gives the **discrete probability distribution** $$P_p(n|N)$$ of **obtaining exactly** $$n$$ **successes out of** $$N$$ **Bernoulli trials**. The binomial distribution is therefore given by:
 
@@ -69,7 +69,7 @@ If $$X$$ is a binomial random variable with parameters $$p$$ and $$N$$, denoted 
 
 ### Bernoulli
 
-![](../../.gitbook/assets/image%20%2823%29.png)
+![](../../.gitbook/assets/image%20%2825%29.png)
 
 A Bernouilli distribution is a discrete probability distribution for a Bernouilli trial — a random experiment that has only two outcomes \(usually called a “Success” or a “Failure”\). For example, the probability of getting a heads \(a “success”\) while flipping a coin is 0.5. The probability of “failure” is 1 – P \(1 minus the probability of success, which also equals 0.5 for a coin toss\). It is a special case of the binomial distribution for n = 1. In other words, it is a binomial distribution with a single trial \(e.g. a single coin toss\). 
 
@@ -83,7 +83,7 @@ If a random variable $$Z$$ has a **mass distribution**, we denote this by writin
 
 ### Poisson
 
-![](../../.gitbook/assets/image%20%282%29.png)
+![](../../.gitbook/assets/image%20%284%29.png)
 
 A Poisson distribution is a tool that helps to predict the probability of certain events from happening when you know how often the event has occurred. It gives us the **probability of a given number of events happening in a fixed interval of time**. The Poisson distribution is given by:
 
