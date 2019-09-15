@@ -1,4 +1,54 @@
 # How a ROC curve works
 
-![](../../.gitbook/assets/image%20%285%29.png)
+{% hint style="info" %}
+Source:
+
+* \_\_[_Understanding AUC-ROC curve \(Sarang Narkhede\)_](https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5)\_\_
+{% endhint %}
+
+## Overview
+
+* **ROC** \(Receiver Operating Characteristics\) is a **probability curve**.
+* **AUC** \(Area Under the Curve\) represents degree or measure of separability.
+* **AUC-ROC** is a **performance measurement** for classification problem **at various thresholds settings**.
+* Range: \[0, 1\]
+  * Best: 1
+  * Worst: 0.5
+  * Inverse: 0
+
+![Image courtesy: My Photoshopped Collection](../../.gitbook/assets/image%20%2821%29.png)
+
+## Understanding the probability curves
+
+When two **distributions overlap**, we introduce **type 1 and type 2 error**. Depending upon the **threshold**, we can **minimize or maximize them**. A threshold equal to 0.5 will imply the metric we give an equal weight to the sensitivity and specificity of the model.
+
+When we **decrease the threshold**, we get more positive values thus it **increases the** [**recall**](metrics.md#recall-sensitivity-or-tpr-true-positive-rate) **and decreasing the** [**specificity**](metrics.md#specificity). Similarly, when we increase the threshold, we get more negative values thus we get higher specificity and lower recall.
+
+{% tabs %}
+{% tab title="AUC\_ROC = 1" %}
+In the **ideal situation**, distribution curve of the **positive class is equal** to the distribution of the **negative** one.
+
+![](../../.gitbook/assets/image%20%2814%29.png)
+{% endtab %}
+
+{% tab title="AUC\_ROC = 0.7" %}
+![](../../.gitbook/assets/image%20%284%29.png)
+{% endtab %}
+
+{% tab title="AUC\_ROC = 0.5" %}
+When AUC is approximately 0.5, model has **no discrimination capacity** to distinguish between positive class and negative class.
+
+![](../../.gitbook/assets/image%20%2842%29.png)
+{% endtab %}
+
+{% tab title="AUC\_ROC = 0" %}
+When AUC is approximately 0, model is **actually reciprocating the classes**. It means, model is predicting negative class as a positive class and vice versa.
+
+![](../../.gitbook/assets/image%20%2813%29.png)
+{% endtab %}
+{% endtabs %}
+
+### Dealing with multiclass models
+
+Using One vs All methodology,  we can plot _N_ number of AUC-ROC Curves for the given _N_ number classes.
 

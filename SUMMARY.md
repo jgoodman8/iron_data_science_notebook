@@ -10,6 +10,8 @@
   * [Instance-based vs Model-based Learning](group/frequent-questions/instance-based-vs-model-based-learning.md)
   * [Bias-Variance Tradeoff](group/frequent-questions/bias-variance-tradeoff.md)
   * [Probability vs Likelihood](group/frequent-questions/probability-vs-likelihood.md)
+  * [Covariance vs Correlation Matrix](group/frequent-questions/covariance-vs-correlation-matrix.md)
+  * [Metrics](group/frequent-questions/metrics.md)
   * [How a ROC curve works](group/frequent-questions/how-a-roc-curve-works.md)
 * [Machine Learning Algorithms](group/machine-learning-algorithms/README.md)
   * [Markov Monte Carlo Chain](group/machine-learning-algorithms/markov-monte-carlo-chain.md)
