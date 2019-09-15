@@ -10,15 +10,15 @@ _Sources:_
 
 Given a Bayesian inference problem with $$N$$ unknowns, we are creating an _N-dimensional_ space for the _prior distributions_ to exist in. We may describe this space or additional space as the _**surface**_ that reflects the _prior probability_  on a particular point.
 
-![Given p1, p2 ~ Uni\(0, 5\), the space created is a square and the surface is a fat plane at the top of it](../../.gitbook/assets/image%20%2815%29.png)
+![Given p1, p2 ~ Uni\(0, 5\), the space created is a square and the surface is a fat plane at the top of it](../../.gitbook/assets/image%20%2817%29.png)
 
 What happens to our space after we incorporate our observed data$$X$$? The data $$X$$ does not change the space, but it changes the surface of the space by _pulling and stretching the fabric of the prior surface_ to reflect where the true parameters likely live. More data means more pulling and stretching, and our original shape becomes mangled or insignificant compared to the newly formed shape. Less data, and our original shape is more present. Regardless, the resulting surface describes the _posterior distribution_.
 
-![Prior probability recreated as the surface given p1~Exp\(3\), p2~Exp\(10\)](../../.gitbook/assets/image%20%2841%29.png)
+![Prior probability recreated as the surface given p1~Exp\(3\), p2~Exp\(10\)](../../.gitbook/assets/image%20%2846%29.png)
 
 Notice that the posterior landscapes look different from one another, though the data observed is identical in both cases. The reason is as follows: the exponential-prior landscape puts very little _posterior_ weight on values in the upper right corner of the figure; this is because _the prior does not put much weight there_. On the other hand, the uniform-prior landscape is happy to put posterior weight in the upper-right corner, as the prior puts more weight there.
 
-![Landscape for both distributions given an observation](../../.gitbook/assets/image%20%2829%29.png)
+![Landscape for both distributions given an observation](../../.gitbook/assets/image%20%2834%29.png)
 
 The black dot represents the true parameters. Even with 1 sample point, **the mountains attempts to contain the true parameter**. Of course, inference with a sample size of one is incredibly naive, and choosing such a small sample size was only illustrative.
 
@@ -64,7 +64,7 @@ By the nature of the MCMC algorithm, we will always be returned samples that exh
 
 If there is high-autocorrelation between posterior samples. Many post-processing algorithms require samples to be _independent_ of each other. This can be solved, or at least reduced, by only returning to the user every _n-th_ sample, thus removing some autocorrelation. **With more thinning, the autocorrelation drops quicker**. There is a tradeoff though: **higher thinning requires more MCMC iterations** to achieve the same number of returned samples.
 
-![](../../.gitbook/assets/image%20%281%29.png)
+![](../../.gitbook/assets/image%20%282%29.png)
 
 #### Intelligence starting values
 

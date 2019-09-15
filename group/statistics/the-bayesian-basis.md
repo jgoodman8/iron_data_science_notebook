@@ -36,7 +36,7 @@ $$
 
 Then, the probability mass distribution of the random variable Z will be denoted by writing $$Z∼Poi(λ)$$.
 
-![](../../.gitbook/assets/image%20%2812%29.png)
+![](../../.gitbook/assets/image%20%2814%29.png)
 
 ### Continuous variables
 
@@ -48,7 +48,7 @@ $$
 
 When a random variable Z has an exponential distribution with parameter $$\lambda$$, we say Z is exponential and write $$Z∼Exp(λ)$$.
 
-![](../../.gitbook/assets/image%20%2824%29.png)
+![](../../.gitbook/assets/image%20%2827%29.png)
 
 ### How do we find λ?
 

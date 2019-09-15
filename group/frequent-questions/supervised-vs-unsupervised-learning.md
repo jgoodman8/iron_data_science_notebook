@@ -39,7 +39,7 @@
 
 #### **How it works**
 
-![](../../.gitbook/assets/image%20%2825%29.png)
+![](../../.gitbook/assets/image%20%2828%29.png)
 
 For every unlabeled instance \(the ones to be classified\):
 
