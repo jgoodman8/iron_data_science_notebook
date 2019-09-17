@@ -31,11 +31,36 @@ Confusion Matrix is a **performance measurement** for machine learning **classif
 * **True negative**
   * Predicted 0 $$\Rightarrow$$ Actual 0
 
-![](../../.gitbook/assets/image%20%2831%29.png)
+![](../../.gitbook/assets/image%20%2834%29.png)
 
 #### Cost matrix
 
 A cost matrix \(**error matrix**\) is also useful **when specific classification errors are more severe than others**. The Classification mining function tries to avoid classification errors with a high error weight. The trade-off of avoiding 'expensive' classification errors is an increased number of 'cheap' classification errors.
+
+### Accuracy
+
+From all the total samples, it measures the well-classified rate.
+
+{% tabs %}
+{% tab title="Formula" %}
+$$
+Accuracy = \frac{\text{TP} + \text{TN} }{Total}
+$$
+{% endtab %}
+
+{% tab title="Example with sklearn" %}
+It may be computed using [scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html):
+
+```python
+from sklearn.metrics import accuracy_score
+
+y_pred = [0, 2, 1, 3]
+y_true = [0, 1, 2, 3]
+accuracy_score(y_true, y_pred)
+>>> 0.5
+```
+{% endtab %}
+{% endtabs %}
 
 ### Precision
 
@@ -47,7 +72,7 @@ It is a good measure to determine, **when the costs of False Positive is high**.
 
 {% tabs %}
 {% tab title="Main" %}
-![](../../.gitbook/assets/image%20%2829%29.png)
+![](../../.gitbook/assets/image%20%2832%29.png)
 {% endtab %}
 
 {% tab title="Formula" %}
@@ -77,7 +102,7 @@ It is a good metric to select our best model **when there is a high cost associa
 
 {% tabs %}
 {% tab title="Main" %}
-![](../../.gitbook/assets/image%20%2848%29.png)
+![](../../.gitbook/assets/image%20%2852%29.png)
 {% endtab %}
 
 {% tab title="Formula" %}

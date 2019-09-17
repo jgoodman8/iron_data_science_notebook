@@ -5,6 +5,7 @@ Source:
 
 * \_\_[_Understanding AUC-ROC curve \(Sarang Narkhede\)_](https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5)\_\_
 * \_\_[_How and When to Use ROC Curves and Precision-Recall Curves for Classification in Python \(Jaon Browniee\)_](https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-classification-in-python/)\_\_
+* \_\_[_Beyond Accuracy: Precision and Recall \(Will Koehrsen\)_](https://towardsdatascience.com/beyond-accuracy-precision-and-recall-3da06bea9f6c)\_\_
 {% endhint %}
 
 ## Overview
@@ -17,7 +18,11 @@ Source:
   * Worst: 0.5
   * Inverse: 0
 
-![Image courtesy: My Photoshopped Collection](../../.gitbook/assets/image%20%2824%29.png)
+![Image courtesy: My Photoshopped Collection](../../.gitbook/assets/image%20%2827%29.png)
+
+{% hint style="success" %}
+An ROC curve plots the **TPR on the y-axis versus the FPR on the x-axis**. The TPR is the **recall** and the FPR is the **probability of a false alarm**.
+{% endhint %}
 
 ## Understanding the probability curves
 
@@ -29,7 +34,7 @@ When we **decrease the threshold**, we get more positive values thus it **increa
 {% tab title="AUC\_ROC = 1" %}
 In the **ideal situation**, distribution curve of the **positive class is equal** to the distribution of the **negative** one.
 
-![](../../.gitbook/assets/image%20%2816%29.png)
+![](../../.gitbook/assets/image%20%2818%29.png)
 {% endtab %}
 
 {% tab title="AUC\_ROC = 0.7" %}
@@ -39,15 +44,19 @@ In the **ideal situation**, distribution curve of the **positive class is equal*
 {% tab title="AUC\_ROC = 0.5" %}
 When AUC is approximately 0.5, model has **no discrimination capacity** to distinguish between positive class and negative class.
 
-![](../../.gitbook/assets/image%20%2847%29.png)
+![](../../.gitbook/assets/image%20%2851%29.png)
 {% endtab %}
 
 {% tab title="AUC\_ROC = 0" %}
 When AUC is approximately 0, model is **actually reciprocating the classes**. It means, model is predicting negative class as a positive class and vice versa.
 
-![](../../.gitbook/assets/image%20%2815%29.png)
+![](../../.gitbook/assets/image%20%2817%29.png)
 {% endtab %}
 {% endtabs %}
+
+{% hint style="success" %}
+ Finally, we can quantify a model’s ROC curve by calculating the total [Area Under the Curve \(AUC\)](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve).
+{% endhint %}
 
 To make this clear:
 
