@@ -4,14 +4,14 @@
  _More reading:_ [_What is the difference between supervised and unsupervised machine learning? \(Quora\)_](https://www.quora.com/What-is-the-difference-between-supervised-and-unsupervised-learning-algorithms)
 {% endhint %}
 
-### Supervised learning
+## Supervised learning
 
 * It requires **labeled data** for training. 
 * Tasks are mainly focused on **getting a** _**solution**_ **or** _**prediction**_ expressed as a:
   * Classification
   * Regression
 
-### Unsupervised learning
+## Unsupervised learning
 
 * It does **not require labeled data** due to it does not perform training.
 * Tasks are mainly focused on **getting** _**insights**_ **or** _**guesses**_ through:
@@ -20,7 +20,7 @@
   * Dimensionality reduction
   * Asociation mining
 
-## KNN vs kMeans
+## An example: KNN vs kMeans
 
 {% hint style="info" %}
  _More reading:_

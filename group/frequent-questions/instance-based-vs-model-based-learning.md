@@ -1,6 +1,6 @@
 # Instance-based vs Model-based Learning
 
-### Instance-based learning
+## Instance-based learning
 
 * It makes predictions based in how similar is a new instante to the ones next to it.
 * It requires a **measure of similarity**.
@@ -9,7 +9,7 @@
   * Kernel Machines
   * RBF Networks
 
-### Model-based learning
+## Model-based learning
 
 * It makes a better 
 * It "learns" some parameters by an specified **performance measure**, expressed as:

@@ -1,10 +1,12 @@
 # Bias-Variance Tradeoff
 
+{% hint style="info" %}
 _More reading:_ [_Bias-Variance Tradeoff \(Wikipedia\)_](https://en.wikipedia.org/wiki/Bias-variance_tradeoff)
+{% endhint %}
 
 ![](../../.gitbook/assets/image%20%2835%29.png)
 
-### What is bias error?
+## What is bias error?
 
 In statistics, the **bias** \(or **bias function**\) of an estimator is the difference between the estimator's expected value and the true value of the parameter being estimated. An estimator or decision rule with zero bias is called **unbiased.** So. it measures the difference between the estimated value by a model or measurement method and the real one.
 
@@ -16,11 +18,11 @@ In statistics, the **bias** \(or **bias function**\) of an estimator is the diff
 * In other problems, some careful method is regarded as the state of the art and so yielding the best possible measurements, and so other methods are regarded as more or less biased according to their degree of systematic departure from the best method \(in some fields termed a gold standard\).
 * In yet other problems, we have one or more methods all deficient to some degree and assessment of bias is then difficult or impossible. It is then tempting, or possibly even natural, to change the question and judge truth according to consistency between methods.
 
-### What is variance error?
+## What is variance error?
 
 In statistics, it is defined as the squared deviation of a given variable from its mean. It measures how far a set of values is spread out from their average value.
 
-### Bias vs Variance
+## Bias vs Variance
 
 This **tradeoff** is the property of a set of predictive models whereby models with a lower [bias](https://en.wikipedia.org/wiki/Bias_of_an_estimator) in [parameter](https://en.wikipedia.org/wiki/Statistical_parameter) [estimation](https://en.wikipedia.org/wiki/Estimation_theory) have a higher [variance](https://en.wikipedia.org/wiki/Variance) of the parameter estimates across [samples](https://en.wikipedia.org/wiki/Sample_%28statistics%29), and vice versa. The **bias–variance dilemma** or **problem** is the conflict in trying to simultaneously minimize these two sources of [error](https://en.wikipedia.org/wiki/Errors_and_residuals_in_statistics) that prevent [supervised learning](https://en.wikipedia.org/wiki/Supervised_learning) algorithms from generalizing beyond their [training set](https://en.wikipedia.org/wiki/Training_set).
 
