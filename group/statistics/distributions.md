@@ -25,6 +25,18 @@ A normal distribution, sometimes called the bell curve, is a distribution that o
 * Exactly half of the values are to the left of center and exactly half the values are to the right.
 * The total area under the curve is 1.
 
+#### How to find out if a sample has a normal distribution?
+
+{% hint style="warning" %}
+To be added soon
+{% endhint %}
+
+#### When a normal distribution is said to be skewed?
+
+{% hint style="warning" %}
+To be added soon
+{% endhint %}
+
 ### Lognormal
 
 A lognormal \(or Galton\) distribution is a probability distribution with a normally distributed logarithm. [Skewed distributions](https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/skewed-distribution/) with low mean values, large variance, and all-positive values often fit this type of distribution. Values must be positive as $$log(x)$$ exists only for positive values of $$x$$.
@@ -65,7 +77,13 @@ $$
 𝑃(𝑋=𝑘)= {{N}\choose{k}}  𝑝^𝑘(1−𝑝)^{𝑁−𝑘}
 $$
 
-If $$X$$ is a binomial random variable with parameters $$p$$ and $$N$$, denoted $$X \sim \text{Bin}(N,p)$$, then $$X$$ is the number of events that occurred in the $$N$$ trials \(obviously $$0 \le X \le N$$\). The larger $$p$$ is \(while still remaining between 0 and 1\), the more events are likely to occur. The expected value of a binomial is equal to $$Np$$.
+If $$X$$ is a binomial random variable with parameters $$p$$ and $$N$$, denoted $$X \sim \text{Bin}(N,p)$$, then $$X$$ is the number of events that occurred in the $$N$$ trials \(obviously $$0 \le X \le N$$\). The larger $$p$$ is \(while still remaining between 0 and 1\), the more events are likely to occur. 
+
+The **expected value** of a binomial para metrized by _N and p_ is equal to:
+
+$$
+E[X] = Np
+$$
 
 ### Bernoulli
 
@@ -73,13 +91,17 @@ If $$X$$ is a binomial random variable with parameters $$p$$ and $$N$$, denoted 
 
 A Bernouilli distribution is a discrete probability distribution for a Bernouilli trial — a random experiment that has only two outcomes \(usually called a “Success” or a “Failure”\). For example, the probability of getting a heads \(a “success”\) while flipping a coin is 0.5. The probability of “failure” is 1 – P \(1 minus the probability of success, which also equals 0.5 for a coin toss\). It is a special case of the binomial distribution for n = 1. In other words, it is a binomial distribution with a single trial \(e.g. a single coin toss\). 
 
-The [probability density function \(pdf\)](https://www.statisticshowto.datasciencecentral.com/probability-density-function/) for this distribution is $$p^x (1 – p)^{1 – x}$$, which can also be written as:
+If a random variable $$Z$$ has a **mass distribution**, we denote this by writing $$X \sim \text{Bernouilli}(p)$$. And the [probability density function \(pdf\)](https://www.statisticshowto.datasciencecentral.com/probability-density-function/) for this distribution is $$p^x (1 – p)^{1 – x}$$, which can also be written as:
 
 $$
 P(n) = \begin{cases} 1-p, & \text{if}\ n=0 \\ p, & \text{if}\ n=1 \end {cases}
 $$
 
-If a random variable $$Z$$ has a **mass distribution**, we denote this by writing $$X \sim \text{Bernouilli}(p)$$. The[ expected value](https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/expected-value/) for a random variable, X, from a Bernoulli distribution is $$E[X] = p$$.
+The[ **expected value**](https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/expected-value/) for a random variable, X, from a Bernoulli distribution is:
+
+$$
+E[X] = p
+$$
 
 ### Poisson
 
