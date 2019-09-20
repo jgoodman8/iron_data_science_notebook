@@ -12,6 +12,8 @@
   * [Probability vs Likelihood](group/frequent-questions/probability-vs-likelihood.md)
   * [Covariance vs Correlation Matrix](group/frequent-questions/covariance-vs-correlation-matrix.md)
   * [Metrics](group/frequent-questions/metrics.md)
+  * [Activation Functions](group/frequent-questions/activation-functions.md)
+  * [Loss functions](group/frequent-questions/loss-functions.md)
   * [Precision vs Recall](group/frequent-questions/precision-vs-recall.md)
   * [How a ROC curve works](group/frequent-questions/how-a-roc-curve-works.md)
 * [Machine Learning Algorithms](group/machine-learning-algorithms/README.md)

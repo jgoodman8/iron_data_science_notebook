@@ -16,5 +16,5 @@
 * Y-axis values for fixed data points with distributions that can be moved
 * $$p(distrubution | area)$$
 
-![Likelihood representation](../../.gitbook/assets/image%20%2840%29.png)
+![Likelihood representation](../../.gitbook/assets/image%20%2842%29.png)
 

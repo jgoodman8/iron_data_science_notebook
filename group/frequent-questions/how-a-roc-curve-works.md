@@ -18,7 +18,7 @@ Source:
   * Worst: 0.5
   * Inverse: 0
 
-![Image courtesy: My Photoshopped Collection](../../.gitbook/assets/image%20%2827%29.png)
+![Image courtesy: My Photoshopped Collection](../../.gitbook/assets/image%20%2828%29.png)
 
 {% hint style="success" %}
 An ROC curve plots the **TPR on the y-axis versus the FPR on the x-axis**. The TPR is the **recall** and the FPR is the **probability of a false alarm**.
@@ -44,7 +44,7 @@ In the **ideal situation**, distribution curve of the **positive class is equal*
 {% tab title="AUC\_ROC = 0.5" %}
 When AUC is approximately 0.5, model has **no discrimination capacity** to distinguish between positive class and negative class.
 
-![](../../.gitbook/assets/image%20%2851%29.png)
+![](../../.gitbook/assets/image%20%2854%29.png)
 {% endtab %}
 
 {% tab title="AUC\_ROC = 0" %}

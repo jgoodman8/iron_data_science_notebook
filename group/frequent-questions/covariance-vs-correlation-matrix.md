@@ -56,7 +56,7 @@ plt.title('Generated Data')
 plt.axis('equal');
 ```
 
-![](../../.gitbook/assets/image%20%2842%29.png)
+![](../../.gitbook/assets/image%20%2844%29.png)
 {% endtab %}
 
 {% tab title="Sample with Tensorflow Probability" %}
@@ -76,7 +76,7 @@ plt.title('Data set')
 plt.show();
 ```
 
-![](../../.gitbook/assets/image%20%2828%29.png)
+![](../../.gitbook/assets/image%20%2829%29.png)
 {% endtab %}
 {% endtabs %}
 
@@ -91,7 +91,7 @@ correlation = pd.DataFrame(data.rand(10, 10)).corr()
 correlation.style.background_gradient(cmap='coolwarm')
 ```
 
-![](../../.gitbook/assets/image%20%2845%29.png)
+![](../../.gitbook/assets/image%20%2847%29.png)
 
 
 
