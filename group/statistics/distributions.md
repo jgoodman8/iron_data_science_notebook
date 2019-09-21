@@ -1,7 +1,12 @@
 # Distributions
 
 {% hint style="info" %}
-\_\_[_More info about probability distributions \(Statistics How To\)_](https://www.statisticshowto.datasciencecentral.com/probability-distribution/)\_\_
+_Sources:_
+
+* [_About probability distributions \(Statistics How To\)_](https://www.statisticshowto.datasciencecentral.com/probability-distribution/)\_\_
+* \_\_[_Skewness \(Math is Fun\)_](https://www.mathsisfun.com/data/skewness.html)\_\_
+* \_\_[_How do I determine whether my data are normal?   \(Psychwiki.com\)_](http://www.psychwiki.com/wiki/How_do_I_determine_whether_my_data_are_normal%3F)\_\_
+* \_\_[_Skew and Kurtosis: 2 Important Statistics terms you need to know in Data Science   \(Diva Jain\)_](https://codeburst.io/2-important-statistics-terms-you-need-to-know-in-data-science-skewness-and-kurtosis-388fef94eeaa)\_\_
 {% endhint %}
 
 ## Continuous distributions
@@ -10,13 +15,13 @@
 
 A uniform distribution, also called a **rectangular distribution**, is a probability distribution that has **constant probability**.
 
-![](../../.gitbook/assets/image%20%2813%29.png)
+![](../../.gitbook/assets/image%20%2816%29.png)
 
 This distribution is defined by **two parameters**: minimum $$a$$ and maximum $$b$$. So, for a random variable $$Z \sim Uniform(a, b)$$. And the expected value will be: $$E(X) = \frac{a+b}{2}$$.
 
 ### Normal
 
-![](../../.gitbook/assets/image%20%2812%29.png)
+![](../../.gitbook/assets/image%20%2815%29.png)
 
 A normal distribution, sometimes called the bell curve, is a distribution that occurs naturally in many situations. It is expressed as $$Z \sim Norm(\mu, \sigma²)$$ It has some properties:
 
@@ -27,21 +32,21 @@ A normal distribution, sometimes called the bell curve, is a distribution that o
 
 #### How to find out if a sample has a normal distribution?
 
-{% hint style="warning" %}
-To be added soon
-{% endhint %}
+* Plotting data using an histogram may give an intuitive insight.
+* Also, a [Normal Q-Q Plot](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.probplot.html) provides a graphical way to determine the level of normality.
+* The [Kolmogorov-Smirnov test ](https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Smirnov_test)and [Shapiro-Wilk test](https://en.wikipedia.org/wiki/Shapiro%E2%80%93Wilk_test) are designed to test normality by comparing your data to a normal distribution with the same mean and standard deviation of the sample. If the test is NOT significant, then the data are normal, so any value above .05 indicates normality.
+* Measuring [kurtosis ](distributions.md#about-kurtosis)and [skewness](distributions.md#about-skewed-distributions) and compare with the normal to see how symmetric and sharp it is compared to it.
+* Measuring the square error with respec to a normal with same mean and variance.
 
 #### When a normal distribution is said to be skewed?
 
-{% hint style="warning" %}
-To be added soon
-{% endhint %}
+A distribution is skewed when one of the tails is longer. Thus, the shape of the distribution is asymetrical. More info about this topic on its own [section](distributions.md#about-skewed-distributions).
 
 ### Lognormal
 
 A lognormal \(or Galton\) distribution is a probability distribution with a normally distributed logarithm. [Skewed distributions](https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/skewed-distribution/) with low mean values, large variance, and all-positive values often fit this type of distribution. Values must be positive as $$log(x)$$ exists only for positive values of $$x$$.
 
-![](../../.gitbook/assets/image%20%2825%29.png)
+![](../../.gitbook/assets/image%20%2830%29.png)
 
 ### Bivariate Normal
 
@@ -69,7 +74,7 @@ When a random variable $$Z$$ has an exponential distribution with parameter $$\l
 
 ### Binomial
 
-![](../../.gitbook/assets/image%20%2843%29.png)
+![](../../.gitbook/assets/image%20%2852%29.png)
 
 The binomial distribution gives the **discrete probability distribution** $$P_p(n|N)$$ of **obtaining exactly** $$n$$ **successes out of** $$N$$ **Bernoulli trials**. The binomial distribution is therefore given by:
 
@@ -87,7 +92,7 @@ $$
 
 ### Bernoulli
 
-![](../../.gitbook/assets/image%20%2848%29.png)
+![](../../.gitbook/assets/image%20%2857%29.png)
 
 A Bernouilli distribution is a discrete probability distribution for a Bernouilli trial — a random experiment that has only two outcomes \(usually called a “Success” or a “Failure”\). For example, the probability of getting a heads \(a “success”\) while flipping a coin is 0.5. The probability of “failure” is 1 – P \(1 minus the probability of success, which also equals 0.5 for a coin toss\). It is a special case of the binomial distribution for n = 1. In other words, it is a binomial distribution with a single trial \(e.g. a single coin toss\). 
 
@@ -105,7 +110,7 @@ $$
 
 ### Poisson
 
-![](../../.gitbook/assets/image%20%288%29.png)
+![](../../.gitbook/assets/image%20%2810%29.png)
 
 A Poisson distribution is a tool that helps to predict the probability of certain events from happening when you know how often the event has occurred. It gives us the **probability of a given number of events happening in a fixed interval of time**. The Poisson distribution is given by:
 
@@ -114,4 +119,37 @@ P(Z=k) = \frac{\lambda^k e^{-\lambda}}{k!}, k = 0,1,2...
 $$
 
 If a random variable $$Z$$ has a **mass distribution**, we denote this by writing $$Z \sim \text{Poi}(\lambda)$$. And its expected value is equal to its parameter $$E[ Z|\lambda] = \lambda$$.
+
+## About skewed distributions
+
+Skewness  is the _**degree of distortion**_ **from the normal distribution** or the symmetrical bell curve. It measures the **lack of symmetry** in data distribution. It differentiates extreme values in one versus the other tail.
+
+A [Normal Distribution](distributions.md#normal) is not skewed, it's simmetrical and the mean is exactly at the peak. Thus, the **mean, median and mode concur**.
+
+![](../../.gitbook/assets/image%20%2839%29.png)
+
+ And **positive skew** is when the long tail is on the positive side of the peak, and some people say it is _**skewed to the right**_.
+
+![](../../.gitbook/assets/image%20%2861%29.png)
+
+It's possible to compute the skewness using the [numpy function](https://docs.scipy.org/doc/scipy-0.15.1/reference/generated/scipy.stats.skew.html). For positive skewed distributions, the computed value will be `> 0` and for negative skews the value will be `< 0` as well.
+
+```python
+import numpy as np
+
+np.random.seed(333)
+np.stats.skew(np.random.rand(100))
+```
+
+## About kurtosis
+
+ Kurtosis is all about the tails of the distribution. And it's used to describe the extreme values in one versus the other tail. It is actually the _**measure of outliers**_ **present in the distribution**. 
+
+ **High kurtosis** in a data set is an indicator that data has heavy tails or outliers. Meanwhile,  **low kurtosis** in a data set is an indicator that data has light tails or lack of outliers. 
+
+![](../../.gitbook/assets/image%20%2850%29.png)
+
+*  **Mesokurtic**: the kurtosis statistic is similar to the on of a normal distribution. It's is usualy said that a  normal distribution has a _kurtosis of three._
+*  **Leptokurtic**: longer distribution with fatter tails. The peak is higher and sharper than _Mesokurtic_, which means that data are heavy-tailed or profusion of outliers. _Kurtosis &gt; 3_
+*  **Platykurtic**: ****shorter distribution with thinner tails. The peak is lower and broader than Mesokurtic, which means that data are light-tailed or lack of outliers. _Kurtosis &lt; 3_
 

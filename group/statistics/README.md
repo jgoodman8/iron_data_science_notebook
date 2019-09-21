@@ -3,7 +3,7 @@
 ![](https://media.giphy.com/media/rA4UF5rHBZHt6/giphy.gif)
 
 {% hint style="info" %}
-Interesting resources: 
+This section contains the essential statistical concepts a good data scientist must know. Interesting related resources: 
 
 * \_\_[_Statistics by SJSU - Free course \(Udacity\)_](https://www.udacity.com/course/statistics--st095)\_\_
 * \_\_[_Intro to Inferential Statistics - Free course \(Udacity\)_](https://www.udacity.com/course/intro-to-inferential-statistics--ud201)\_\_

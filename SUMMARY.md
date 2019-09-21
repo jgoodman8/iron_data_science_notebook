@@ -5,7 +5,6 @@
 ## Group
 
 * [Frequent Questions](group/frequent-questions/README.md)
-  * [Mean vs Median](group/frequent-questions/mean-vs-median.md)
   * [Supervised vs Unsupervised learning](group/frequent-questions/supervised-vs-unsupervised-learning.md)
   * [Batch vs Online Learning](group/frequent-questions/batch-vs-online-learning.md)
   * [Instance-based vs Model-based Learning](group/frequent-questions/instance-based-vs-model-based-learning.md)
@@ -25,7 +24,10 @@
   * [Gradient Boosted Trees](group/machine-learning-algorithms/gradient-boosted-trees.md)
   * [Markov Monte Carlo Chain](group/machine-learning-algorithms/markov-monte-carlo-chain.md)
 * [Statistics](group/statistics/README.md)
-  * [The bayesian basis](group/statistics/the-bayesian-basis.md)
+  * [The basics](group/statistics/mean-vs-median.md)
   * [Distributions](group/statistics/distributions.md)
+  * [The bayesian basis](group/statistics/the-bayesian-basis.md)
   * [Gaussian Mixture Model](group/statistics/gaussian-mixture-model.md)
+* [Related topics](group/related-topics/README.md)
+  * [TBA](group/related-topics/tba.md)
 
