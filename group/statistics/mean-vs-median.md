@@ -3,7 +3,7 @@
 ![](../../.gitbook/assets/image%20%2864%29.png)
 
 {% hint style="info" %}
-_Sources:_
+_Credits & Sources:_
 
 * \_\_[_What would be some examples of when the "mean" would be preferred over the "median"?_](https://www.quora.com/What-would-be-some-examples-of-when-the-mean-would-be-preferred-over-the-median)\_\_
 * \_\_[_Mean, Median, Mode: What They Are, How to Find Them \(Statistics How To\)_](https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/statistics-definitions/mean-median-mode/)\_\_
@@ -17,6 +17,7 @@ _Sources:_
 * \_\_[_Statistical mean, median, mode and range \(Margaret Rouse, Tech Target\)_](https://searchdatacenter.techtarget.com/definition/statistical-mean-median-mode-and-range)\_\_
 * \_\_[_Mean vs. Median: When to Use? \(Stack Exchange\)_](https://math.stackexchange.com/questions/2304710/mean-vs-median-when-to-use)
 * \_\_[_Standard deviation and Variance \(Math is Fun\)_](https://www.mathsisfun.com/data/standard-deviation.html)\_\_
+* \_\_[_Understanding Principal Components Analysis \(Rishav Kumar\)_](https://medium.com/@aptrishu/understanding-principle-component-analysis-e32be0253ef0)\_\_
 {% endhint %}
 
 ## Properties of distributions
@@ -163,6 +164,30 @@ np.var(np.random.rand(100))
 ```
 {% endtab %}
 {% endtabs %}
+
+### Covariance
+
+It's a **measure of the joint variability of two random variables**. measures of the extent to which corresponding elements from two sets of ordered data move in the same direction. It measures **how much two variables vary together**. It’s similar to [variance](mean-vs-median.md#variance), but where variance tells you how a _single_ variable varies, **co**variance tells you how **two** variables vary together.
+
+{% tabs %}
+{% tab title="Population Covariance" %}
+$$
+\sigma_{XY} = \frac{
+  \sum_{(x,y) \epsilon S} (x - \mu_X) (y - \mu_Y)
+}{N}
+$$
+{% endtab %}
+
+{% tab title="Sample Covariance" %}
+$$
+cov(x, y) = \frac{
+\sum_{i=1}^N (x_i - \overline{x}) (y_i - \overline{y})
+}{N - 1}
+$$
+{% endtab %}
+{% endtabs %}
+
+{% page-ref page="../frequent-questions/covariance-vs-correlation-matrix.md" %}
 
 ## Related questions
 

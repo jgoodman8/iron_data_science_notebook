@@ -102,7 +102,7 @@ It is a good metric to select our best model **when there is a high cost associa
 
 {% tabs %}
 {% tab title="Main" %}
-![](../../.gitbook/assets/image%20%2866%29.png)
+![](../../.gitbook/assets/image%20%2867%29.png)
 {% endtab %}
 
 {% tab title="Formula" %}

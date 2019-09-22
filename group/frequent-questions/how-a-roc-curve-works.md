@@ -1,4 +1,4 @@
-# How a ROC curve works
+# How does a ROC curve work?
 
 {% hint style="info" %}
 Source:
@@ -28,7 +28,7 @@ An ROC curve plots the **TPR on the y-axis versus the FPR on the x-axis**. The T
 
 When two **distributions overlap**, we introduce **type 1 and type 2 error**. Depending upon the **threshold**, we can **minimize or maximize them**. A threshold equal to 0.5 will imply the metric we give an equal weight to the sensitivity and specificity of the model.
 
-When we **decrease the threshold**, we get more positive values thus it **increases the** [**recall**](metrics.md#recall) **and decreasing the** [**specificity**](metrics.md#specificity). Similarly, when we increase the threshold, we get more negative values thus we get higher specificity and lower recall.
+When we **decrease the threshold**, we get more positive values thus it **increases the** [**recall**](../ml-techniques/metrics.md#recall) **and decreasing the** [**specificity**](../ml-techniques/metrics.md#specificity). Similarly, when we increase the threshold, we get more negative values thus we get higher specificity and lower recall.
 
 {% tabs %}
 {% tab title="AUC\_ROC = 1" %}
@@ -44,7 +44,7 @@ In the **ideal situation**, distribution curve of the **positive class is equal*
 {% tab title="AUC\_ROC = 0.5" %}
 When AUC is approximately 0.5, model has **no discrimination capacity** to distinguish between positive class and negative class.
 
-![](../../.gitbook/assets/image%20%2865%29.png)
+![](../../.gitbook/assets/image%20%2866%29.png)
 {% endtab %}
 
 {% tab title="AUC\_ROC = 0" %}
