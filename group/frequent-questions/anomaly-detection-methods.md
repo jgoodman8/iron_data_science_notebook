@@ -22,17 +22,31 @@ When we are given a set of observations with labels that indicate whether each p
 
 In this scenary, we are given  a **set of points without class labels**. Some of them are anomalies and some aren’t, but you don’t know which is which. The goal here is to operationalize the intuitive idea that anomalies are different from the typical data point.
 
+{% page-ref page="../statistics/outliers.md" %}
+
 {% hint style="warning" %}
 Under construction
 {% endhint %}
 
 ### Basic methods
 
-#### Standard deviation
+#### Z-Score
 
-#### Boxplots
+This method assumes data follows a gaussian distribution. Also known as _standard score of an observation_, it's a parametric method which indicates **how many standard deviations** an instance is **from the sample’s mean**.
 
-#### Z-Score or Extreme Value Analysis
+![](../../.gitbook/assets/image%20%2825%29.png)
+
+The z-score of every data point is calculated using the formula: $$z = (x-\mu)/\sigma$$. It can be easily calculated using the method provided by [sklearn](https://docs.scipy.org/doc/scipy-0.17.0/reference/generated/scipy.stats.zscore.html).
+
+Once every z-score is computed, outliers are detected given a threshold. It's usually set to: $$2.5$$, $$3.0$$ or $$3.5$$.
+
+#### IQR
+
+
+
+![](../../.gitbook/assets/image%20%2821%29.png)
+
+#### Extreme Value Analysis
 
 ### Multivariate anomaly detection
 
@@ -40,13 +54,19 @@ Under construction
 
 #### KMeans + Mahalanobis distance
 
+#### Gaussian Mixture Models
+
+{% page-ref page="../statistics/gaussian-mixture-model.md" %}
+
 #### DBScan clustering
 
-### Isolation Forest
+### Tree-based approach
 
-### Robust Random Cut Forest \(RCF\)
+#### Isolation Forest
 
-### Variational Autoencoders
+#### Robust Random Cut Forest \(RCF\)
+
+### Other significative methods
 
 
 

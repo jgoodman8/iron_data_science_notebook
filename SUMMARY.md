@@ -19,6 +19,7 @@
 * [Statistics](group/statistics/README.md)
   * [The basics](group/statistics/mean-vs-median.md)
   * [Distributions](group/statistics/distributions.md)
+  * [Outliers](group/statistics/outliers.md)
   * [The bayesian basis](group/statistics/the-bayesian-basis.md)
   * [Gaussian Mixture Model](group/statistics/gaussian-mixture-model.md)
 * [Machine Learning Algorithms](group/machine-learning-algorithms/README.md)
