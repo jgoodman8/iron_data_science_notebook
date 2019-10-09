@@ -10,3 +10,7 @@ This section contains information related with data science as:
 * ...
 {% endhint %}
 
+### Interesting links
+
+* \*\*\*\*[**28 Jupyter Notebook Tips, Tricks, and Shortcuts**](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/)\*\*\*\*
+
