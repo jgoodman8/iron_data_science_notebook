@@ -18,5 +18,9 @@ description: >-
 
 {% page-ref page="group/frequent-questions/" %}
 
+{% page-ref page="group/statistics/" %}
+
 {% page-ref page="group/machine-learning-algorithms/" %}
+
+{% page-ref page="group/ml-techniques/" %}
 
