@@ -12,16 +12,13 @@ _Sources:_
 * _**Covariance**_ $$\Rightarrow$$ **direction** of the linear relationship between variables.
 * _**Correlation**_ $$\Rightarrow$$ measure of the **strength and direction** of linear relationship.
 
-> **Correlation is a function of the covariance**, given correlation values are standardized whereas, covariance values are not.
+> **Correlation values are standardized** whereas, covariance values are not.
 
-Correlation coefficient of two variables may be  by dividing the covariance of these variables by the product of the standard deviations of the same values.
+## Covariance Matrix
 
-```python
-def correlation(var_a, var_b) -> float: # Range between -1 and +1
-    return covariance(var_a, var_b) / (var_a.std() * var_b.std())
-```
-
-## Covariance 
+{% hint style="info" %}
+Check [covariance definition](../statistics/mean-vs-median.md#covariance).
+{% endhint %}
 
 Focusing on the two-dimensional case, the covariance matrix for two dimensions \(or $$x$$ and $$y$$variables\) is given by:
 
@@ -81,6 +78,14 @@ plt.show();
 {% endtabs %}
 
 ## Correlation Matrix
+
+Unlike covariance, the correlation has an upper and lower cap on a range $$[-1, 1]$$.
+
+Correlation coefficient of two variables may be  by dividing the covariance of these variables by the product of the standard deviations of the same values.
+
+$$
+\rho_{x,y} = corr(x,y) = \frac{\sigma_{x,y}}{\sigma_{x}^2\sigma_{y}^2}
+$$
 
 ```python
 import pandas as pd
