@@ -35,12 +35,12 @@ A normal distribution, sometimes called the bell curve, is a distribution that o
 * Plotting data using an histogram may give an intuitive insight.
 * Also, a [Normal Q-Q Plot](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.probplot.html) provides a graphical way to determine the level of normality.
 * The [Kolmogorov-Smirnov test ](https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Smirnov_test)and [Shapiro-Wilk test](https://en.wikipedia.org/wiki/Shapiro%E2%80%93Wilk_test) are designed to test normality by comparing your data to a normal distribution with the same mean and standard deviation of the sample. If the test is NOT significant, then the data are normal, so any value above .05 indicates normality.
-* Measuring [kurtosis ](distributions.md#about-kurtosis)and [skewness](distributions.md#about-skewed-distributions) and compare with the normal to see how symmetric and sharp it is compared to it.
-* Measuring the square error with respec to a normal with same mean and variance.
+* **Measuring** [**kurtosis** ](distributions.md#about-kurtosis)**and** [**skewness**](distributions.md#about-skewed-distributions) and compare with the normal to see how symmetric and sharp it is compared to it.
+* Measuring the **square error with respect to a normal with same mean and variance**.
 
 #### When a normal distribution is said to be skewed?
 
-A distribution is skewed when one of the tails is longer. Thus, the shape of the distribution is asymetrical. More info about this topic on its own [section](distributions.md#about-skewed-distributions).
+A distribution is skewed when one of the tails is longer. Thus, the shape of the distribution is asymmetrical. More info about this topic on its own [section](distributions.md#about-skewed-distributions).
 
 ### Lognormal
 
@@ -149,7 +149,7 @@ np.stats.skew(np.random.rand(100))
 
 ![](../../.gitbook/assets/image%20%2860%29.png)
 
-*  **Mesokurtic**: the kurtosis statistic is similar to the on of a normal distribution. It's is usualy said that a  normal distribution has a _kurtosis of three._
+*  **Mesokurtic**: the kurtosis statistic is similar to the on of a normal distribution. It's is usually said that a  normal distribution has a _kurtosis= 3._
 *  **Leptokurtic**: longer distribution with fatter tails. The peak is higher and sharper than _Mesokurtic_, which means that data are heavy-tailed or profusion of outliers. _Kurtosis &gt; 3_
 *  **Platykurtic**: ****shorter distribution with thinner tails. The peak is lower and broader than Mesokurtic, which means that data are light-tailed or lack of outliers. _Kurtosis &lt; 3_
 
