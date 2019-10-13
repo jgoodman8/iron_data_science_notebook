@@ -34,5 +34,5 @@
   * [Pre-process](group/ml-techniques/pre-process/README.md)
     * [PCA](group/ml-techniques/pre-process/pca.md)
 * [Related topics](group/related-topics/README.md)
-  * [TBA](group/related-topics/tba.md)
+  * [Combinatorics](group/related-topics/tba.md)
 

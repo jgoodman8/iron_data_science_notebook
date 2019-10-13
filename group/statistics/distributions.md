@@ -15,13 +15,13 @@ _Sources:_
 
 A uniform distribution, also called a **rectangular distribution**, is a probability distribution that has **constant probability**.
 
-![](../../.gitbook/assets/image%20%2816%29.png)
+![](../../.gitbook/assets/image%20%2818%29.png)
 
 This distribution is defined by **two parameters**: minimum $$a$$ and maximum $$b$$. So, for a random variable $$Z \sim Uniform(a, b)$$. And the expected value will be: $$E(X) = \frac{a+b}{2}$$.
 
 ### Normal
 
-![](../../.gitbook/assets/image%20%2815%29.png)
+![](../../.gitbook/assets/image%20%2817%29.png)
 
 A normal distribution, sometimes called the bell curve, is a distribution that occurs naturally in many situations. It is expressed as $$Z \sim Norm(\mu, \sigma²)$$ It has some properties:
 
@@ -46,7 +46,7 @@ A distribution is skewed when one of the tails is longer. Thus, the shape of the
 
 A lognormal \(or Galton\) distribution is a probability distribution with a normally distributed logarithm. [Skewed distributions](https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/skewed-distribution/) with low mean values, large variance, and all-positive values often fit this type of distribution. Values must be positive as $$log(x)$$ exists only for positive values of $$x$$.
 
-![](../../.gitbook/assets/image%20%2833%29.png)
+![](../../.gitbook/assets/image%20%2838%29.png)
 
 ### Bivariate Normal
 
@@ -74,7 +74,7 @@ When a random variable $$Z$$ has an exponential distribution with parameter $$\l
 
 ### Binomial
 
-![](../../.gitbook/assets/image%20%2856%29.png)
+![](../../.gitbook/assets/image%20%2863%29.png)
 
 The binomial distribution gives the **discrete probability distribution** $$P_p(n|N)$$ of **obtaining exactly** $$n$$ **successes out of** $$N$$ **Bernoulli trials**. The binomial distribution is therefore given by:
 
@@ -92,7 +92,7 @@ $$
 
 ### Bernoulli
 
-![](../../.gitbook/assets/image%20%2861%29.png)
+![](../../.gitbook/assets/image%20%2868%29.png)
 
 A Bernouilli distribution is a discrete probability distribution for a Bernouilli trial — a random experiment that has only two outcomes \(usually called a “Success” or a “Failure”\). For example, the probability of getting a heads \(a “success”\) while flipping a coin is 0.5. The probability of “failure” is 1 – P \(1 minus the probability of success, which also equals 0.5 for a coin toss\). It is a special case of the binomial distribution for n = 1. In other words, it is a binomial distribution with a single trial \(e.g. a single coin toss\). 
 
@@ -110,7 +110,7 @@ $$
 
 ### Poisson
 
-![](../../.gitbook/assets/image%20%2810%29.png)
+![](../../.gitbook/assets/image%20%2811%29.png)
 
 A Poisson distribution is a tool that helps to predict the probability of certain events from happening when you know how often the event has occurred. It gives us the **probability of a given number of events happening in a fixed interval of time**. The Poisson distribution is given by:
 
@@ -126,11 +126,11 @@ Skewness  is the _**degree of distortion**_ **from the normal distribution** or 
 
 A [Normal Distribution](distributions.md#normal) is not skewed, it's simmetrical and the mean is exactly at the peak. Thus, the **mean, median and mode concur**.
 
-![](../../.gitbook/assets/image%20%2843%29.png)
+![](../../.gitbook/assets/image%20%2849%29.png)
 
  And **positive skew** is when the long tail is on the positive side of the peak, and some people say it is _**skewed to the right**_.
 
-![](../../.gitbook/assets/image%20%2865%29.png)
+![](../../.gitbook/assets/image%20%2872%29.png)
 
 It's possible to compute the skewness using the [numpy function](https://docs.scipy.org/doc/scipy-0.15.1/reference/generated/scipy.stats.skew.html). For positive skewed distributions, the computed value will be `> 0` and for negative skews the value will be `< 0` as well.
 
@@ -147,7 +147,7 @@ np.stats.skew(np.random.rand(100))
 
  **High kurtosis** in a data set is an indicator that data has heavy tails or outliers. Meanwhile,  **low kurtosis** in a data set is an indicator that data has light tails or lack of outliers. 
 
-![](../../.gitbook/assets/image%20%2854%29.png)
+![](../../.gitbook/assets/image%20%2860%29.png)
 
 *  **Mesokurtic**: the kurtosis statistic is similar to the on of a normal distribution. It's is usualy said that a  normal distribution has a _kurtosis of three._
 *  **Leptokurtic**: longer distribution with fatter tails. The peak is higher and sharper than _Mesokurtic_, which means that data are heavy-tailed or profusion of outliers. _Kurtosis &gt; 3_

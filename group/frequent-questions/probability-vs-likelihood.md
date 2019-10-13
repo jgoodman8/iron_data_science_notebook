@@ -9,12 +9,12 @@
 * Areas under a fixed distribution
 * $$p(data | distribution)$$
 
-![Probability representation](../../.gitbook/assets/image%20%2827%29.png)
+![Probability representation](../../.gitbook/assets/image%20%2832%29.png)
 
 ## Likelihood
 
 * Y-axis values for fixed data points with distributions that can be moved
 * $$p(distrubution | area)$$
 
-![Likelihood representation](../../.gitbook/assets/image%20%2855%29.png)
+![Likelihood representation](../../.gitbook/assets/image%20%2862%29.png)
 
