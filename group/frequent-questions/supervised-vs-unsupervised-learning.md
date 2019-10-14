@@ -37,22 +37,15 @@
 * There is no training
 * It measures the distance between instances \(Euclidian, Manhattan...\)
 
-#### **How it works**
-
-![](../../.gitbook/assets/image%20%2848%29.png)
-
-For every unlabeled instance \(the ones to be classified\):
-
-1. It measures the distance to every labeled sample.
-2. It sorts the distances \(asc\) 
-3. It selects the first k instances
-4. It takes the class that appears the most times on the selected k instances.
+{% page-ref page="../machine-learning-algorithms/supervised-learning/classification-algorithms/knn.md" %}
 
 ### kMeans
 
 * Unsupervised algorithm
 * Clustering algorithm
 * Iterativelly assigns data to k groups
+
+{% page-ref page="../machine-learning-algorithms/unsupervised-learning/kmeans.md" %}
 
 
 
