@@ -1,6 +1,6 @@
 # The basics
 
-![](../../.gitbook/assets/image%20%2875%29.png)
+![](../../.gitbook/assets/image%20%2887%29.png)
 
 {% hint style="info" %}
 _Credits & Sources:_
@@ -69,7 +69,7 @@ $$
 \operatorname {P} (X\geq m)=\operatorname {P} (X\leq m)=\int _{-\infty }^{m}f(x)\,dx={\frac {1}{2}}
 $$
 
-![](../../.gitbook/assets/image%20%2855%29.png)
+![](../../.gitbook/assets/image%20%2864%29.png)
 {% endtab %}
 {% endtabs %}
 
@@ -103,7 +103,7 @@ It's the **difference** between the **maximum** value and the **minimum** value.
 {% tab title="Continuous distribution" %}
 It's the **difference between the two extreme points on the distribution curve**. For any value outside the range of a distribution, the value of the function is equal to 0.
 
-![Source: Siyavula](../../.gitbook/assets/image%20%2836%29.png)
+![Source: Siyavula](../../.gitbook/assets/image%20%2838%29.png)
 {% endtab %}
 {% endtabs %}
 
@@ -191,7 +191,7 @@ $$
 
 ## Related questions
 
-![](../../.gitbook/assets/image%20%2823%29.png)
+![](../../.gitbook/assets/image%20%2825%29.png)
 
 ### Mean vs Median
 
@@ -201,7 +201,7 @@ $$
 * The **real use of the median** comes **when the data set may contain extreme outliers**. Then, describing the distribution in terms of quartiles can be more informative than quoting $$\mu$$ and $$\sigma$$.
 * For [skewed distributions](https://en.wikipedia.org/wiki/Skewness), the mean is not necessarily the same as the median or the mode. For example, mean income is typically skewed upwards by a small number of people with very large incomes, so that the majority have an income lower than the mean. By contrast, the median income is the level at which half the population is below and half is above. The mode income is the most likely income and favors the larger number of people with lower incomes. **Median** and **mode** are often **more intuitive** measures for such **skewed data**, **BUT many skewed distributions are in fact best described by their mean**, including the [**Exponential**](https://en.wikipedia.org/wiki/Exponential_distribution) and [**Poisson**](https://en.wikipedia.org/wiki/Poisson_distribution) distributions.
 
-![Comparison of mean, median and mode of two log-normal distributions with different skewness.](../../.gitbook/assets/image%20%2812%29.png)
+![Comparison of mean, median and mode of two log-normal distributions with different skewness.](../../.gitbook/assets/image%20%2813%29.png)
 
 ### Difference between standard deviation of a sample and standard error of the population mean
 

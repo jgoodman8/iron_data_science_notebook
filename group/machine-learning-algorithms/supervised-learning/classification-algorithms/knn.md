@@ -1,13 +1,24 @@
 # kNN
 
+{% hint style="info" %}
+_Sources:_
+
+* \_\_[_KNN \(Towards Data Science\)_](https://towardsdatascience.com/knn-k-nearest-neighbors-1-a4707b24bd1d)\_\_
+* \_\_[_KNN Classification using Scikit-learn \(Avinash Navlani\)_](https://www.datacamp.com/community/tutorials/k-nearest-neighbor-classification-scikit-learn)\_\_
+{% endhint %}
+
 ## **How it works**
 
-![](../../../../.gitbook/assets/image%20%2848%29.png)
+{% hint style="danger" %}
+There is **not training step**. Classification is directly inferred!
+{% endhint %}
 
 For every unlabeled instance \(the ones to be classified\):
 
-1. It measures the distance to every labeled sample.
-2. It sorts the distances \(asc\) 
-3. It selects the first k instances
-4. It takes the class that appears the most times on the selected k instances.
+1. It measures the **distance to every labeled sample**.
+2. It **sorts** the distances incrementally.
+3. It selects the **closets** _**k**_ **instances**.
+4. It **assigns the most frequent class** on the selected _k_ instances.
+
+![Source: DataCamp](../../../../.gitbook/assets/image%20%286%29.png)
 

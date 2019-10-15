@@ -26,8 +26,6 @@
  _More reading:_
 
 * [_How is the k-nearest neighbor algorithm different from k-means clustering? \(Quora\)_](https://www.quora.com/How-is-the-k-nearest-neighbor-algorithm-different-from-k-means-clustering)
-* \_\_[_KNN \(Towards Data Science\)_](https://towardsdatascience.com/knn-k-nearest-neighbors-1-a4707b24bd1d)\_\_
-* \_\_[_k-Means \(Towards Data Science\)_](https://towardsdatascience.com/understanding-k-means-clustering-in-machine-learning-6a6e67336aa1)\_\_
 {% endhint %}
 
 ### K-Nearest Neighbors
@@ -45,7 +43,7 @@
 * Clustering algorithm
 * Iterativelly assigns data to k groups
 
-{% page-ref page="../machine-learning-algorithms/unsupervised-learning/kmeans.md" %}
+{% page-ref page="../machine-learning-algorithms/unsupervised-learning/clustering/kmeans.md" %}
 
 
 

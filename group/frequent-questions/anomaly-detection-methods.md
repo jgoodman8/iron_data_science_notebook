@@ -34,7 +34,7 @@ Under construction
 
 This method assumes data follows a gaussian distribution. Also known as _standard score of an observation_, it's a parametric method which indicates **how many standard deviations** an instance is **from the sample’s mean**.
 
-![](../../.gitbook/assets/image%20%2829%29.png)
+![](../../.gitbook/assets/image%20%2831%29.png)
 
 The z-score of every data point is calculated using the formula: $$z = (x-\mu)/\sigma$$. It can be easily calculated using the method provided by [sklearn](https://docs.scipy.org/doc/scipy-0.17.0/reference/generated/scipy.stats.zscore.html).
 
@@ -49,7 +49,7 @@ Once the IQR is known, we can classify as anomaly every value:
 * Higher than $$Q3 + 1.5 \text{ IQR}$$
 * Lower than $$Q1 - 1.5 \text{ IQR}$$
 
-![Credit: Wikipedia](../../.gitbook/assets/image%20%2826%29.png)
+![Credit: Wikipedia](../../.gitbook/assets/image%20%2828%29.png)
 
 #### Extreme Value Analysis
 
@@ -61,7 +61,7 @@ Once the IQR is known, we can classify as anomaly every value:
 
 #### Gaussian Mixture Models
 
-{% page-ref page="../statistics/gaussian-mixture-model.md" %}
+{% page-ref page="../machine-learning-algorithms/unsupervised-learning/clustering/gaussian-mixture-model.md" %}
 
 #### DBScan clustering
 
