@@ -10,7 +10,7 @@ _Sources:_
 ## **How it works**
 
 {% hint style="danger" %}
-There is **not training step**. Classification is directly inferred!
+Is an [**instance-based algorithm**](../../../frequent-questions/instance-based-vs-model-based-learning.md#instance-based-learning)**.** So, there is **not training step**. Classification is directly inferred!
 {% endhint %}
 
 For every unlabeled instance \(the ones to be classified\):

@@ -10,7 +10,7 @@ _Sources:_
 
 ## Overview
 
-* It defines a _**k**_ **centroids** \(_k_ is **manually selected**\).
+* It defines _**k**_ **centroids** \(_k_ is **manually selected**\).
 * _k_ $$\Rightarrow$$ _number of clusters._
 * Every instance MUST be assigned to a centroid.
 * Each data point owns to a single cluster.
@@ -31,19 +31,19 @@ Always converges after enough iterations to a **local optimum**. However, it **d
 
 {% tabs %}
 {% tab title="Random initialization" %}
-![](../../../../.gitbook/assets/image%20%2858%29.png)
+![](../../../../.gitbook/assets/image%20%2861%29.png)
 {% endtab %}
 
 {% tab title="Compute centroid distances" %}
-![](../../../../.gitbook/assets/image%20%2862%29.png)
+![](../../../../.gitbook/assets/image%20%2865%29.png)
 {% endtab %}
 
 {% tab title="Assign instances" %}
-![](../../../../.gitbook/assets/image%20%2840%29.png)
+![](../../../../.gitbook/assets/image%20%2841%29.png)
 {% endtab %}
 
 {% tab title="Recalculate centroids" %}
-![](../../../../.gitbook/assets/image%20%2844%29.png)
+![](../../../../.gitbook/assets/image%20%2845%29.png)
 {% endtab %}
 {% endtabs %}
 
@@ -55,5 +55,5 @@ Always converges after enough iterations to a **local optimum**. However, it **d
   * a low number number of clusters
 * The [elbow method](https://en.wikipedia.org/wiki/Elbow_method_%28clustering%29) is a good tool to select the optimal value of _k_.
 
-![](../../../../.gitbook/assets/image%20%2863%29.png)
+![](../../../../.gitbook/assets/image%20%2866%29.png)
 

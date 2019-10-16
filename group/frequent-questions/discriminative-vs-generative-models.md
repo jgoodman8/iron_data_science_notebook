@@ -1,0 +1,2 @@
+# Discriminative vs Generative models
+
