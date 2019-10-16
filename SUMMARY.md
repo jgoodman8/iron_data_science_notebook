@@ -54,5 +54,6 @@
   * [Anomaly detection methods](group/frequent-questions/anomaly-detection-methods.md)
   * [How to deal with unbalanced datasets?](group/frequent-questions/how-to-deal-with-unbalanced-datasets.md)
 * [Related topics](group/related-topics/README.md)
+  * [SQL](group/related-topics/sql.md)
   * [Combinatorics](group/related-topics/tba.md)
 
