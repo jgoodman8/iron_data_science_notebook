@@ -48,7 +48,7 @@ $$
 
 When a random variable Z has an exponential distribution with parameter $$\lambda$$, we say Z is exponential and write $$Z∼Exp(λ)$$.
 
-![](../../.gitbook/assets/image%20%2853%29.png)
+![](../../.gitbook/assets/image%20%2854%29.png)
 
 ### How do we find λ?
 

@@ -10,7 +10,7 @@ _Sources:_
 
 It transforms a vector in the continuous range \[0, 1\]. It's also called **logistic function**.
 
-![](../../.gitbook/assets/image%20%2887%29.png)
+![](../../.gitbook/assets/image%20%2888%29.png)
 
 {% tabs %}
 {% tab title="Formula" %}

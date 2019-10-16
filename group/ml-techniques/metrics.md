@@ -31,7 +31,7 @@ Confusion Matrix is a **performance measurement** for machine learning **classif
 * **True negative**
   * Predicted 0 $$\Rightarrow$$ Actual 0
 
-![](../../.gitbook/assets/image%20%2862%29.png)
+![](../../.gitbook/assets/image%20%2863%29.png)
 
 #### Cost matrix
 
@@ -67,12 +67,12 @@ accuracy_score(y_true, y_pred)
 From all the predicted positives, it measures the rate actually classified as positive.
 
 {% hint style="success" %}
-It is a good measure to determine, **when the costs of False Positive is high**. For instance, email spam detection.
+It is a good measure to determine, **when the costs of FP is high**. For instance, email spam detection.
 {% endhint %}
 
 {% tabs %}
 {% tab title="Main" %}
-![](../../.gitbook/assets/image%20%2859%29.png)
+![](../../.gitbook/assets/image%20%2860%29.png)
 {% endtab %}
 
 {% tab title="Formula" %}
@@ -97,12 +97,12 @@ precision_score(y_true, y_pred, average='weighted')
  From all the actual positives, it measures the rate classified as positives values. As well. it is called _**Sensitivity** or **True Positive Rate \(TPR\)**_.
 
 {% hint style="success" %}
-It is a good metric to select our best model **when there is a high cost associated with False Negative**. For instance, in fraud detection or sick patient detection.
+It is a good metric to select our best model **when there is a high cost associated with FN**. For instance, in fraud detection or sick patient detection.
 {% endhint %}
 
 {% tabs %}
 {% tab title="Main" %}
-![](../../.gitbook/assets/image%20%2896%29.png)
+![](../../.gitbook/assets/image%20%2898%29.png)
 {% endtab %}
 
 {% tab title="Formula" %}
@@ -144,7 +144,7 @@ $$
 
 ### F-Score
 
-F1 Score might be a better measure to use if we need to seek a **balance between Precision and Recall** AND there is an uneven class distribution \(large number of Actual Negatives\).
+F1-score might be a better measure to use if we need to seek a **balance between** [**Precision**](metrics.md#precision) **and** [**Recall**](metrics.md#recall) AND there is an uneven class distribution \(large number of Actual Negatives\).
 
 {% tabs %}
 {% tab title="Formula" %}
