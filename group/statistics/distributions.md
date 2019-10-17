@@ -44,7 +44,7 @@ A distribution is skewed when one of the tails is longer. Thus, the shape of the
 
 ### Lognormal
 
-A lognormal \(or Galton\) distribution is a probability distribution with a normally distributed logarithm. [Skewed distributions](https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/skewed-distribution/) with low mean values, large variance, and all-positive values often fit this type of distribution. Values must be positive as $$log(x)$$ exists only for positive values of $$x$$.
+A lognormal \(or Galton\) distribution is a probability distribution with a normally distributed logarithm. [Skewed distributions](https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/skewed-distribution/) with low mean values, large variance, and all-positive values often fit this type of distribution. Values must be positive as $$log(x)$$ exists only for positive values of $$x$$. The expected value is $$E[X] = exp(\mu + \frac{\sigma²}{2}) $$.
 
 ![](../../.gitbook/assets/image%20%2843%29.png)
 
@@ -84,7 +84,7 @@ $$
 
 If $$X$$ is a binomial random variable with parameters $$p$$ and $$N$$, denoted $$X \sim \text{Bin}(N,p)$$, then $$X$$ is the number of events that occurred in the $$N$$ trials \(obviously $$0 \le X \le N$$\). The larger $$p$$ is \(while still remaining between 0 and 1\), the more events are likely to occur. 
 
-The **expected value** of a binomial para metrized by _N and p_ is equal to:
+The **expected value** of a binomial parametrized by _N and p_ is equal to:
 
 $$
 E[X] = Np
@@ -124,7 +124,7 @@ If a random variable $$Z$$ has a **mass distribution**, we denote this by writin
 
 Skewness  is the _**degree of distortion**_ **from the normal distribution** or the symmetrical bell curve. It measures the **lack of symmetry** in data distribution. It differentiates extreme values in one versus the other tail.
 
-A [Normal Distribution](distributions.md#normal) is not skewed, it's simmetrical and the mean is exactly at the peak. Thus, the **mean, median and mode concur**.
+A [Normal Distribution](distributions.md#normal) is not skewed. It's symmetrical and the mean is exactly at the peak. Thus, the **mean, median and mode concur**.
 
 ![](../../.gitbook/assets/image%20%2859%29.png)
 
