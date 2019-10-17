@@ -19,7 +19,7 @@ If any good data scientist could choose an **ideal dataset**, it would be plenty
 ### Related concepts
 
 {% hint style="success" %}
-Check out the  [**Variance**](../../statistics/mean-vs-median.md#variance) ****and [**Covariance**](../../statistics/mean-vs-median.md#covariance) concepts!
+Check out the  [**Variance**](../../statistics/the-basics.md#variance) ****and [**Covariance**](../../statistics/the-basics.md#covariance) concepts!
 {% endhint %}
 
 #### Eigenvectors

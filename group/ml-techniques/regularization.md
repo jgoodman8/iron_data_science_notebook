@@ -24,12 +24,12 @@ $$
 RSS = \sum_{i=1}^{n} \left( y_i - \beta_0 - \sum_{i=1}^{p} \beta_jx_{ij} \right)^2
 $$
 
-* However, this model might be too simple. Then, we could thinkg about **adding some new features** $$y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \beta_3 x_3 + ... + \beta_p x_p$$. Now the model has become more complex, but **it might tend to overfit!**
+* However, this model might be too simple. Then, we could think about **adding some new features** $$y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \beta_3 x_3 + ... + \beta_p x_p$$. Now the model has become more complex, but **it might tend to overfit!**
 *  If there is noise in the training data, then the **estimated coefficients won’t generalize well** to the future data. This is where regularization comes in and shrinks or **regularizes these learned estimates towards zero**.
 
 ## Techniques
 
-### Lasso
+### Lasso \(L1\)
 
 It penalizes the loss function by adding the _shrinkage quantity_. This way, the coefficients are estimated by minimizing the whole quantity. _**Lasso**_ **applies the modulus** $$| \beta_j|$$ **to every coefficient**. This is also called _**L1 regularization** or L1 norm._
 
@@ -41,7 +41,7 @@ Here, **λ is the regularization parameter** that decides **how much we want to 
 
  _When **λ = 0, the penalty term has no**_ **eﬀect**, and the estimates produced by ridge regression will be equal to least squares. However, as **λ→∞**, the impact of the shrinkage **penalty grows**.
 
-### Ridge
+### Ridge \(L2\)
 
 As _lasso_ does, it penalizes the loss function by adding the _shrinkage quantity_. It's also parametrized by the **λ is the regularization parameter**. However, _**ridge**_ **applies the square** $$\beta_j^2$$ **to every coefficient**. It's also called _**L2 regularization**_ or _L2 norm._
 
@@ -49,6 +49,41 @@ $$
 RSS + \lambda \sum_{j=1}^{p} \beta_j^2 =
 \sum_{i=1}^{n} \left( y_i - \beta_0 - \sum_{i=1}^{p} \beta_jx_{ij} \right)^2 + \lambda \sum_{j=1}^{p} \beta_j^2
 $$
+
+### L1 vs L2 norm
+
+The image below shows differences between L1 and L2:
+
+* Points on the ellipse share the value of _RSS_.
+* Points of the green area share the values of regularization
+* So, the **regression coefficient estimates** are **given** by the **ﬁrst point at which an ellipse contacts the constraint region**.
+
+What does it mean?
+
+* Given **L2 has a circular constraint** \($$\beta²$$\), this **intersection will not generally occur on an axis**.
+  * L2 regression coefficient estimates _**will be exclusively non-zero**._
+* The **L1** constraint has corners on axes, so the RSS distribution **may intersect at an axis**.
+  * When this occurs, **one of the coeﬃcients will equal zero.**
+
+![](../../.gitbook/assets/image%20%2882%29.png)
+
+{% hint style="danger" %}
+* **Ridge** \(L2\) will shrink **coefficients very close to zero,** but doesn't ignore any feature.
+* **Lasso** \(L1\)  **also performs variable selection**.
+{% endhint %}
+
+### Other alternatives
+
+We can use other techniques to reduce variance \(given it's the goal of L1 and L2 regularization\):
+
+* Bagging
+* Data augmentation
+* Adding noise
+
+When dealing with neural networks, we can use these techniques, as well:
+
+* Early stopping
+* Dropout
 
 {% page-ref page="../frequent-questions/ridge-vs-lasso.md" %}
 

@@ -5,7 +5,7 @@
 ## Group
 
 * [Statistics](group/statistics/README.md)
-  * [The basics](group/statistics/mean-vs-median.md)
+  * [The basics](group/statistics/the-basics.md)
   * [Distributions](group/statistics/distributions.md)
   * [Outliers](group/statistics/outliers.md)
   * [The bayesian basis](group/statistics/the-bayesian-basis.md)
@@ -52,7 +52,8 @@
   * [How does a ROC curve work?](group/frequent-questions/how-a-roc-curve-works.md)
   * [Ridge vs Lasso](group/frequent-questions/ridge-vs-lasso.md)
   * [Anomaly detection methods](group/frequent-questions/anomaly-detection-methods.md)
-  * [How to deal with unbalanced datasets?](group/frequent-questions/how-to-deal-with-unbalanced-datasets.md)
+  * [How to deal with imbalanced datasets?](group/frequent-questions/how-to-deal-with-imbalanced-datasets.md)
+  * [Recommendation systems methods](group/frequent-questions/recommendation-systems-methods.md)
 * [Related topics](group/related-topics/README.md)
   * [SQL](group/related-topics/sql.md)
   * [Combinatorics](group/related-topics/tba.md)

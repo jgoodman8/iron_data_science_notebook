@@ -92,7 +92,7 @@ $$
 
 ### Bernoulli
 
-![](../../.gitbook/assets/image%20%2884%29.png)
+![](../../.gitbook/assets/image%20%2885%29.png)
 
 A Bernouilli distribution is a discrete probability distribution for a Bernouilli trial — a random experiment that has only two outcomes \(usually called a “Success” or a “Failure”\). For example, the probability of getting a heads \(a “success”\) while flipping a coin is 0.5. The probability of “failure” is 1 – P \(1 minus the probability of success, which also equals 0.5 for a coin toss\). It is a special case of the binomial distribution for n = 1. In other words, it is a binomial distribution with a single trial \(e.g. a single coin toss\). 
 
@@ -130,7 +130,7 @@ A [Normal Distribution](distributions.md#normal) is not skewed. It's symmetrical
 
  And **positive skew** is when the long tail is on the positive side of the peak, and some people say it is _**skewed to the right**_.
 
-![](../../.gitbook/assets/image%20%2889%29.png)
+![](../../.gitbook/assets/image%20%2890%29.png)
 
 It's possible to compute the skewness using the [numpy function](https://docs.scipy.org/doc/scipy-0.15.1/reference/generated/scipy.stats.skew.html). For positive skewed distributions, the computed value will be `> 0` and for negative skews the value will be `< 0` as well.
 

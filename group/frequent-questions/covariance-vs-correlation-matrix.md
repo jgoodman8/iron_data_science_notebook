@@ -17,7 +17,7 @@ _Sources:_
 ## Covariance Matrix
 
 {% hint style="info" %}
-Check [covariance definition](../statistics/mean-vs-median.md#covariance).
+Check [covariance definition](../statistics/the-basics.md#covariance).
 {% endhint %}
 
 Focusing on the two-dimensional case, the covariance matrix for two dimensions \(or $$x$$ and $$y$$variables\) is given by:
