@@ -44,7 +44,7 @@ In the **ideal situation**, distribution curve of the **positive class is equal*
 {% tab title="AUC\_ROC = 0.5" %}
 When AUC is approximately 0.5, model has **no discrimination capacity** to distinguish between positive class and negative class.
 
-![](../../.gitbook/assets/image%20%2899%29.png)
+![](../../.gitbook/assets/image%20%28100%29.png)
 {% endtab %}
 
 {% tab title="AUC\_ROC = 0" %}

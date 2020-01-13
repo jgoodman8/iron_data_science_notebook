@@ -1,6 +1,6 @@
 # The basics
 
-![](../../.gitbook/assets/image%20%2894%29.png)
+![](../../.gitbook/assets/image%20%2895%29.png)
 
 {% hint style="info" %}
 _Credits & Sources:_
@@ -69,7 +69,7 @@ $$
 \operatorname {P} (X\geq m)=\operatorname {P} (X\leq m)=\int _{-\infty }^{m}f(x)\,dx={\frac {1}{2}}
 $$
 
-![](../../.gitbook/assets/image%20%2868%29.png)
+![](../../.gitbook/assets/image%20%2869%29.png)
 {% endtab %}
 {% endtabs %}
 

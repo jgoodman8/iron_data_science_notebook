@@ -31,11 +31,11 @@ Always converges after enough iterations to a **local optimum**. However, it **d
 
 {% tabs %}
 {% tab title="Random initialization" %}
-![](../../../../.gitbook/assets/image%20%2862%29.png)
+![](../../../../.gitbook/assets/image%20%2863%29.png)
 {% endtab %}
 
 {% tab title="Compute centroid distances" %}
-![](../../../../.gitbook/assets/image%20%2866%29.png)
+![](../../../../.gitbook/assets/image%20%2867%29.png)
 {% endtab %}
 
 {% tab title="Assign instances" %}
@@ -55,5 +55,5 @@ Always converges after enough iterations to a **local optimum**. However, it **d
   * a low number number of clusters
 * The [elbow method](https://en.wikipedia.org/wiki/Elbow_method_%28clustering%29) is a good tool to select the optimal value of _k_.
 
-![](../../../../.gitbook/assets/image%20%2867%29.png)
+![](../../../../.gitbook/assets/image%20%2868%29.png)
 

@@ -17,7 +17,7 @@ It is **function composed by several Gaussians**. The **number of Gaussians is e
 
 The Gaussian density function is given by:
 
-![](../../../../.gitbook/assets/image%20%2879%29.png)
+![](../../../../.gitbook/assets/image%20%2880%29.png)
 
 where:
 
@@ -37,7 +37,7 @@ By applying the _Expectation-Maximization algorithm_ widely used for optimizatio
 
 * It **accounts for covariance**, which determines the shape of the distribution  This means that meanwhile the **k-means model is that it places a circle** \(or a hyper-sphere\) at the center of each cluster, **a GMM model can handle different shapes**.
 
-![](../../../../.gitbook/assets/image%20%2852%29.png)
+![](../../../../.gitbook/assets/image%20%2853%29.png)
 
 * **k-Means performs a hard classification**, but a **GMM model carries out a soft one** by returning the probability that each data point belongs to a certain cluster.
 
