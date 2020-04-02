@@ -18,7 +18,7 @@ Source:
   * Worst: 0.5
   * Inverse: 0
 
-![Image courtesy: My Photoshopped Collection](../../.gitbook/assets/image%20%2847%29.png)
+![Image courtesy: My Photoshopped Collection](../../.gitbook/assets/image%20%2848%29.png)
 
 {% hint style="success" %}
 An ROC curve plots the **TPR on the y-axis versus the FPR on the x-axis**. The TPR is the **recall** and the FPR is the **probability of a false alarm**.
@@ -34,7 +34,7 @@ When we **decrease the threshold**, we get more positive values thus it **increa
 {% tab title="AUC\_ROC = 1" %}
 In the **ideal situation**, distribution curve of the **positive class is equal** to the distribution of the **negative** one.
 
-![](../../.gitbook/assets/image%20%2829%29.png)
+![](../../.gitbook/assets/image%20%2830%29.png)
 {% endtab %}
 
 {% tab title="AUC\_ROC = 0.7" %}
@@ -44,13 +44,13 @@ In the **ideal situation**, distribution curve of the **positive class is equal*
 {% tab title="AUC\_ROC = 0.5" %}
 When AUC is approximately 0.5, model has **no discrimination capacity** to distinguish between positive class and negative class.
 
-![](../../.gitbook/assets/image%20%28100%29.png)
+![](../../.gitbook/assets/image%20%28101%29.png)
 {% endtab %}
 
 {% tab title="AUC\_ROC = 0" %}
 When AUC is approximately 0, model is **actually reciprocating the classes**. It means, model is predicting negative class as a positive class and vice versa.
 
-![](../../.gitbook/assets/image%20%2827%29.png)
+![](../../.gitbook/assets/image%20%2828%29.png)
 {% endtab %}
 {% endtabs %}
 

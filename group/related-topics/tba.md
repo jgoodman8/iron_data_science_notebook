@@ -50,7 +50,7 @@ In the particular case, that _**R**_ **is equal to** _**N**_, we get up to _**N!
 
 Here, we can discover the number of possible results in lotteries. We take _**R from**_ ****_**N**_ **unique items**, however we **don't mind the order** of the taken items.
 
-![](../../.gitbook/assets/image%20%2875%29.png)
+![](../../.gitbook/assets/image%20%2876%29.png)
 
 We have to divide the possible $$N!$$ __elements by the $$(N-R)!$$ possible repetitions and the $$R!$$ possible combination of the taken items. This is expressed as:
 

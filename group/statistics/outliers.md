@@ -13,7 +13,7 @@ Let's give some clear definitions of outlier:
 * **Extreme values** that deviate from other observations on data.
 * An observation that **diverges from an overall** pattern on a sample.
 
-![](../../.gitbook/assets/image%20%2848%29.png)
+![](../../.gitbook/assets/image%20%2849%29.png)
 
 ## Types
 

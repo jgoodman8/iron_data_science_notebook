@@ -65,7 +65,7 @@ What does it mean?
 * The **L1** constraint has corners on axes, so the RSS distribution **may intersect at an axis**.
   * When this occurs, **one of the coeﬃcients will equal zero.**
 
-![](../../.gitbook/assets/image%20%2883%29.png)
+![](../../.gitbook/assets/image%20%2884%29.png)
 
 {% hint style="danger" %}
 * **Ridge** \(L2\) will shrink **coefficients very close to zero,** but doesn't ignore any feature.

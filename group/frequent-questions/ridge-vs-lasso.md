@@ -23,7 +23,7 @@ Both regressions can be thought of as solving an equation, where the summation o
 * **Ridge**: $$\beta_1^2 + \beta_2^2 \le s$$.  This implies that coefficients have the smallest RSS for all points that lie within the **circle** given by the inequation.
 * **Lasso**: $$|\beta_1| + |\beta_2| \le s$$. This implies that lasso coefficients have the smallest RSS for all points that lie within the **diamond** given by the inequation.
 
-![Source: An Introduction to Statistical Learning by Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani](../../.gitbook/assets/image%20%2898%29.png)
+![Source: An Introduction to Statistical Learning by Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani](../../.gitbook/assets/image%20%2899%29.png)
 
 ## Conclusions
 

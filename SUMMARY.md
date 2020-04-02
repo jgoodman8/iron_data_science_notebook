@@ -61,7 +61,9 @@
   * [What is "Statistically Significant"?](group/frequent-questions/what-is-statistically-significant.md)
   * [Recommendation systems methods](group/frequent-questions/recommendation-systems-methods.md)
 * [Related topics](group/related-topics/README.md)
+  * [Python](group/related-topics/python.md)
   * [SQL](group/related-topics/sql.md)
   * [Combinatorics](group/related-topics/tba.md)
   * [Data Engineering Questions](group/related-topics/data-engineering-questions.md)
+  * [Distributed computation](group/related-topics/distributed-computation.md)
 

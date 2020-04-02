@@ -22,7 +22,7 @@ Depending on the situation, **we may maximize either precision** \(i.e. spam det
 
 The [**confusion matrix**](../ml-techniques/metrics.md#the-confusion-matrix) is useful for quickly calculating precision and recall given the predicted labels from a model.  The other main visualization technique for showing the performance of a classification model is the [**Receiver Operating Characteristic \(ROC\) curve**](how-a-roc-curve-works.md).
 
-![](../../.gitbook/assets/image%20%2823%29.png)
+![](../../.gitbook/assets/image%20%2824%29.png)
 
 ## Combining Precision and Recall
 
