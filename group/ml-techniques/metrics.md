@@ -31,7 +31,7 @@ Confusion Matrix is a **performance measurement** for machine learning **classif
 * **True negative**
   * Predicted 0 $$\Rightarrow$$ Actual 0
 
-![](../../.gitbook/assets/image%20%2865%29.png)
+![](../../.gitbook/assets/image%20%2863%29.png)
 
 #### Cost matrix
 
@@ -72,7 +72,7 @@ It is a good measure to determine, **when the costs of FP is high**. For instanc
 
 {% tabs %}
 {% tab title="Main" %}
-![](../../.gitbook/assets/image%20%2862%29.png)
+![](../../.gitbook/assets/image%20%2860%29.png)
 {% endtab %}
 
 {% tab title="Formula" %}
@@ -102,7 +102,7 @@ It is a good metric to select our best model **when there is a high cost associa
 
 {% tabs %}
 {% tab title="Main" %}
-![](../../.gitbook/assets/image%20%28102%29.png)
+![](../../.gitbook/assets/image%20%28100%29.png)
 {% endtab %}
 
 {% tab title="Formula" %}

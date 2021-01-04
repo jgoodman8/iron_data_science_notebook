@@ -7,7 +7,7 @@ Once the IQR is known, we can classify as anomaly every value:
 * Higher than $$Q3 + 1.5 \text{ IQR}$$
 * Lower than $$Q1 - 1.5 \text{ IQR}$$
 
-![Credit: Wikipedia](../../.gitbook/assets/image%20%2829%29.png)
+![Credit: Wikipedia](../../.gitbook/assets/image%20%2828%29.png)
 
 ### 
 

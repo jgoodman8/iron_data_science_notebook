@@ -1,6 +1,6 @@
 # The basics
 
-![](../../.gitbook/assets/image%20%2896%29.png)
+![](../../.gitbook/assets/image%20%2894%29.png)
 
 {% hint style="info" %}
 _Credits & Sources:_
@@ -69,7 +69,7 @@ $$
 \operatorname {P} (X\geq m)=\operatorname {P} (X\leq m)=\int _{-\infty }^{m}f(x)\,dx={\frac {1}{2}}
 $$
 
-![](../../.gitbook/assets/image%20%2870%29.png)
+![](../../.gitbook/assets/image%20%2868%29.png)
 {% endtab %}
 {% endtabs %}
 
@@ -103,7 +103,7 @@ It's the **difference** between the **maximum** value and the **minimum** value.
 {% tab title="Continuous distribution" %}
 It's the **difference between the two extreme points on the distribution curve**. For any value outside the range of a distribution, the value of the function is equal to 0.
 
-![Source: Siyavula](../../.gitbook/assets/image%20%2841%29.png)
+![Source: Siyavula](../../.gitbook/assets/image%20%2840%29.png)
 {% endtab %}
 {% endtabs %}
 
@@ -191,7 +191,7 @@ $$
 
 ## Related questions
 
-![](../../.gitbook/assets/image%20%2826%29.png)
+![](../../.gitbook/assets/image%20%2825%29.png)
 
 ### Mean vs Median
 

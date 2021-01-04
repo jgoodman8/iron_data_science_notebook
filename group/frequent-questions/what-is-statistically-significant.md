@@ -15,7 +15,7 @@ _Sources:_
   * The **null hypothesis can't be rejected**.
 {% endhint %}
 
-![](../../.gitbook/assets/image%20%2853%29.png)
+![](../../.gitbook/assets/image%20%2852%29.png)
 
 Statistical significance is a measure of **whether your research findings are meaningful**. More specifically, it’s whether your stat closely matches what value you would expect to find in an entire population. In order to test for statistical significance, perform these steps:
 

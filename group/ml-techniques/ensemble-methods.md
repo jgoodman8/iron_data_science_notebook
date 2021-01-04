@@ -39,7 +39,7 @@ Notice that is important to be **coherent with the way we aggregate these models
     *  a **hard-voting** system: each model output is a vote, and the class with more votes is returned.
     * a **soft-voting** system: models returns probabilities and the class with the highest averaged probability is returned.
 
-![](../../.gitbook/assets/image%20%2858%29.png)
+![](../../.gitbook/assets/image%20%2856%29.png)
 
 {% page-ref page="../machine-learning-algorithms/supervised-learning/classification-algorithms/random-forest.md" %}
 
@@ -57,7 +57,7 @@ At the end of the process, we get a **strong learner with lower bias**.
 * Base models that are often considered for boosting are **models with low variance but high bias**.
 * This method **cannot be parallelized**.
 
-![](../../.gitbook/assets/image%20%2834%29.png)
+![](../../.gitbook/assets/image%20%2833%29.png)
 
 {% page-ref page="../machine-learning-algorithms/supervised-learning/adaptative-boosting.md" %}
 
@@ -68,7 +68,7 @@ At the end of the process, we get a **strong learner with lower bias**.
 * It may train **multiple heterogeneous learners**.
 * It combines their outputs using a **meta-learner** to output final predictions **based on the multiple predictions** returned by these weak models.
 
-![](../../.gitbook/assets/image%20%28100%29.png)
+![](../../.gitbook/assets/image%20%2898%29.png)
 
 {% hint style="warning" %}
 "Keep in mind just by adding layers and more models to your stacking algorithm, does not mean you’ll get a better predictor. There are [**no free lunches**](https://www.wikiwand.com/en/No_free_lunch_theorem) **in machine learning**."

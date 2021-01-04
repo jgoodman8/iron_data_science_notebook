@@ -10,7 +10,7 @@ _Sources:_
 
 The **random forest** approach is a [**bagging**](../../../ml-techniques/ensemble-methods.md#bagging) **method** where **deep trees**, fitted on **bootstrap samples**, are combined to produce an **output with lower variance**.
 
-Adicionaly, RF use another trick to make the multiple fitted trees a bit less correlated with each others: when growing each tree, instead of only sampling over the observations in the dataset to generate a bootstrap sample, we also **sample over features** and keep only a **random subset** of them to build the tree.
+Addicionally, RF use another trick to make the multiple fitted trees a bit less correlated with each other: when growing each tree, instead of only sampling over the observations in the dataset to generate a bootstrap sample, we also **sample over features** and keep only a **random subset** of them to build the tree.
 
 {% hint style="danger" %}
 **Bagging + Feature sampling**
