@@ -15,6 +15,7 @@
   * [The bayesian basis](group/statistics/the-bayesian-basis.md)
   * [Statistic vs Parameter](group/statistics/statistic-vs-parameter.md)
   * [Markov Monte Carlo Chain](group/statistics/markov-monte-carlo-chain.md)
+  * [Distance measures](group/statistics/distance-measures.md)
 * [ML Techniques](group/ml-techniques/README.md)
   * [Metrics](group/ml-techniques/metrics.md)
   * [Loss functions](group/ml-techniques/loss-functions.md)
