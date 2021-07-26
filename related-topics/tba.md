@@ -34,7 +34,7 @@ $$
 
 If what to know all the **order of** _**N**_ **pool balls be in,** for each ball taken we have $$ N_{i+1} = N_i - 1 $$ possibilities.
 
-![](../../.gitbook/assets/image%20%2814%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
 Generalizing, we get:
 
@@ -50,7 +50,7 @@ In the particular case, that _**R**_ **is equal to** _**N**_, we get up to _**N!
 
 Here, we can discover the number of possible results in lotteries. We take _**R from**_ ****_**N**_ **unique items**, however we **don't mind the order** of the taken items.
 
-![](../../.gitbook/assets/image%20%2874%29.png)
+![](../.gitbook/assets/image%20%2874%29.png)
 
 We have to divide the possible $$N!$$ __elements by the $$(N-R)!$$ possible repetitions and the $$R!$$ possible combination of the taken items. This is expressed as:
 

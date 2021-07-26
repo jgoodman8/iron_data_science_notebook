@@ -4,6 +4,21 @@
 
 ## ML & Data Science <a id="ml-datascience"></a>
 
+* [Frequent Questions](ml-datascience/frequent-questions/README.md)
+  * [Supervised vs Unsupervised learning](ml-datascience/frequent-questions/supervised-vs-unsupervised-learning.md)
+  * [Batch vs Online Learning](ml-datascience/frequent-questions/batch-vs-online-learning.md)
+  * [Instance-based vs Model-based Learning](ml-datascience/frequent-questions/instance-based-vs-model-based-learning.md)
+  * [Discriminative vs Generative models](ml-datascience/frequent-questions/discriminative-vs-generative-models.md)
+  * [Bias-Variance Tradeoff](ml-datascience/frequent-questions/bias-variance-tradeoff.md)
+  * [Probability vs Likelihood](ml-datascience/frequent-questions/probability-vs-likelihood.md)
+  * [Covariance vs Correlation Matrix](ml-datascience/frequent-questions/covariance-vs-correlation-matrix.md)
+  * [Precision vs Recall](ml-datascience/frequent-questions/precision-vs-recall.md)
+  * [How does a ROC curve work?](ml-datascience/frequent-questions/how-a-roc-curve-works.md)
+  * [Ridge vs Lasso](ml-datascience/frequent-questions/ridge-vs-lasso.md)
+  * [Anomaly detection methods](ml-datascience/frequent-questions/anomaly-detection-methods.md)
+  * [How to deal with imbalanced datasets?](ml-datascience/frequent-questions/how-to-deal-with-imbalanced-datasets.md)
+  * [What is "Statistically Significant"?](ml-datascience/frequent-questions/what-is-statistically-significant.md)
+  * [Recommendation systems methods](ml-datascience/frequent-questions/recommendation-systems-methods.md)
 * [Statistics](ml-datascience/statistics/README.md)
   * [The basics](ml-datascience/statistics/the-basics.md)
   * [Distributions](ml-datascience/statistics/distributions.md)
@@ -46,27 +61,6 @@
       * [Gaussian Mixture Model](ml-datascience/machine-learning-algorithms/unsupervised-learning/clustering/gaussian-mixture-model.md)
       * [Hierarchical clustering](ml-datascience/machine-learning-algorithms/unsupervised-learning/clustering/hierarchical-clustering.md)
       * [DBSCAN](ml-datascience/machine-learning-algorithms/unsupervised-learning/clustering/dbscan.md)
-* [Frequent Questions](ml-datascience/frequent-questions/README.md)
-  * [Supervised vs Unsupervised learning](ml-datascience/frequent-questions/supervised-vs-unsupervised-learning.md)
-  * [Batch vs Online Learning](ml-datascience/frequent-questions/batch-vs-online-learning.md)
-  * [Instance-based vs Model-based Learning](ml-datascience/frequent-questions/instance-based-vs-model-based-learning.md)
-  * [Discriminative vs Generative models](ml-datascience/frequent-questions/discriminative-vs-generative-models.md)
-  * [Bias-Variance Tradeoff](ml-datascience/frequent-questions/bias-variance-tradeoff.md)
-  * [Probability vs Likelihood](ml-datascience/frequent-questions/probability-vs-likelihood.md)
-  * [Covariance vs Correlation Matrix](ml-datascience/frequent-questions/covariance-vs-correlation-matrix.md)
-  * [Precision vs Recall](ml-datascience/frequent-questions/precision-vs-recall.md)
-  * [How does a ROC curve work?](ml-datascience/frequent-questions/how-a-roc-curve-works.md)
-  * [Ridge vs Lasso](ml-datascience/frequent-questions/ridge-vs-lasso.md)
-  * [Anomaly detection methods](ml-datascience/frequent-questions/anomaly-detection-methods.md)
-  * [How to deal with imbalanced datasets?](ml-datascience/frequent-questions/how-to-deal-with-imbalanced-datasets.md)
-  * [What is "Statistically Significant"?](ml-datascience/frequent-questions/what-is-statistically-significant.md)
-  * [Recommendation systems methods](ml-datascience/frequent-questions/recommendation-systems-methods.md)
-* [Related topics](ml-datascience/related-topics/README.md)
-  * [Python](ml-datascience/related-topics/python.md)
-  * [SQL](ml-datascience/related-topics/sql.md)
-  * [Combinatorics](ml-datascience/related-topics/tba.md)
-  * [Data Engineering Questions](ml-datascience/related-topics/data-engineering-questions.md)
-  * [Distributed computation](ml-datascience/related-topics/distributed-computation.md)
 
 ## Algorithms & data structures
 
@@ -79,4 +73,13 @@
   * [Can Construct](algorithms-and-data-structures/dynamic-programming/can-construct.md)
   * [Count Construct](algorithms-and-data-structures/dynamic-programming/count-construct.md)
   * [All Construct](algorithms-and-data-structures/dynamic-programming/all-construct.md)
+
+## Related Topics
+
+* [Intro](related-topics/intro.md)
+* [Python](related-topics/python.md)
+* [SQL](related-topics/sql.md)
+* [Combinatorics](related-topics/tba.md)
+* [Data Engineering Questions](related-topics/data-engineering-questions.md)
+* [Distributed computation](related-topics/distributed-computation.md)
 
