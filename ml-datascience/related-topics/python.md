@@ -1,6 +1,6 @@
 # Python
 
-## Languaje details
+## Language details
 
 ### GIL
 

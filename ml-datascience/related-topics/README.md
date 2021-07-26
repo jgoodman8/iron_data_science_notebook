@@ -3,7 +3,7 @@
 ![](https://media.giphy.com/media/O7ifqdHteyN7q/giphy.gif)
 
 {% hint style="success" %}
-This section contains information related with data science as: 
+This section contains information related to data science as: 
 
 * Python Programming
 * Combinatorics
