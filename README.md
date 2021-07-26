@@ -16,11 +16,11 @@ description: >-
 
 ## Index
 
-{% page-ref page="group/frequent-questions/" %}
+{% page-ref page="ml-datascience/frequent-questions/" %}
 
-{% page-ref page="group/statistics/" %}
+{% page-ref page="ml-datascience/statistics/" %}
 
-{% page-ref page="group/machine-learning-algorithms/" %}
+{% page-ref page="ml-datascience/machine-learning-algorithms/" %}
 
-{% page-ref page="group/ml-techniques/" %}
+{% page-ref page="ml-datascience/ml-techniques/" %}
 
