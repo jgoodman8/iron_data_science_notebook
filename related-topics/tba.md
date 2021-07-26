@@ -20,7 +20,7 @@ _Sources:_
 
 ### With repetition
 
-If we wish to know the **number of combination for a PIN number**, for each digit we have 10 chances \(due to numbers from 0 to 9\).
+If we wish to know the **number of combinations of a PIN number**, we have 10 chances per digit \(due to numbers from 0 to 9\).
 
 
 
@@ -48,7 +48,7 @@ In the particular case, that _**R**_ **is equal to** _**N**_, we get up to _**N!
 
 ### With no repetition
 
-Here, we can discover the number of possible results in lotteries. We take _**R from**_ ****_**N**_ **unique items**, however we **don't mind the order** of the taken items.
+Here, we can discover the number of possible results in lotteries. We take _**R from**_ ****_**N**_ **unique items.** However, we **don't mind the order** of the taken items.
 
 ![](../.gitbook/assets/image%20%2874%29.png)
 

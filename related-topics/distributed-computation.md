@@ -8,12 +8,12 @@ _Sources:_
 
 ## About threads and processes
 
-* A process can create, and for instance, contain threds.
+* A process can create, and for instance, contain threads.
 * The **threads of a process are part of the same virtual address space**. This implies they share:
   * data
   * code
   * file.
-* However, each thread has a it own:
+* However, each thread has its own:
   * stack, 
   * stack pointer register
   * Program Counter

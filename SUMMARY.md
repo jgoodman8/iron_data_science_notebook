@@ -62,6 +62,15 @@
       * [Hierarchical clustering](ml-datascience/machine-learning-algorithms/unsupervised-learning/clustering/hierarchical-clustering.md)
       * [DBSCAN](ml-datascience/machine-learning-algorithms/unsupervised-learning/clustering/dbscan.md)
 
+## Related Topics
+
+* [Intro](related-topics/intro.md)
+* [Python](related-topics/python.md)
+* [SQL](related-topics/sql.md)
+* [Combinatorics](related-topics/tba.md)
+* [Data Engineering Questions](related-topics/data-engineering-questions.md)
+* [Distributed computation](related-topics/distributed-computation.md)
+
 ## Algorithms & data structures
 
 * [Dynamic Programming](algorithms-and-data-structures/dynamic-programming/README.md)
@@ -73,13 +82,4 @@
   * [Can Construct](algorithms-and-data-structures/dynamic-programming/can-construct.md)
   * [Count Construct](algorithms-and-data-structures/dynamic-programming/count-construct.md)
   * [All Construct](algorithms-and-data-structures/dynamic-programming/all-construct.md)
-
-## Related Topics
-
-* [Intro](related-topics/intro.md)
-* [Python](related-topics/python.md)
-* [SQL](related-topics/sql.md)
-* [Combinatorics](related-topics/tba.md)
-* [Data Engineering Questions](related-topics/data-engineering-questions.md)
-* [Distributed computation](related-topics/distributed-computation.md)
 
