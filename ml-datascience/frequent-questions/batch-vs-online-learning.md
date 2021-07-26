@@ -10,7 +10,7 @@
 
 * Training is performed on mini-batches
 * It is offline, as well
-* It updates the model \(not overwritten\) - so, it requires less resources.
+* It updates the model \(not overwritten\) - so, it requires fewer resources.
 * It is important to properly set the _regularization parameter_ and check the wellness of all the data fed into the model.
 
 ![](../../.gitbook/assets/image%20%2871%29.png)

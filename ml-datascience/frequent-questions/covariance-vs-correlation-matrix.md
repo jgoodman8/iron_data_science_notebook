@@ -10,7 +10,7 @@ _Sources:_
 ## Overview
 
 * _**Covariance**_ $$\Rightarrow$$ **direction** of the linear relationship between variables.
-* _**Correlation**_ $$\Rightarrow$$ measure of the **strength and direction** of linear relationship.
+* _**Correlation**_ $$\Rightarrow$$ measure of the **strength and direction** of a linear relationship.
 
 > **Correlation values are standardized** whereas, covariance values are not.
 
@@ -81,7 +81,7 @@ plt.show();
 
 Unlike covariance, the correlation has an upper and lower cap on a range $$[-1, 1]$$.
 
-Correlation coefficient of two variables may be  by dividing the covariance of these variables by the product of the standard deviations of the same values.
+The correlation coefficient of two variables could be get by dividing the covariance of these variables by the product of the standard deviations of the same values.
 
 $$
 \rho_{x,y} = corr(x,y) = \frac{\sigma_{x,y}}{\sigma_{x}^2\sigma_{y}^2}

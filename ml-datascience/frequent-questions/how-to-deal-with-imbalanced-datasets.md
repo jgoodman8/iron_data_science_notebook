@@ -19,7 +19,7 @@ _Sources:_
 ## Resampling Techniques
 
 {% hint style="danger" %}
-Always **split into test and train sets BEFORE trying resample** techniques! And apply resample **ONLY in the training set**.
+Always **split into test and train sets BEFORE trying to resample** techniques! And applying resample **ONLY in the training set**.
 {% endhint %}
 
 **Oversample**: by adding more copies of the minority class.

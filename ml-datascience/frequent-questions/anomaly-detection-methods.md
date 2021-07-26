@@ -16,13 +16,13 @@ Depending on the **presence or lack of labels**, there are two approaches to fac
 
 ## As an unbalanced classification problem
 
-When we are given a set of observations with labels that indicate whether each point is an anomaly or not, this can be focus as a **binary classification problem**. So we can use any classifier we like. The only issue here is that **anomalies are by definition rare events**, so you’ll have to deal with class imbalance.
+When we are given a set of observations with labels that indicate whether each point is an anomaly or not, this can be seen as a **binary classification problem**. So we can use any classifier we like. The only issue here is that **anomalies are by definition rare events**, so you’ll have to deal with class imbalance.
 
 {% page-ref page="how-to-deal-with-imbalanced-datasets.md" %}
 
 ## As an unsupervised problem
 
-In this scenario, we are given  a **set of points without class labels**. Some of them are anomalies and some aren’t, but you don’t know which is which. The goal here is to operationalize the intuitive idea that anomalies are different from the typical data point.
+In this scenario, we are given a **set of points without class labels**. Some of them are anomalies and some aren’t, but you don’t know which is which. The goal here is to operationalize the intuitive idea that anomalies are different from the typical data point.
 
 {% page-ref page="../statistics/outliers.md" %}
 

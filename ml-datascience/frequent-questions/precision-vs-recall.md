@@ -10,15 +10,15 @@ _Sources:_
 
 ## Overview
 
-* [**Accuracy**](../ml-techniques/metrics.md#accuracy) express the percante of results correctly classified.
-* [**Precision**](../ml-techniques/metrics.md#precision) means the percentage of your results which are relevant. 
+* [**Accuracy**](../ml-techniques/metrics.md#accuracy) expresses the percentage of results correctly classified.
+* [**Precision**](../ml-techniques/metrics.md#precision) means the percentage of your results that are relevant. 
 * [**Recall**](../ml-techniques/metrics.md#recall) refers to the percentage of total relevant results correctly classified by your algorithm.
 
 ## The trade-off
 
 We can see when our precision is 1.0 \(no _FP_\), our recall remains very low because we still have many _FN_. If we go to the other extreme and classify all inputs as negatives, we will have a recall of 1.0 but our precision will be very low and we’ll detain many innocent individuals. In other words, **as we increase precision we decrease recall and vice-versa**.
 
-Depending on the situation, **we may maximize either precision** \(i.e. spam detection\) **or recall** \(i.e. desease detection\).
+Depending on the situation, **we may maximize either precision** \(i.e. spam detection\) **or recall** \(i.e. disease detection\).
 
 The [**confusion matrix**](../ml-techniques/metrics.md#the-confusion-matrix) is useful for quickly calculating precision and recall given the predicted labels from a model.  The other main visualization technique for showing the performance of a classification model is the [**Receiver Operating Characteristic \(ROC\) curve**](how-a-roc-curve-works.md).
 

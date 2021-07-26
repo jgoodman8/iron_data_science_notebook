@@ -31,7 +31,7 @@
 ### K-Nearest Neighbors
 
 * Supervised algorithm
-* Based in **how similar is an instance from its k neighbors**
+* Based on **how similar is an instance from its k neighbors**
 * There is no training
 * It measures the distance between instances \(Euclidian, Manhattan...\)
 
@@ -41,7 +41,7 @@
 
 * Unsupervised algorithm
 * Clustering algorithm
-* Iterativelly assigns data to k groups
+* Iteratively assigns data to k groups
 
 {% page-ref page="../machine-learning-algorithms/unsupervised-learning/clustering/kmeans.md" %}
 

@@ -21,6 +21,6 @@ Statistical significance is a measure of **whether your research findings are me
 
 1. **Decide on an alpha level**. An alpha level is the **error rate you are willing to work with** \(usually 5% or less\).
 2. Conduct the research.
-3. **Calculate an** [**statistic**](../statistics/statistic-vs-parameter.md) \(from a data sample\).
+3. **Calculate a** [**statistic**](../statistics/statistic-vs-parameter.md) \(from a data sample\).
 4. **Compare** the statistic **with one statistic from a** [**statistical table**](https://www.statisticshowto.datasciencecentral.com/tables/).
 
