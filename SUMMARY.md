@@ -73,6 +73,16 @@
 
 ## Algorithms & data structures
 
+* [Array](algorithms-and-data-structures/array/README.md)
+  * [Two Sum](algorithms-and-data-structures/array/two-sum.md)
+* [Binary](algorithms-and-data-structures/binary.md)
+* [Tree](algorithms-and-data-structures/tree.md)
+* [Matrix](algorithms-and-data-structures/matrix.md)
+* [Linked List](algorithms-and-data-structures/linked-list.md)
+* [String](algorithms-and-data-structures/string.md)
+* [Interval](algorithms-and-data-structures/interval.md)
+* [Graph](algorithms-and-data-structures/graph.md)
+* [Heap](algorithms-and-data-structures/heap.md)
 * [Dynamic Programming](algorithms-and-data-structures/dynamic-programming/README.md)
   * [Fibonacci](algorithms-and-data-structures/dynamic-programming/fibonacci.md)
   * [Grid Traveler](algorithms-and-data-structures/dynamic-programming/grid-traveler.md)
