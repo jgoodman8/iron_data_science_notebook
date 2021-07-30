@@ -74,10 +74,11 @@
 ## Algorithms & data structures
 
 * [Array](algorithms-and-data-structures/array/README.md)
-  * [Best time to by and sell stock](algorithms-and-data-structures/array/best-time-to-by-and-sell-stock.md)
   * [Two Sum](algorithms-and-data-structures/array/two-sum.md)
+  * [Best time to by and sell stock](algorithms-and-data-structures/array/best-time-to-by-and-sell-stock.md)
 * [Binary](algorithms-and-data-structures/binary.md)
-* [Tree](algorithms-and-data-structures/tree.md)
+* [Tree](algorithms-and-data-structures/tree/README.md)
+  * [Maximum Depth of Binary Tree](algorithms-and-data-structures/tree/maximum-depth-of-binary-tree.md)
 * [Matrix](algorithms-and-data-structures/matrix.md)
 * [Linked List](algorithms-and-data-structures/linked-list.md)
 * [String](algorithms-and-data-structures/string.md)
