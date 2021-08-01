@@ -79,6 +79,7 @@
 * [Binary](algorithms-and-data-structures/binary/README.md)
   * [Sum of Two Integers](algorithms-and-data-structures/binary/sum-of-two-integers.md)
 * [Tree](algorithms-and-data-structures/tree/README.md)
+  * [Binary Tree Maximum Path Sum](algorithms-and-data-structures/tree/binary-tree-maximum-path-sum.md)
   * [Invert/Flip Binary Tree](algorithms-and-data-structures/tree/invert-flip-binary-tree.md)
   * [Maximum Depth of Binary Tree](algorithms-and-data-structures/tree/maximum-depth-of-binary-tree.md)
   * [Same Tree](algorithms-and-data-structures/tree/same-tree.md)
