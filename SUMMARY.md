@@ -83,6 +83,8 @@
   * [Invert/Flip Binary Tree](algorithms-and-data-structures/tree/invert-flip-binary-tree.md)
   * [Maximum Depth of Binary Tree](algorithms-and-data-structures/tree/maximum-depth-of-binary-tree.md)
   * [Same Tree](algorithms-and-data-structures/tree/same-tree.md)
+  * [Binary Tree Paths](algorithms-and-data-structures/tree/binary-tree-paths.md)
+  * [Binary Tree Maximum Path Sum](algorithms-and-data-structures/tree/binary-tree-maximum-path-sum-1.md)
 * [Matrix](algorithms-and-data-structures/matrix.md)
 * [Linked List](algorithms-and-data-structures/linked-list.md)
 * [String](algorithms-and-data-structures/string.md)
