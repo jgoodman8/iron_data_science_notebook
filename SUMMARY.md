@@ -5,10 +5,10 @@
 ## ML & Data Science <a id="ml-datascience"></a>
 
 * [Frequent Questions](ml-datascience/frequent-questions/README.md)
+  * [Discriminative vs Generative models](ml-datascience/frequent-questions/discriminative-vs-generative-models.md)
   * [Supervised vs Unsupervised learning](ml-datascience/frequent-questions/supervised-vs-unsupervised-learning.md)
   * [Batch vs Online Learning](ml-datascience/frequent-questions/batch-vs-online-learning.md)
   * [Instance-based vs Model-based Learning](ml-datascience/frequent-questions/instance-based-vs-model-based-learning.md)
-  * [Discriminative vs Generative models](ml-datascience/frequent-questions/discriminative-vs-generative-models.md)
   * [Bias-Variance Tradeoff](ml-datascience/frequent-questions/bias-variance-tradeoff.md)
   * [Probability vs Likelihood](ml-datascience/frequent-questions/probability-vs-likelihood.md)
   * [Covariance vs Correlation Matrix](ml-datascience/frequent-questions/covariance-vs-correlation-matrix.md)

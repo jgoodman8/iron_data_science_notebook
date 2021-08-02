@@ -12,8 +12,8 @@
 ## Model-based learning
 
 * It "learns" some parameters by a specified **performance measure**, expressed as:
-  * a _fitness function:_ how good the model is, or
-  * a _cost function:_ how bad the model is.
+  * a _**fitness function**:_ how good the model is, or
+  * a _**cost function**:_ how bad the model is.
 * Examples:
   * Linear Regression
   * Logistic Regression

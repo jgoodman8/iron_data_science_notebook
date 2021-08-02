@@ -8,7 +8,7 @@ _More reading:_ [_Bias-Variance Tradeoff \(Wikipedia\)_](https://en.wikipedia.or
 
 ## What is the bias error?
 
-In statistics, the **bias** \(or **bias function**\) of an estimator is the difference between the estimator's expected value and the true value of the parameter being estimated. An estimator or decision rule with zero bias is called **unbiased.** So. it measures the difference between the estimated value by a model or measurement method and the real one.
+In statistics, an estimator's bias \(or **bias function**\) is the difference between the estimator's expected value and the true value of the parameter being estimated. An estimator or decision rule with zero bias is called **unbiased.** So. it measures the difference between the estimated value by a model or measurement method and the real one.
 
 ![The bias is expressed as the systematic error](../../.gitbook/assets/illustration-of-precision-error-and-bias-error-reprinted-with-minor-changes-from-asme.png)
 
@@ -30,7 +30,7 @@ This **tradeoff** is the property of a set of predictive models whereby models w
 
 A high **bias** error is due to erroneous or overly **simplistic assumptions in the learning algorithm** you’re using. This can lead to the model **underfitting** your data, making it hard for it to have high predictive accuracy and for you to generalize your knowledge from the training set to the test set.
 
-A high **variance** error is due to **too much complexity** in the learning algorithm you’re using. This leads to the algorithm being highly sensitive to high degrees of variation in your training data, which can lead your model to **overfit** the data. You’ll be carrying **too much noise** from your training data for your model to be very useful for your test data.
+A high **variance** error is due to **too much complexity in the learning algorithm you’re using**. This leads to the algorithm being highly sensitive to high degrees of variation in your training data, which can lead your model to **overfit** the data. You’ll be carrying **too much noise** from your training data for your model to be very useful for your test data.
 
 ![](../../.gitbook/assets/image%20%2816%29.png)
 
@@ -43,7 +43,7 @@ total\_error = bias\_error² + variance\_error + irreducible\_error
 Some ways to achieve the Bias-Variance Tradeoff:
 
 * By minimizing the total error
-  * Generally, resampling-based measures such as **cross-validation** should be preferred over theoretical measures such as [Aikake’s Information Criteria](http://www.statisticshowto.com/akaikes-information-criterion/).
+  * Generally, **resampling-based measures** such as **cross-validation** should be preferred over theoretical measures such as [Aikake’s Information Criteria](http://www.statisticshowto.com/akaikes-information-criterion/).
 * Using **Bagging** and **Resampling** techniques
   * One modeling algorithm that makes use of bagging is **Random Forests**. Here, the bias of the full model is equivalent to the bias of a single decision tree–which itself has high variance. By creating many of these trees, in effect a “forest”, and then averaging them the variance of the final model can be greatly reduced over that of a single tree.
 * Adjusting minor values in algorithms
