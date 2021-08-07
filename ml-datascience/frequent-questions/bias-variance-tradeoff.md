@@ -42,6 +42,8 @@ The **bias-variance decomposition** essentially **decomposes the learning error*
 _total\_error = bias\_error² + variance\_error + irreducible\_error_
 {% endhint %}
 
+![](../../.gitbook/assets/image%20%28102%29.png)
+
 ### How can we overcome it?
 
 Some ways to achieve the Bias-Variance Tradeoff:
