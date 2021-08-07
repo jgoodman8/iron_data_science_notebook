@@ -48,8 +48,7 @@ _total\_error = bias\_error² + variance\_error + irreducible\_error_
 
 Some ways to achieve the Bias-Variance Tradeoff:
 
-* By minimizing the total error
-  * Generally, **resampling-based measures** such as **cross-validation** should be preferred over theoretical measures such as [Aikake’s Information Criteria](http://www.statisticshowto.com/akaikes-information-criterion/).
+* Generally, **resampling-based measures** such as **cross-validation** should help.
 * Using **Bagging** and **Resampling** techniques
   * One modeling algorithm that makes use of bagging is **Random Forests**. Here, the bias of the full model is equivalent to the bias of a single decision tree–which itself has high variance. By creating many of these trees, in effect a “forest”, and then averaging them the variance of the final model can be greatly reduced over that of a single tree.
 * **Adjusting minor parameters** in some estimators:
