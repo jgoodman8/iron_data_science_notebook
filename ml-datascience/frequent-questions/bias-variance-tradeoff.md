@@ -20,13 +20,7 @@ In statistics, an estimator's bias \(or **bias function**\) is the **difference 
 
 ## What is variance error?
 
-In statistics, it is defined as the **squared deviation of a given variable from its mean**. It measures how far a set of values is spread out from their average value.
-
-$$
-Var(X) = E|(X - \mu)² |
-$$
-
-{% page-ref page="../statistics/" %}
+Variance is the variability of model prediction for a given data point or a value that tells us the spread of our data. A model with **high variance pays** a lot of **attention to training data and** does **not generalize on unseen data**. As a result, such models perform very well on training data but have high error rates on test data.
 
 ## Bias vs Variance
 
