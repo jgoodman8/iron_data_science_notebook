@@ -20,7 +20,7 @@ In statistics, an estimator's bias \(or **bias function**\) is the **difference 
 
 ## What is variance error?
 
-Variance is the variability of model prediction for a given data point or a value that tells us the spread of our data. A model with **high variance pays** a lot of **attention to training data and** does **not generalize on unseen data**. As a result, such models perform very well on training data but have high error rates on test data.
+Variance is the variability of model prediction for a given data point or a value that tells us the spread of our data. A model with **high variance pays** a lot of **attention to training data and** does **not generalize on unseen data**. As a result, such models **perform very well on training data** but have **high error rates on test data**.
 
 ## Bias vs Variance
 
