@@ -34,10 +34,10 @@ A high **variance** error is due to **too much complexity in the learning algori
 
 ![](../../.gitbook/assets/image%20%2816%29.png)
 
-The **bias-variance decomposition** essentially **decomposes the learning error** from any algorithm by adding the bias, the variance, and a bit of irreducible error due to noise in the underlying dataset. Essentially, if you make the model more complex and add more variables, you’ll lose bias but gain some variance — in order to get the optimally reduced amount of error, you’ll have to tradeoff bias and variance. You don’t want either high bias or high variance in your model.
+The **bias-variance decomposition** essentially **decomposes the learning error** from any algorithm by adding the **bias**, the **variance**, and **a bit of irreducible error due to noise in the underlying dataset**. Essentially, if you make the model more complex and add more variables, you’ll lose bias but gain some variance — in order to get the optimally reduced amount of error, you’ll have to tradeoff bias and variance. You don’t want either high bias or high variance in your model.
 
 {% hint style="info" %}
-total\_error = bias\_error² + variance\_error + irreducible\_error
+_total\_error = bias\_error² + variance\_error + irreducible\_error_
 {% endhint %}
 
 Some ways to achieve the Bias-Variance Tradeoff:
