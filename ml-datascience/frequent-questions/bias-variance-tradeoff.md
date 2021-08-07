@@ -8,7 +8,7 @@ _More reading:_ [_Bias-Variance Tradeoff \(Wikipedia\)_](https://en.wikipedia.or
 
 ## What is the bias error?
 
-In statistics, an estimator's bias \(or **bias function**\) is the difference between the estimator's expected value and the true value of the parameter being estimated. An estimator or decision rule with zero bias is called **unbiased.** So. it measures the difference between the estimated value by a model or measurement method and the real one.
+In statistics, an estimator's bias \(or **bias function**\) is the **difference between the estimator's expected value and the true value** of the instance being estimated. An estimator or decision rule with zero bias is called **unbiased.** So. it measures the difference between the estimated value by a model or measurement method and the real one.
 
 ![The bias is expressed as the systematic error](../../.gitbook/assets/illustration-of-precision-error-and-bias-error-reprinted-with-minor-changes-from-asme.png)
 
@@ -20,7 +20,13 @@ In statistics, an estimator's bias \(or **bias function**\) is the difference be
 
 ## What is variance error?
 
-In statistics, it is defined as the squared deviation of a given variable from its mean. It measures how far a set of values is spread out from their average value.
+In statistics, it is defined as the **squared deviation of a given variable from its mean**. It measures how far a set of values is spread out from their average value.
+
+$$
+Var(X) = E|(X - \mu)² |
+$$
+
+{% page-ref page="../statistics/" %}
 
 ## Bias vs Variance
 
