@@ -52,8 +52,8 @@ Some ways to achieve the Bias-Variance Tradeoff:
   * Generally, **resampling-based measures** such as **cross-validation** should be preferred over theoretical measures such as [Aikake’s Information Criteria](http://www.statisticshowto.com/akaikes-information-criterion/).
 * Using **Bagging** and **Resampling** techniques
   * One modeling algorithm that makes use of bagging is **Random Forests**. Here, the bias of the full model is equivalent to the bias of a single decision tree–which itself has high variance. By creating many of these trees, in effect a “forest”, and then averaging them the variance of the final model can be greatly reduced over that of a single tree.
-* Adjusting minor values in algorithms
-  * Both the k-nearest algorithms and Support Vector Machines\(SVM\) algorithms have low bias and high variance. But the trade-offs in both these cases can be changed. 
+* **Adjusting minor parameters** in some estimators:
+  * Both the **k-nearest** and Support Vector Machines\(**SVM**\) algorithms have **low bias and high variance**. But the trade-offs in both these cases can be changed:
     * In the K-nearest algorithm, the value of k can be increased, which would simultaneously increase the number of neighbors that contribute to the prediction. This in turn would increase the bias of the model. 
     * Whereas, in the SVM algorithm, the trade-off can be changed by an increase in the C parameter that would influence the violations of the margin allowed in the training data. This will increase the bias but decrease the variance.
 * Using a proper Machine learning workflow with good data splits, cross-validation...!
