@@ -50,7 +50,7 @@ It repeats K-Fold n times. It can be used when one requires to run K-fold n time
 
 ### Leave One Out
 
-[LOOCV](https://machinelearningmastery.com/loocv-for-evaluating-machine-learning-algorithms/) is a simple cross-validation: each learning set is created by taking all the samples except one, the test set being the sample left out. Thus, for samples, we have different training sets and different tests set. 
+In [LOOCV](https://machinelearningmastery.com/loocv-for-evaluating-machine-learning-algorithms/) each learning set is created by taking all the samples except one, the test set being the sample left out. Thus, for samples, we have different training sets and different tests set. 
 
 This cross-validation procedure does not waste much data as **only one sample is removed from the training set**. Thus, it's appropriate when you have a small dataset or when an accurate estimate of model performance is more important than the computational cost of the method.
 
