@@ -8,6 +8,8 @@
 \_\_[_Why and how to Cross Validate a Model?_](https://towardsdatascience.com/why-and-how-to-cross-validate-a-model-d6424b45261f)
 {% endhint %}
 
+![](https://media.giphy.com/media/c0NwRD0Vi5Cta/giphy.gif)
+
 ## Why is it needed?
 
 Learning the parameters of a prediction function and testing it on the same data is a methodological mistake: a model that would just repeat the labels of the samples that it has just seen would have a perfect score but would **fail to predict** anything useful **on yet-unseen data**. This situation is called **overfitting**. To avoid it, it is common practice when performing a \(supervised\) machine learning experiment to hold out part of the available data as a test set X\_test, y\_test. Here is a flowchart of typical cross-validation workflow in model training. The best parameters can be determined by grid search techniques.
