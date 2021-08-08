@@ -38,6 +38,7 @@
   * [Activation Functions](ml-datascience/ml-techniques/activation-functions.md)
   * [Ensemble methods](ml-datascience/ml-techniques/ensemble-methods.md)
   * [Cross-validation](ml-datascience/ml-techniques/cross-validation.md)
+  * [Hyperparameter tuning](ml-datascience/ml-techniques/hyperparameter-tuning.md)
   * [Pre-process](ml-datascience/ml-techniques/pre-process/README.md)
     * [PCA](ml-datascience/ml-techniques/pre-process/pca.md)
 * [Machine Learning Algorithms](ml-datascience/machine-learning-algorithms/README.md)
