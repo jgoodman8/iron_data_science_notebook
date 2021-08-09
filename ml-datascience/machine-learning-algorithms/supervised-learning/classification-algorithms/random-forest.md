@@ -12,8 +12,8 @@ The **random forest** approach is a [**bagging**](../../../ml-techniques/ensembl
 
 Additionally, RF uses another trick to make the multiple fitted trees a bit less correlated with each other: when growing each tree, instead of only sampling over the observations in the dataset to generate a bootstrap sample, we also **sample over features** and keep only a **random subset** of them to build the tree.
 
-{% hint style="danger" %}
-**Bagging + Feature sampling**
+{% hint style="success" %}
+**Bagging + Feature sampling = Lower Variance Error**
 {% endhint %}
 
 This way, all trees do not look at the exact same information to make their decisions and it **reduces the correlation** between the different returned outputs and generates a model more robust to missing data.
