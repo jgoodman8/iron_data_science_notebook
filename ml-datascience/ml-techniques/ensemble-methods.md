@@ -50,8 +50,8 @@ Consists in **fitting SEQUENTIALLY multiple weak learners** in a very adaptative
 * Each model in the sequence is fitted giving **more importance to observations in the dataset that were badly handled by the previous models** in the sequence.
 *  So, each new model **focuses its efforts on the most difficult observations** to fit.
 
-{% hint style="danger" %}
-At the end of the process, we get a **strong learner with a lower bias**.
+{% hint style="success" %}
+At the end of the process, we get a **strong learner with a LOWER BIAS**
 {% endhint %}
 
 * Base models that are often considered for boosting are **models with a low variance but high bias**.
