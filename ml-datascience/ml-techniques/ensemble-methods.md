@@ -31,7 +31,7 @@ Notice that is important to be **coherent with the way we aggregate these models
 
 * Effective method **when data is limited**.
 * It **can be parallelized**.
-* The main idea is to **fit several independent models** and **averages their predictions** in order to obtain a model with a lower variance.
+* The main idea is to **fit several independent models** and to **average their predictions** in order to obtain a model with a lower variance.
 * It generates **bootstrap samples** \(representativity from the original dataset but independent from each other\) to fit each model.
 * There are several possible ways to aggregate the multiple models fitted in parallel:
   * For a regression problem, we can literally **average the outputs**.
