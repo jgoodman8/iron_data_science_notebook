@@ -17,7 +17,7 @@ Most of the time, these _weak models_ perform not so well by themselves either b
 **The idea** of ensemble methods is to try **reducing bias or variance of such weak learners by combining several of them** together.
 {% endhint %}
 
-Notice that is important to be **coherent with the way we aggregate these models**. For instance, when we choose models with high variance, we should combine them with an aggregating method that tends to reduce variance.
+Notice that is important to be **coherent with the way we aggregate these models**. For instance, when selecting models with high variance, we should combine them with an aggregation method that helps to reduce variance.
 
 {% hint style="success" %}
 **The goals:**
