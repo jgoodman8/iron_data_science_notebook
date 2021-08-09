@@ -13,7 +13,7 @@ This is a machine learning paradigm where **multiple** _**weak learners**_ are t
 
 Most of the time, these _weak models_ perform not so well by themselves either because they have a high bias or because they have too much variance to be robust \(high degree of freedom models, for example\). 
 
-{% hint style="info" %}
+{% hint style="success" %}
 **The idea** of ensemble methods is to try **reducing bias or variance of such weak learners by combining several of them** together.
 {% endhint %}
 
