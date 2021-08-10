@@ -34,6 +34,12 @@ A high **variance** error is due to **too much complexity in the learning algori
 
 ![](../../.gitbook/assets/image%20%2816%29.png)
 
+{% hint style="success" %}
+Too Simple Models [![U+21E8.gif](https://upload.wikimedia.org/wikipedia/commons/6/61/U%2B21E8.gif)](https://en.wikipedia.org/wiki/File:U%2B21E8.gif)Bias Error
+
+Too Complex Models[![U+21E8.gif](https://upload.wikimedia.org/wikipedia/commons/6/61/U%2B21E8.gif)](https://en.wikipedia.org/wiki/File:U%2B21E8.gif)Variance Error
+{% endhint %}
+
 ### Error decomposition
 
 The **bias-variance decomposition** essentially **decomposes the learning error** from any algorithm by adding the **bias**, the **variance**, and **a bit of irreducible error due to noise in the underlying dataset**. Essentially, if you make the model more complex and add more variables, you’ll lose bias but gain some variance — in order to get the optimally reduced amount of error, you’ll have to tradeoff bias and variance. You don’t want either high bias or high variance in your model.
