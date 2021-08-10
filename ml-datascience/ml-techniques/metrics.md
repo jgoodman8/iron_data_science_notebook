@@ -22,7 +22,7 @@ Confusion Matrix is a **performance measurement** for machine learning **classif
 
 * **True positive**
   * Predicted 1 $$\Rightarrow$$ Actual 1
-* **True negative**
+* **False positive**
   * Predicted 1 $$\Rightarrow$$ Actual 0
   * This is a _**Type-1 Error**_
 * **False negative**
