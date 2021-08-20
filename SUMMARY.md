@@ -91,6 +91,7 @@
 * [Linked List](algorithms-and-data-structures/linked-list/README.md)
   * [Reverse Linked List](algorithms-and-data-structures/linked-list/reverse-linked-list.md)
   * [Detect cycle](algorithms-and-data-structures/linked-list/detect-cycle.md)
+  * [Merge Two Sorted Lists](algorithms-and-data-structures/linked-list/merge-two-sorted-lists.md)
 * [String](algorithms-and-data-structures/string.md)
 * [Interval](algorithms-and-data-structures/interval.md)
 * [Graph](algorithms-and-data-structures/graph.md)
