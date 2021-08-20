@@ -1,4 +1,4 @@
-# Detect cycle
+# Detect Cycle
 
 [https://leetcode.com/problems/linked-list-cycle/](https://leetcode.com/problems/linked-list-cycle/)
 
