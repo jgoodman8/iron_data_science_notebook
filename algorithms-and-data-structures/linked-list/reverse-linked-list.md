@@ -2,6 +2,8 @@
 
 [https://leetcode.com/problems/reverse-linked-list](https://leetcode.com/problems/reverse-linked-list)
 
+[https://www.geeksforgeeks.org/reverse-a-linked-list/](https://www.geeksforgeeks.org/reverse-a-linked-list/)
+
 ```python
 # Definition for singly-linked list.
 # class ListNode:
