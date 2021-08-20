@@ -15,9 +15,12 @@ class Solution:
     """
     
     def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
-        return self.mergeKListsDivideAnConquer(lists)
+        return self.mergeKListsDivideAnConquer(lists)  # best solution
 
-    def mergeKListsDivideAnConquer(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
+    def mergeKListsDivideAnConquer(
+        self, 
+        lists: List[Optional[ListNode]]
+    ) -> Optional[ListNode]:
         """
         Time: O(N*log_2(k)) -> iterates the N nodes log_2(k) times
         Space: O(N) -> N stack calls
@@ -30,30 +33,36 @@ class Solution:
         
         return self.helper_mergeKListsDivideAnConquer(filtered_list)
     
-    def helper_mergeKListsDivideAnConquer(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
+    def helper_mergeKListsDivideAnConquer(
+        self, 
+        lists: List[Optional[ListNode]]
+    ) -> Optional[ListNode]:
+        
         if len(lists) == 1:
             return lists[0]
         
-        if len(lists) % 2 != 0:
-            middle = int(len(lists) / 2)
-            return self.mergeTwoListsRecursive(
-                l1=self.mergeTwoListsRecursive(
+        if len(lists) % 2 != 0:  # if impair length 
+            middle = int(len(lists) / 2)  # find middle
+            return self.mergeTwoListsRecursive(  # apply the merge twice
+                l1=self.mergeTwoListsRecursive(  # for the two halfs
                     l1=self.helper_mergeKListsDivideAnConquer(lists[:middle]), 
                     l2=self.helper_mergeKListsDivideAnConquer(lists[middle+1:])
                 ),
-                l2=lists[middle]
+                l2=lists[middle]  # and for the middle one
             )
         
+        # find middle for pair list
         middle = int(len(lists) / 2)
-        print(middle)
-
         return self.mergeTwoListsRecursive(
             l1=self.helper_mergeKListsDivideAnConquer(lists[:middle]), 
             l2=self.helper_mergeKListsDivideAnConquer(lists[middle:])
         )
 
     
-    def mergeKListsTwoByTwo(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
+    def mergeKListsTwoByTwo(
+        self, 
+        lists: List[Optional[ListNode]]
+    ) -> Optional[ListNode]:
         """
         Time: O(N*k) -> iterates the N nodes for the k lists
         Space: O(N) -> N stack calls
@@ -97,24 +106,32 @@ class Solution:
         
         return curr
     
-    def mergeKListsCompareOneByOne(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
+    def mergeKListsCompareOneByOne(
+        self, 
+        lists: List[Optional[ListNode]]
+    ) -> Optional[ListNode]:
         """
-        Time: O(N*k) -> find the smallest node for the k list until all N nodes are visited
+        Time: O(N*k) -> find the smallest node for the k lists 
+                        until all N nodes are visited
         Space: O(1) from variables + O(N) from stack calls => O(N)
         """
-        
-        
+                
         node, index = self.findMinNode(lists)
         if node is None:
             return None
         
-        merged = self.mergeKListsRecursive(lists[:index] + [node.next] +  lists[index+1:])
+        merged = self.mergeKListsRecursive(
+            lists[:index] + [node.next] +  lists[index+1:]
+        )
         
         node.next = merged
         
         return node
     
-    def findMinNode(self, lists: List[Optional[ListNode]]) -> Tuple[ListNode, int]:
+    def findMinNode(
+        self, 
+        lists: List[Optional[ListNode]]
+    ) -> Tuple[ListNode, int]:
         values = list(map(lambda node: node.val if node else None, lists))
         not_none_values = list(filter(lambda item: item is not None, values))
         
