@@ -15,7 +15,9 @@
 {% hint style="success" %}
 _All **variable names** in Python are said to be **references to the values.**_ 
 
-_Python keeps an internal counter on how many references an object has**.**_
+_Python keeps an **internal counter** on **how many references** an object has**.**_ 
+
+Once the **counter goes to zero** _****_the **GB** in Python removes the object, thus **freeing up the memory**.
 {% endhint %}
 
 ### Immutable Objects
