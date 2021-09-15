@@ -26,7 +26,7 @@ description: >-
 
 {% page-ref page="algorithms-and-data-structures/dynamic-programming/" %}
 
-{% page-ref page="related-topics/python.md" %}
+{% page-ref page="related-topics/python/" %}
 
 
 

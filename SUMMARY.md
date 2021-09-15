@@ -67,7 +67,9 @@
 ## Related Topics
 
 * [Intro](related-topics/intro.md)
-* [Python](related-topics/python.md)
+* [Python](related-topics/python/README.md)
+  * [Global Interpreter Lock \(GIL\)](related-topics/python/global-interpreter-lock-gil.md)
+  * [Mutability](related-topics/python/mutability.md)
 * [SQL](related-topics/sql.md)
 * [Combinatorics](related-topics/tba.md)
 * [Data Engineering Questions](related-topics/data-engineering-questions.md)
