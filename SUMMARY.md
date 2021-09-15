@@ -73,7 +73,8 @@
 * [SQL](related-topics/sql.md)
 * [Combinatorics](related-topics/tba.md)
 * [Data Engineering Questions](related-topics/data-engineering-questions.md)
-* [Distributed computation](related-topics/distributed-computation.md)
+* [Distributed computation](related-topics/distributed-computation/README.md)
+  * [REST vs gRPC](related-topics/distributed-computation/rest-vs-grpc.md)
 
 ## Algorithms & data structures
 

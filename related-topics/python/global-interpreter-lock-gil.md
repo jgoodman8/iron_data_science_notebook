@@ -27,5 +27,5 @@ _Related sources:_
 * C libraries like pandas, numpy, or numba use the CPython macros to [manually release the GIL](https://stackoverflow.com/a/36480941).
 * Another option to take advantage of multicore machines is **creating processes instead of threads**. However, this creates an **overhead \(**by generating a copy of the parent memory state\) and making less efficient the communication between processes \(and shared variables\).
 
-{% page-ref page="../distributed-computation.md" %}
+{% page-ref page="../distributed-computation/" %}
 
