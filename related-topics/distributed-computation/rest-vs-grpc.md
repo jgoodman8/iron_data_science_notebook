@@ -29,5 +29,5 @@
 ### Main pains of gRPC
 
 * Contract management and code generation
-* Strict API contract in environments with regular updates in contracts.
+* A strict API contract in environments with regular updates in contracts.
 
