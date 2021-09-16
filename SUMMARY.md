@@ -70,6 +70,7 @@
 * [Python](related-topics/python/README.md)
   * [Global Interpreter Lock \(GIL\)](related-topics/python/global-interpreter-lock-gil.md)
   * [Mutability](related-topics/python/mutability.md)
+  * [AsyncIO](related-topics/python/asyncio.md)
 * [SQL](related-topics/sql.md)
 * [Combinatorics](related-topics/tba.md)
 * [Data Engineering Questions](related-topics/data-engineering-questions.md)
