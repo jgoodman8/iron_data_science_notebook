@@ -8,11 +8,7 @@ description: >-
 
 
 
-![](.gitbook/assets/ironman.jpg)
-
-{% hint style="warning" %}
-####                                      This notebook is currently under construction
-{% endhint %}
+![Tell me, Jarvis](.gitbook/assets/ironman.jpg)
 
 ## Index
 
