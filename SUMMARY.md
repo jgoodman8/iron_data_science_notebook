@@ -2,7 +2,7 @@
 
 * [The iron data science notebook](README.md)
 
-## ML & Data Science <a id="ml-datascience"></a>
+## ML & Data Science <a href="#ml-datascience" id="ml-datascience"></a>
 
 * [Frequent Questions](ml-datascience/frequent-questions/README.md)
   * [Discriminative vs Generative models](ml-datascience/frequent-questions/discriminative-vs-generative-models.md)
@@ -68,7 +68,7 @@
 
 * [Intro](related-topics/intro.md)
 * [Python](related-topics/python/README.md)
-  * [Global Interpreter Lock \(GIL\)](related-topics/python/global-interpreter-lock-gil.md)
+  * [Global Interpreter Lock (GIL)](related-topics/python/global-interpreter-lock-gil.md)
   * [Mutability](related-topics/python/mutability.md)
   * [AsyncIO](related-topics/python/asyncio.md)
 * [SQL](related-topics/sql.md)
@@ -100,6 +100,7 @@
   * [Merge k Sorted Lists](algorithms-and-data-structures/linked-list/merge-k-sorted-lists.md)
 * [String](algorithms-and-data-structures/string/README.md)
   * [Longest Substring Without Repeating Characters](algorithms-and-data-structures/string/longest-substring-without-repeating-characters.md)
+  * [Longest Repeating Character Replacement](algorithms-and-data-structures/string/longest-repeating-character-replacement.md)
 * [Interval](algorithms-and-data-structures/interval.md)
 * [Graph](algorithms-and-data-structures/graph.md)
 * [Heap](algorithms-and-data-structures/heap.md)
@@ -112,4 +113,3 @@
   * [Can Construct](algorithms-and-data-structures/dynamic-programming/can-construct.md)
   * [Count Construct](algorithms-and-data-structures/dynamic-programming/count-construct.md)
   * [All Construct](algorithms-and-data-structures/dynamic-programming/all-construct.md)
-
