@@ -101,6 +101,7 @@
 * [String](algorithms-and-data-structures/string/README.md)
   * [Longest Substring Without Repeating Characters](algorithms-and-data-structures/string/longest-substring-without-repeating-characters.md)
   * [Longest Repeating Character Replacement](algorithms-and-data-structures/string/longest-repeating-character-replacement.md)
+  * [Minimum Window Substring](algorithms-and-data-structures/string/minimum-window-substring.md)
 * [Interval](algorithms-and-data-structures/interval.md)
 * [Graph](algorithms-and-data-structures/graph.md)
 * [Heap](algorithms-and-data-structures/heap.md)

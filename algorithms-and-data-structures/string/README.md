@@ -1,8 +1,8 @@
 # String
 
 * [x] Longest Substring Without Repeating Characters - [https://leetcode.com/problems/longest-substring-without-repeating-characters/](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
-* [ ] Longest Repeating Character Replacement - [https://leetcode.com/problems/longest-repeating-character-replacement/](https://leetcode.com/problems/longest-repeating-character-replacement/)
-* [ ] Minimum Window Substring - [https://leetcode.com/problems/minimum-window-substring/](https://leetcode.com/problems/minimum-window-substring/)
+* [x] Longest Repeating Character Replacement - [https://leetcode.com/problems/longest-repeating-character-replacement/](https://leetcode.com/problems/longest-repeating-character-replacement/)
+* [x] Minimum Window Substring - [https://leetcode.com/problems/minimum-window-substring/](https://leetcode.com/problems/minimum-window-substring/)
 * [ ] Valid Anagram - [https://leetcode.com/problems/valid-anagram/](https://leetcode.com/problems/valid-anagram/)
 * [ ] Group Anagrams - [https://leetcode.com/problems/group-anagrams/](https://leetcode.com/problems/group-anagrams/)
 * [ ] Valid Parentheses - [https://leetcode.com/problems/valid-parentheses/](https://leetcode.com/problems/valid-parentheses/)
