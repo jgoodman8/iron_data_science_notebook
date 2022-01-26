@@ -13,7 +13,7 @@ _Sources:_
 
 > For further info about overfitting and how to avoid it, check out the [_Bias-Variance Tradeoff_](../frequent-questions/bias-variance-tradeoff.md) section.
 
-### How does it work?
+### How does overfitting happen?
 
 Let's imagine we want to build a simple model:
 
