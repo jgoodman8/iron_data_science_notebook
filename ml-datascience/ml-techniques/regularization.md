@@ -17,7 +17,7 @@ _Sources:_
 
 Let's imagine we want to build a simple model:
 
-* Given our training set $$X$$, we try applying a linear regression $$y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \beta_3 x_3$$. Where each $$\beta_i$$ represents the _**coefficient estimates**_ for the different $$X_i$$ variables.
+* Given our training set $$X$$, we try applying a linear regression $$y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \beta_3 x_3$$. Where each $$\beta_i$$ represents the _**coefficient estimates**_ for the different $$x_i$$ variables.
 * We measure [_accuracy_](metrics.md#accuracy) regarding a [_loss metric_](loss-functions.md)_,_ known as _**residual sum of squares**_ or _RSS_. The coefficients are chosen, such that they minimize this loss function.
 
 $$
