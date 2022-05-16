@@ -1,7 +1,7 @@
 # Mutability
 
 {% hint style="info" %}
-\_\_[_Python Basics: Mutable vs Immutable Objects_](https://towardsdatascience.com/https-towardsdatascience-com-python-basics-mutable-vs-immutable-objects-829a0cb1530a)\_\_
+__[_Python Basics: Mutable vs Immutable Objects_](https://towardsdatascience.com/https-towardsdatascience-com-python-basics-mutable-vs-immutable-objects-829a0cb1530a)__
 {% endhint %}
 
 ### Some concepts
@@ -10,20 +10,20 @@
 * An **object’s type** defines the **possible values** **and operations.** It is **unchangeable** like the identity.
 * The _value_ of some objects can change, depending on the type.
 
- Some objects contain references to other objects, these objects are called **containers** \(like tuple, list, or dictionary\).
+&#x20;Some objects contain references to other objects, these objects are called **containers** (like tuple, list, or dictionary).
 
 {% hint style="success" %}
-_All **variable names** in Python are said to be **references to the values.**_ 
+_All **variable names** in Python are said to be **references to the values.**_&#x20;
 
-_Python keeps an **internal counter** on **how many references** an object has**.**_ 
+_Python keeps an **internal counter** on **how many references** an object has**.**_&#x20;
 
-Once the **counter goes to zero** _****_the **GB** in Python removes the object, thus **freeing up the memory**.
+Once the **counter goes to zero **_****_ the **GB** in Python removes the object, thus **freeing up the memory**.
 {% endhint %}
 
 ### Immutable Objects
 
 {% hint style="warning" %}
- Every time when we try to **update the value of an immutable object**, a **new object is created** instead.
+&#x20;Every time when we try to **update the value of an immutable object**, a **new object is created** instead.
 {% endhint %}
 
 That’s when we have updated the first string it doesn’t change the value of the second. Immutable data types:
@@ -60,7 +60,7 @@ a += "!"
 
 ### Container objects
 
- Some objects contain references to other objects, these objects are called **containers** \(ie, tuple, list, or dictionary\). The **value of an immutable container** that contains a reference to a mutable object **can be changed** if that mutable object is changed. 
+&#x20;Some objects contain references to other objects, these objects are called **containers** (ie, tuple, list, or dictionary). The **value of an immutable container** that contains a reference to a mutable object **can be changed** if that mutable object is changed.&#x20;
 
 However, the **container is still considered immutable** because when we talk about the mutability of a container **only the identities of the contained objects are implied**.
 
@@ -83,7 +83,7 @@ print(person)
 {% hint style="info" %}
 _Related sources:_
 
-* \_\_[_Common Gotchas \(The Hitchhiker’s Guide to Python!\)_](https://docs.python-guide.org/writing/gotchas/#mutable-default-arguments)\_\_
+* __[_Common Gotchas (The Hitchhiker’s Guide to Python!)_](https://docs.python-guide.org/writing/gotchas/#mutable-default-arguments)__
 {% endhint %}
 
 ```python
@@ -114,6 +114,4 @@ def append_to(element, to=None):
     to.append(element)
     return to
 ```
-
-
 

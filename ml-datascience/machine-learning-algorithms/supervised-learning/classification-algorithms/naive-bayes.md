@@ -3,7 +3,7 @@
 {% hint style="info" %}
 _Sources:_
 
-* \_\_[_Naive Bayes \(Scikit-Learn\)_](https://scikit-learn.org/stable/modules/naive_bayes.html)\_\_
+* __[_Naive Bayes (Scikit-Learn)_](https://scikit-learn.org/stable/modules/naive\_bayes.html)__
 {% endhint %}
 
 ## Overview
@@ -30,7 +30,7 @@ $$
 
 ### Advantages
 
-* NB classifiers **have worked quite well in many real-world situations**, famously document classification, sentiment analysis and spam filtering. 
+* NB classifiers **have worked quite well in many real-world situations**, famously document classification, sentiment analysis and spam filtering.&#x20;
 * They **require a small amount of training data** to estimate the necessary parameters.
 * They **can be extremely fast** compared to more sophisticated methods.
 
@@ -40,7 +40,6 @@ $$
 
 ## Types of NB classifiers
 
-* [**Multinomial Naive Bayes**](https://towardsdatascience.com/multinomial-naive-bayes-classifier-for-text-analysis-python-8dd6825ece67)\*\*\*\*
-* \*\*\*\*[**Bernoulli Naive Bayes**](https://stats.stackexchange.com/questions/246101/when-to-use-bernoulli-naive-bayes)\*\*\*\*
-* \*\*\*\*[**Gaussian Naive Bayes**](https://medium.com/@LSchultebraucks/gaussian-naive-bayes-19156306079b)\*\*\*\*
-
+* [**Multinomial Naive Bayes**](https://towardsdatascience.com/multinomial-naive-bayes-classifier-for-text-analysis-python-8dd6825ece67)****
+* ****[**Bernoulli Naive Bayes**](https://stats.stackexchange.com/questions/246101/when-to-use-bernoulli-naive-bayes)****
+* ****[**Gaussian Naive Bayes**](https://medium.com/@LSchultebraucks/gaussian-naive-bayes-19156306079b)****

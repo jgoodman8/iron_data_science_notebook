@@ -3,8 +3,8 @@
 {% hint style="info" %}
 _Sources:_
 
-* \_\_[_Baffled by Covariance and Correlation??? Get the Math and the Application in Analytics for both the terms..._](https://towardsdatascience.com/let-us-understand-the-correlation-matrix-and-covariance-matrix-d42e6b643c22) __[_\(Srishti Saha\)_](https://towardsdatascience.com/@srishtisaha?source=post_page-----d42e6b643c22----------------------)\_\_
-* \_\_[_Understanding the Covariance Matrix \(Data Science Plus\)_](https://datascienceplus.com/understanding-the-covariance-matrix/)\_\_
+* __[_Baffled by Covariance and Correlation??? Get the Math and the Application in Analytics for both the terms..._](https://towardsdatascience.com/let-us-understand-the-correlation-matrix-and-covariance-matrix-d42e6b643c22) __ [_(Srishti Saha)_](https://towardsdatascience.com/@srishtisaha?source=post\_page-----d42e6b643c22----------------------)__
+* __[_Understanding the Covariance Matrix (Data Science Plus)_](https://datascienceplus.com/understanding-the-covariance-matrix/)__
 {% endhint %}
 
 ## Overview
@@ -20,7 +20,7 @@ _Sources:_
 Check [covariance definition](../statistics/the-basics.md#covariance).
 {% endhint %}
 
-Focusing on the two-dimensional case, the covariance matrix for two dimensions \(or $$x$$ and $$y$$variables\) is given by:
+Focusing on the two-dimensional case, the covariance matrix for two dimensions (or $$x$$ and $$y$$variables) is given by:
 
 $$
 C = 
@@ -53,7 +53,7 @@ plt.title('Generated Data')
 plt.axis('equal');
 ```
 
-![](../../.gitbook/assets/image%20%2877%29.png)
+![](<../../.gitbook/assets/image (77).png>)
 {% endtab %}
 
 {% tab title="Sample with Tensorflow Probability" %}
@@ -73,7 +73,7 @@ plt.title('Data set')
 plt.show();
 ```
 
-![](../../.gitbook/assets/image%20%2850%29.png)
+![](<../../.gitbook/assets/image (50).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -96,7 +96,5 @@ correlation = pd.DataFrame(data.rand(10, 10)).corr()
 correlation.style.background_gradient(cmap='coolwarm')
 ```
 
-![](../../.gitbook/assets/image%20%2881%29.png)
-
-
+![](<../../.gitbook/assets/image (81).png>)
 

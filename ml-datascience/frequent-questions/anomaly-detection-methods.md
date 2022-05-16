@@ -3,13 +3,13 @@
 {% hint style="info" %}
 _Sources & credit:_
 
-* \_\_[_What machine learning technique is usually used to solve anomaly detection? \(Quora\)_](https://www.quora.com/What-machine-learning-technique-is-usually-used-to-solve-anomaly-detection)\_\_
-* \_\_[_How to use machine learning for anomaly detection and condition monitoring \(Vegard Flovik\)_](https://towardsdatascience.com/how-to-use-machine-learning-for-anomaly-detection-and-condition-monitoring-6742f82900d7)\_\_
-* \_\_[_5 Ways to Detect Outliers/Anomalies That Every Data Scientist Should Know \(Will Badr\)_](https://towardsdatascience.com/5-ways-to-detect-outliers-that-every-data-scientist-should-know-python-code-70a54335a623)\_\_
-* \_\_[_A Brief Overview of Outlier Detection Techniques \(Sergio Santoyo\)_](https://towardsdatascience.com/a-brief-overview-of-outlier-detection-techniques-1e0b2c19e561)\_\_
-* \_\_[_Intuitively Understanding Variational Autoencoders \(Irhum Shafkat\)_](https://towardsdatascience.com/intuitively-understanding-variational-autoencoders-1bfe67eb5daf)\_\_
-* \_\_[_DBSCAN: What is it? When to use it? How to use it?_](https://medium.com/@elutins/dbscan-what-is-it-when-to-use-it-how-to-use-it-8bd506293818)
-* \_\_[_Best clustering algorithms for anomaly detection_](https://towardsdatascience.com/best-clustering-algorithms-for-anomaly-detection-d5b7412537c8)\_\_
+* __[_What machine learning technique is usually used to solve anomaly detection? (Quora)_](https://www.quora.com/What-machine-learning-technique-is-usually-used-to-solve-anomaly-detection)__
+* __[_How to use machine learning for anomaly detection and condition monitoring (Vegard Flovik)_](https://towardsdatascience.com/how-to-use-machine-learning-for-anomaly-detection-and-condition-monitoring-6742f82900d7)__
+* __[_5 Ways to Detect Outliers/Anomalies That Every Data Scientist Should Know (Will Badr)_](https://towardsdatascience.com/5-ways-to-detect-outliers-that-every-data-scientist-should-know-python-code-70a54335a623)__
+* __[_A Brief Overview of Outlier Detection Techniques (Sergio Santoyo)_](https://towardsdatascience.com/a-brief-overview-of-outlier-detection-techniques-1e0b2c19e561)__
+* __[_Intuitively Understanding Variational Autoencoders (Irhum Shafkat)_](https://towardsdatascience.com/intuitively-understanding-variational-autoencoders-1bfe67eb5daf)__
+* __[_DBSCAN: What is it? When to use it? How to use it?_](https://medium.com/@elutins/dbscan-what-is-it-when-to-use-it-how-to-use-it-8bd506293818)
+* __[_Best clustering algorithms for anomaly detection_](https://towardsdatascience.com/best-clustering-algorithms-for-anomaly-detection-d5b7412537c8)__
 {% endhint %}
 
 Depending on the **presence or lack of labels**, there are two approaches to face yourself to an anomaly detection problem.
@@ -18,13 +18,17 @@ Depending on the **presence or lack of labels**, there are two approaches to fac
 
 When we are given a set of observations with labels that indicate whether each point is an anomaly or not, this can be seen as a **binary classification problem**. So we can use any classifier we like. The only issue here is that **anomalies are by definition rare events**, so you’ll have to deal with class imbalance.
 
-{% page-ref page="how-to-deal-with-imbalanced-datasets.md" %}
+{% content-ref url="how-to-deal-with-imbalanced-datasets.md" %}
+[how-to-deal-with-imbalanced-datasets.md](how-to-deal-with-imbalanced-datasets.md)
+{% endcontent-ref %}
 
 ## As an unsupervised problem
 
 In this scenario, we are given a **set of points without class labels**. Some of them are anomalies and some aren’t, but you don’t know which is which. The goal here is to operationalize the intuitive idea that anomalies are different from the typical data point.
 
-{% page-ref page="../statistics/outliers.md" %}
+{% content-ref url="../statistics/outliers.md" %}
+[outliers.md](../statistics/outliers.md)
+{% endcontent-ref %}
 
 {% hint style="warning" %}
 Under construction
@@ -34,27 +38,37 @@ Under construction
 
 #### Z-Score
 
-{% page-ref page="../statistics/z-score.md" %}
+{% content-ref url="../statistics/z-score.md" %}
+[z-score.md](../statistics/z-score.md)
+{% endcontent-ref %}
 
 #### IQR
 
-{% page-ref page="../statistics/iqr.md" %}
+{% content-ref url="../statistics/iqr.md" %}
+[iqr.md](../statistics/iqr.md)
+{% endcontent-ref %}
 
-### Multivariate anomaly detection
+### Multivariate anomaly detection&#xD;
 
 ### Clustering
 
 #### DBScan clustering
 
-{% page-ref page="../machine-learning-algorithms/unsupervised-learning/clustering/dbscan.md" %}
+{% content-ref url="../machine-learning-algorithms/unsupervised-learning/clustering/dbscan.md" %}
+[dbscan.md](../machine-learning-algorithms/unsupervised-learning/clustering/dbscan.md)
+{% endcontent-ref %}
 
 #### Other clustering techniques
 
 These clustering techniques may be used to detect instances that are far away from clusters.
 
-{% page-ref page="../machine-learning-algorithms/unsupervised-learning/clustering/kmeans.md" %}
+{% content-ref url="../machine-learning-algorithms/unsupervised-learning/clustering/kmeans.md" %}
+[kmeans.md](../machine-learning-algorithms/unsupervised-learning/clustering/kmeans.md)
+{% endcontent-ref %}
 
-{% page-ref page="../machine-learning-algorithms/unsupervised-learning/clustering/gaussian-mixture-model.md" %}
+{% content-ref url="../machine-learning-algorithms/unsupervised-learning/clustering/gaussian-mixture-model.md" %}
+[gaussian-mixture-model.md](../machine-learning-algorithms/unsupervised-learning/clustering/gaussian-mixture-model.md)
+{% endcontent-ref %}
 
 ### Tree-based approach
 
@@ -66,9 +80,7 @@ It is an unsupervised learning algorithm that belongs to the **ensemble decision
 This algorithm **works great with very high dimensional datasets** and it proved to be a very effective way of detecting anomalies.
 {% endhint %}
 
-#### Robust Random Cut Forest \(RCF\)
+#### Robust Random Cut Forest (RCF)
 
 {% embed url="https://youtu.be/yx1vf3uapX8" %}
-
-
 

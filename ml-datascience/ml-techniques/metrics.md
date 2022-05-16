@@ -3,9 +3,9 @@
 {% hint style="info" %}
 _Sources:_
 
-* \_\_[_Understanding confusion matrix \(Sarang Narkhede\)_](https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62)\_\_
-* \_\_[_Accuracy, Precision, Recall or F1? \(Koo Ping Shung\)_](https://towardsdatascience.com/accuracy-precision-recall-or-f1-331fb37c5cb9)\_\_
-* \_\_[_Cost Matrix \(IBM Knowledge Center\)_](https://www.ibm.com/support/knowledgecenter/da/SSEPGG_9.7.0/com.ibm.im.model.doc/c_cost_matrix.html)\_\_
+* __[_Understanding confusion matrix (Sarang Narkhede)_](https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62)__
+* __[_Accuracy, Precision, Recall or F1? (Koo Ping Shung)_](https://towardsdatascience.com/accuracy-precision-recall-or-f1-331fb37c5cb9)__
+* __[_Cost Matrix (IBM Knowledge Center)_](https://www.ibm.com/support/knowledgecenter/da/SSEPGG\_9.7.0/com.ibm.im.model.doc/c\_cost\_matrix.html)__
 {% endhint %}
 
 ## In regression
@@ -31,11 +31,11 @@ Confusion Matrix is a **performance measurement** for machine learning **classif
 * **True negative**
   * Predicted 0 $$\Rightarrow$$ Actual 0
 
-![](../../.gitbook/assets/image%20%2863%29.png)
+![](<../../.gitbook/assets/image (63).png>)
 
 #### Cost matrix
 
-A cost matrix \(**error matrix**\) is also useful **when specific classification errors are more severe than others**. The Classification mining function tries to avoid classification errors with a high error weight. The trade-off of avoiding 'expensive' classification errors is an increased number of 'cheap' classification errors.
+A cost matrix (**error matrix**) is also useful **when specific classification errors are more severe than others**. The Classification mining function tries to avoid classification errors with a high error weight. The trade-off of avoiding 'expensive' classification errors is an increased number of 'cheap' classification errors.
 
 ### Accuracy
 
@@ -49,7 +49,7 @@ $$
 {% endtab %}
 
 {% tab title="Example with sklearn" %}
-It may be computed using [scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html):
+It may be computed using [scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy\_score.html):
 
 ```python
 from sklearn.metrics import accuracy_score
@@ -72,7 +72,7 @@ It is a good measure to determine, **when the costs of FP is high**. For instanc
 
 {% tabs %}
 {% tab title="Main" %}
-![](../../.gitbook/assets/image%20%2860%29.png)
+![](<../../.gitbook/assets/image (60).png>)
 {% endtab %}
 
 {% tab title="Formula" %}
@@ -82,7 +82,7 @@ $$
 {% endtab %}
 
 {% tab title="Example with sklearn" %}
-It may be computed using [scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_score.html):
+It may be computed using [scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision\_score.html):
 
 ```python
 from sklearn.metrics import precision_score
@@ -94,7 +94,7 @@ precision_score(y_true, y_pred, average='weighted')
 
 ### Recall
 
- From all the actual positives, it measures the rate classified as positives values. As well. it is called _**Sensitivity** or **True Positive Rate \(TPR\)**_.
+&#x20;From all the actual positives, it measures the rate classified as positives values. As well. it is called _**Sensitivity** or **True Positive Rate (TPR)**_.
 
 {% hint style="success" %}
 It is a good metric to select our best model **when there is a high cost associated with FN**. For instance, in fraud detection or sick patient detection.
@@ -102,7 +102,7 @@ It is a good metric to select our best model **when there is a high cost associa
 
 {% tabs %}
 {% tab title="Main" %}
-![](../../.gitbook/assets/image%20%28100%29.png)
+![](<../../.gitbook/assets/image (100).png>)
 {% endtab %}
 
 {% tab title="Formula" %}
@@ -112,7 +112,7 @@ $$
 {% endtab %}
 
 {% tab title="Example with sklearn" %}
-It may be computed using [scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.recall_score.html):
+It may be computed using [scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.recall\_score.html):
 
 ```python
 from sklearn.metrics import recall_score
@@ -124,7 +124,7 @@ recall_score(y_true, y_pred, average='weighted')
 
 ### Minimizing False Positives
 
-![](../../.gitbook/assets/image%20%2811%29.png)
+![](<../../.gitbook/assets/image (11).png>)
 
 #### Specificity
 
@@ -134,7 +134,7 @@ $$
 Specificity = \frac{\text{TN}}{\text{TN} + \text{FP}}
 $$
 
-#### False Positive Rate \(FPR\)
+#### False Positive Rate (FPR)
 
 From all the actual negative values, it measures the rate misclassified as negative. It the negated probability of [specificity](metrics.md#specificity).
 
@@ -144,7 +144,7 @@ $$
 
 ### F-Score
 
-F1-score might be a better measure to use if we need to seek a **balance between** [**Precision**](metrics.md#precision) **and** [**Recall**](metrics.md#recall) AND there is an uneven class distribution \(large number of Actual Negatives\).
+F1-score might be a better measure to use if we need to seek a **balance between** [**Precision**](metrics.md#precision) **and** [**Recall**](metrics.md#recall) AND there is an uneven class distribution (large number of Actual Negatives).
 
 {% tabs %}
 {% tab title="Formula" %}
@@ -161,6 +161,4 @@ f1_score(y_true, y_pred, average='weighted')
 ```
 {% endtab %}
 {% endtabs %}
-
-
 

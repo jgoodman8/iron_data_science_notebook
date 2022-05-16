@@ -3,7 +3,7 @@
 {% hint style="info" %}
 _Sources:_
 
-* \_\_[_Difference Between a Statistic and a Parameter \(Statistics How To\)_](https://www.statisticshowto.datasciencecentral.com/how-to-tell-the-difference-between-a-statistic-and-a-parameter/)\_\_
+* __[_Difference Between a Statistic and a Parameter (Statistics How To)_](https://www.statisticshowto.datasciencecentral.com/how-to-tell-the-difference-between-a-statistic-and-a-parameter/)__
 {% endhint %}
 
 ## Overview
@@ -14,5 +14,4 @@ _Sources:_
   * A **parameter describes** an entire **population**
 {% endhint %}
 
-\*\*\*\*
-
+****
