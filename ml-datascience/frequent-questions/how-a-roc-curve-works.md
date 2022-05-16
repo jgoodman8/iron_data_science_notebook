@@ -28,7 +28,7 @@ A ROC curve plots the **TPR on the y-axis versus the FPR on the x-axis**. The TP
 
 When two **distributions overlap**, we introduce **type 1 and type 2 errors**. Depending upon the **threshold**, we can **minimize or maximize them**. A threshold equal to 0.5 will imply the metric we give an equal weight to the sensitivity and specificity of the model.
 
-When we **decrease the threshold**, we get more positive values thus it **increases the** [**recall**](../ml-techniques/metrics/#recall) **and decreasing the** [**specificity**](../ml-techniques/metrics/#specificity). Similarly, when we increase the threshold, we get more negative values thus we get higher specificity and lower recall.
+When we **decrease the threshold**, we get more positive values thus it **increases the** [**recall**](../ml-techniques/metrics.md#recall) **and decreasing the** [**specificity**](../ml-techniques/metrics.md#specificity). Similarly, when we increase the threshold, we get more negative values thus we get higher specificity and lower recall.
 
 {% tabs %}
 {% tab title="AUC_ROC = 1" %}

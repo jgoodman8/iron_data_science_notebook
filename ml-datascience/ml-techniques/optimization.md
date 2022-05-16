@@ -24,7 +24,7 @@ In practice, we will follow the analytic gradient (Newton-Raphson method).
 
 ## Gradient descent
 
-### Vanilla
+### Vanilla GD
 
 ```python
 weights = np.random(N)
@@ -40,7 +40,9 @@ _Step size_ updates the weights in the opposite direction to the gradient. Since
 [hyperparameter-tuning.md](hyperparameter-tuning.md)
 {% endcontent-ref %}
 
-### Gradient descent with momentum
+### Stochastic GD
+
+### GD with momentum
 
 TBA
 

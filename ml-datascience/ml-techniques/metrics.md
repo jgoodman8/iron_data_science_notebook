@@ -31,7 +31,7 @@ Confusion Matrix is a **performance measurement** for machine learning **classif
 * **True negative**
   * Predicted 0 $$\Rightarrow$$ Actual 0
 
-![](<../../../.gitbook/assets/image (63).png>)
+![](<../../.gitbook/assets/image (63).png>)
 
 #### Cost matrix
 
@@ -72,7 +72,7 @@ It is a good measure to determine, **when the costs of FP is high**. For instanc
 
 {% tabs %}
 {% tab title="Main" %}
-![](<../../../.gitbook/assets/image (60).png>)
+![](<../../.gitbook/assets/image (60).png>)
 {% endtab %}
 
 {% tab title="Formula" %}
@@ -102,7 +102,7 @@ It is a good metric to select our best model **when there is a high cost associa
 
 {% tabs %}
 {% tab title="Main" %}
-![](<../../../.gitbook/assets/image (100).png>)
+![](<../../.gitbook/assets/image (100).png>)
 {% endtab %}
 
 {% tab title="Formula" %}
@@ -124,7 +124,7 @@ recall_score(y_true, y_pred, average='weighted')
 
 ### Minimizing False Positives
 
-![](<../../../.gitbook/assets/image (11).png>)
+![](<../../.gitbook/assets/image (11).png>)
 
 #### Specificity
 
@@ -136,7 +136,7 @@ $$
 
 #### False Positive Rate (FPR)
 
-From all the actual negative values, it measures the rate misclassified as negative. It the negated probability of [specificity](./#specificity).
+From all the actual negative values, it measures the rate misclassified as negative. It the negated probability of [specificity](metrics.md#specificity).
 
 $$
 \text{FPR} = 1-Specificity = \frac{\text{FP}}{\text{TN} + \text{FP}}
@@ -144,7 +144,7 @@ $$
 
 ### F-Score
 
-F1-score might be a better measure to use if we need to seek a **balance between** [**Precision**](./#precision) **and** [**Recall**](./#recall) AND there is an uneven class distribution (large number of Actual Negatives).
+F1-score might be a better measure to use if we need to seek a **balance between** [**Precision**](metrics.md#precision) **and** [**Recall**](metrics.md#recall) AND there is an uneven class distribution (large number of Actual Negatives).
 
 {% tabs %}
 {% tab title="Formula" %}

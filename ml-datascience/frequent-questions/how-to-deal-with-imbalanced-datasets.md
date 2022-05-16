@@ -9,12 +9,12 @@ _Sources:_
 
 ## Using the correct performance metric
 
-[**Accuracy**](../ml-techniques/metrics/#accuracy) **is not the best metric** to use when evaluating imbalanced datasets as it can be very misleading. It's better to try:
+[**Accuracy**](../ml-techniques/metrics.md#accuracy) **is not the best metric** to use when evaluating imbalanced datasets as it can be very misleading. It's better to try:
 
-* ****[**Confusion Matrix**](../ml-techniques/metrics/#the-confusion-matrix)****
-* ****[**Precision**](../ml-techniques/metrics/#precision)****
-* [**Recall**](../ml-techniques/metrics/#recall)****
-* [**F1**](../ml-techniques/metrics/#f-score)****
+* ****[**Confusion Matrix**](../ml-techniques/metrics.md#the-confusion-matrix)****
+* ****[**Precision**](../ml-techniques/metrics.md#precision)****
+* [**Recall**](../ml-techniques/metrics.md#recall)****
+* [**F1**](../ml-techniques/metrics.md#f-score)****
 
 ## Resampling Techniques
 

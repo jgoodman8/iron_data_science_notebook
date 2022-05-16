@@ -10,9 +10,9 @@ _Sources:_
 
 ## Overview
 
-* [**Accuracy**](../ml-techniques/metrics/#accuracy) expresses the percentage of results correctly classified.
-* [**Precision**](../ml-techniques/metrics/#precision) means the percentage of your results that are relevant.&#x20;
-* [**Recall**](../ml-techniques/metrics/#recall) refers to the percentage of total relevant results correctly classified by your algorithm.
+* [**Accuracy**](../ml-techniques/metrics.md#accuracy) expresses the percentage of results correctly classified.
+* [**Precision**](../ml-techniques/metrics.md#precision) means the percentage of your results that are relevant.&#x20;
+* [**Recall**](../ml-techniques/metrics.md#recall) refers to the percentage of total relevant results correctly classified by your algorithm.
 
 ## The trade-off
 
@@ -20,7 +20,7 @@ We can see when our precision is 1.0 (no _FP_), our recall remains very low beca
 
 Depending on the situation, **we may maximize either precision** (i.e. spam detection) **or recall** (i.e. disease detection).
 
-The [**confusion matrix**](../ml-techniques/metrics/#the-confusion-matrix) is useful for quickly calculating precision and recall given the predicted labels from a model.  The other main visualization technique for showing the performance of a classification model is the [**Receiver Operating Characteristic (ROC) curve**](how-a-roc-curve-works.md).
+The [**confusion matrix**](../ml-techniques/metrics.md#the-confusion-matrix) is useful for quickly calculating precision and recall given the predicted labels from a model.  The other main visualization technique for showing the performance of a classification model is the [**Receiver Operating Characteristic (ROC) curve**](how-a-roc-curve-works.md).
 
 ![](<../../.gitbook/assets/image (23).png>)
 
@@ -30,10 +30,10 @@ The [**confusion matrix**](../ml-techniques/metrics/#the-confusion-matrix) is us
 If we want to create a **balanced classification model** with the optimal balance of recall and precision, then we try to **maximize the F1 score**.
 {% endhint %}
 
-In cases where we want to find an optimal blend of precision and recall we can combine the two metrics using what is called the [**F1 score**](../ml-techniques/metrics/#f-score). It is the **harmonic mean of precision and recall** taking both metrics into account.
+In cases where we want to find an optimal blend of precision and recall we can combine the two metrics using what is called the [**F1 score**](../ml-techniques/metrics.md#f-score). It is the **harmonic mean of precision and recall** taking both metrics into account.
 
-{% content-ref url="../ml-techniques/metrics/" %}
-[metrics](../ml-techniques/metrics/)
+{% content-ref url="../ml-techniques/metrics.md" %}
+[metrics.md](../ml-techniques/metrics.md)
 {% endcontent-ref %}
 
 &#x20;We use the harmonic mean instead of a simple average because it punishes extreme values. A classifier with a precision of 1.0 and a recall of 0.0 has a simple average of 0.5 but an F1 score of 0.&#x20;
