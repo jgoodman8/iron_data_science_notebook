@@ -7,6 +7,20 @@ _Sources:_
 * __[_What is regularization in machine learning? (Quora)_](https://www.quora.com/What-is-regularization-in-machine-learning)
 {% endhint %}
 
+{% hint style="warning" %}
+_Related sources_:
+
+* __[_Differences between L1 and L2 as Loss Function and Regularization_](http://www.chioka.in/differences-between-l1-and-l2-as-loss-function-and-regularization/)__
+{% endhint %}
+
+{% content-ref url="loss-functions.md" %}
+[loss-functions.md](loss-functions.md)
+{% endcontent-ref %}
+
+{% content-ref url="../frequent-questions/ridge-vs-lasso.md" %}
+[ridge-vs-lasso.md](../frequent-questions/ridge-vs-lasso.md)
+{% endcontent-ref %}
+
 ## Overview
 
 **Avoiding overfitting** is one of the major aspects of training a machine learning model. This happens when the model adjusts to the noise in training data. Thus, the resulting model won't be flexible enough to generalize new instances. Regularization **discourages learning a more complex or flexible model**, so as to avoid the risk of overfitting.&#x20;
@@ -84,7 +98,3 @@ When dealing with neural networks, we can use these techniques, as well:
 
 * Early stopping
 * Dropout
-
-{% content-ref url="../frequent-questions/ridge-vs-lasso.md" %}
-[ridge-vs-lasso.md](../frequent-questions/ridge-vs-lasso.md)
-{% endcontent-ref %}

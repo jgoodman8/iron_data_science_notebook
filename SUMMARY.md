@@ -31,7 +31,7 @@
   * [Statistic vs Parameter](ml-datascience/statistics/statistic-vs-parameter.md)
   * [Markov Monte Carlo Chain](ml-datascience/statistics/markov-monte-carlo-chain.md)
 * [ML Techniques](ml-datascience/ml-techniques/README.md)
-  * [Distance measures](ml-datascience/ml-techniques/distance-measures.md)
+  * [Distance measures](ml-datascience/statistics/distance-measures.md)
   * [Metrics](ml-datascience/ml-techniques/metrics.md)
   * [Loss functions](ml-datascience/ml-techniques/loss-functions.md)
   * [Regularization](ml-datascience/ml-techniques/regularization.md)

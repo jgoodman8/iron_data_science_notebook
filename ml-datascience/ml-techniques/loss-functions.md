@@ -8,6 +8,10 @@ _Sources:_
 * __[_Machine Learning Glossary_](https://ml-cheatsheet.readthedocs.io/en/latest/index.html)__
 {% endhint %}
 
+{% content-ref url="regularization.md" %}
+[regularization.md](regularization.md)
+{% endcontent-ref %}
+
 ## What are loss functions?
 
 {% hint style="success" %}
