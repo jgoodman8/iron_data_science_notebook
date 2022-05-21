@@ -1,8 +1,8 @@
 # Optimization
 
-Given _W_ the weights matrix, we need to find out the best solution that minimizes the loss function and optimizes the success metric or metrics.
-
 ## About optimization
+
+Given _W_ the weights matrix, we need to find out the best solution that minimizes the loss function and optimizes the success metric or metrics.
 
 ### Random search
 
