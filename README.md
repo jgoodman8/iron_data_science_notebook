@@ -12,17 +12,14 @@ description: >-
 
 ## Index
 
-{% page-ref page="ml-datascience/frequent-questions/" %}
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
 
-{% page-ref page="ml-datascience/statistics/" %}
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
 
-{% page-ref page="ml-datascience/machine-learning-algorithms/" %}
-
-{% page-ref page="ml-datascience/ml-techniques/" %}
-
-{% page-ref page="algorithms-and-data-structures/dynamic-programming/" %}
-
-{% page-ref page="related-topics/python/" %}
-
-
-
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
