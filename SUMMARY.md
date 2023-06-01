@@ -85,6 +85,7 @@
   * [Two Sum](algorithms-and-data-structures/array/two-sum.md)
   * [Best time to by and sell stock](algorithms-and-data-structures/array/best-time-to-by-and-sell-stock.md)
   * [Rank word combination](algorithms-and-data-structures/array/rank-word-combination.md)
+  * [Largest subarray with zero sum](algorithms-and-data-structures/array/largest-subarray-with-zero-sum.md)
 * [Binary](algorithms-and-data-structures/binary/README.md)
   * [Sum of Two Integers](algorithms-and-data-structures/binary/sum-of-two-integers.md)
 * [Tree](algorithms-and-data-structures/tree/README.md)

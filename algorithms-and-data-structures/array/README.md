@@ -11,6 +11,5 @@
 * [ ] 3Sum - [https://leetcode.com/problems/3sum/](https://leetcode.com/problems/3sum/)
 * [ ] Container With Most Water - [https://leetcode.com/problems/container-with-most-water/](https://leetcode.com/problems/container-with-most-water/)
 * [ ] Longest consecutive sequence - [https://leetcode.com/problems/longest-consecutive-sequence/](https://leetcode.com/problems/longest-consecutive-sequence/)
-
-
+* [x] Largest subarray with zero sum - [https://www.geeksforgeeks.org/find-the-largest-subarray-with-0-sum/](https://www.geeksforgeeks.org/find-the-largest-subarray-with-0-sum/)
 
