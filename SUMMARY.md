@@ -82,6 +82,7 @@
 ## Algorithms & data structures
 
 * [Array](algorithms-and-data-structures/array/README.md)
+  * [Online Stock Span](algorithms-and-data-structures/array/online-stock-span.md)
   * [Two Sum](algorithms-and-data-structures/array/two-sum.md)
   * [Best time to by and sell stock](algorithms-and-data-structures/array/best-time-to-by-and-sell-stock.md)
   * [Rank word combination](algorithms-and-data-structures/array/rank-word-combination.md)
