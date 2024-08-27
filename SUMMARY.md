@@ -64,6 +64,9 @@
       * [Gaussian Mixture Model](ml-datascience/machine-learning-algorithms/unsupervised-learning/clustering/gaussian-mixture-model.md)
       * [Hierarchical clustering](ml-datascience/machine-learning-algorithms/unsupervised-learning/clustering/hierarchical-clustering.md)
       * [DBSCAN](ml-datascience/machine-learning-algorithms/unsupervised-learning/clustering/dbscan.md)
+* [Computer Vision](ml-datascience/computer-vision/README.md)
+  * [Object Detection](ml-datascience/computer-vision/object-detection/README.md)
+    * [Coco Metrics](ml-datascience/computer-vision/object-detection/coco-metrics.md)
 
 ## Related Topics
 
