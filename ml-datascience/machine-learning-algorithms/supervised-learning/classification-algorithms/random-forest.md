@@ -3,7 +3,7 @@
 {% hint style="info" %}
 _Sources:_
 
-* \_\_[_Ensemble methods: bagging, boosting and stacking \(Joseph Rocca\)_](https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205)
+* [_Ensemble methods: bagging, boosting and stacking (Joseph Rocca)_](https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205)
 {% endhint %}
 
 ## Overview
@@ -18,5 +18,4 @@ Additionally, RF uses another trick to make the multiple fitted trees a bit less
 
 This way, all trees do not look at the exact same information to make their decisions and it **reduces the correlation** between the different returned outputs and generates a model more robust to missing data.
 
-![](../../../../.gitbook/assets/image%20%28111%29.png)
-
+![](<../../../../.gitbook/assets/image (111).png>)

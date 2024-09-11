@@ -1,12 +1,12 @@
 # REST vs gRPC
 
 {% hint style="info" %}
-__[_Is gRPC better than REST? Where to use it?_](https://dev.to/techschoolguru/is-grpc-better-than-rest-where-to-use-it-3blg)__
+[_Is gRPC better than REST? Where to use it?_](https://dev.to/techschoolguru/is-grpc-better-than-rest-where-to-use-it-3blg)
 {% endhint %}
 
 ### _Overview Comparison_
 
-| __                  | gRPC                     | REST                  |
+|                     | gRPC                     | REST                  |
 | ------------------- | ------------------------ | --------------------- |
 | **Protocol**        | HTTP/2 (faster)          | HTTP/1.1 (slower)     |
 | **Payload**         | Protobuf (binary, small) | JSON (text, large)    |

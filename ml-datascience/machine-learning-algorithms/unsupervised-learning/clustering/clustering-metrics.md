@@ -3,10 +3,10 @@
 {% hint style="info" %}
 _Sources:_
 
-* __[_K-Means Clustering: From A to Z (Towards Data Science)_](https://towardsdatascience.com/k-means-clustering-from-a-to-z-f6242a314e9a)__
-* __[_Clustering performance evaluation (Scikit Learn)_](https://scikit-learn.org/stable/modules/clustering.html#clustering-performance-evaluation)__
-* __[_The Silhouette Loss Function: Metric Learning with a Cluster Validity Index_](https://platform.ai/blog/page/11/the-silhouette-loss-function-metric-learning-with-a-cluster-validity-index/)__
-* __[_ML | Inter-cluster and Intra-cluster distances (Geeks for Geeks)_](https://www.geeksforgeeks.org/ml-intercluster-and-intracluster-distance/)__
+* [_K-Means Clustering: From A to Z (Towards Data Science)_](https://towardsdatascience.com/k-means-clustering-from-a-to-z-f6242a314e9a)
+* [_Clustering performance evaluation (Scikit Learn)_](https://scikit-learn.org/stable/modules/clustering.html#clustering-performance-evaluation)
+* [_The Silhouette Loss Function: Metric Learning with a Cluster Validity Index_](https://platform.ai/blog/page/11/the-silhouette-loss-function-metric-learning-with-a-cluster-validity-index/)
+* [_ML | Inter-cluster and Intra-cluster distances (Geeks for Geeks)_](https://www.geeksforgeeks.org/ml-intercluster-and-intracluster-distance/)
 {% endhint %}
 
 Theses metrics evaluate how good is the clustering structure with no need for external information. Clustering evaluation metrics may belong to one of these types:

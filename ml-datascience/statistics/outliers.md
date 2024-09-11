@@ -3,7 +3,7 @@
 {% hint style="info" %}
 _Sources & Credits:_
 
-* __[_A Brief Overview of Outlier Detection Techniques_](https://towardsdatascience.com/a-brief-overview-of-outlier-detection-techniques-1e0b2c19e561)__
+* [_A Brief Overview of Outlier Detection Techniques_](https://towardsdatascience.com/a-brief-overview-of-outlier-detection-techniques-1e0b2c19e561)
 {% endhint %}
 
 ## Overview

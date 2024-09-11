@@ -3,7 +3,7 @@
 {% hint style="info" %}
 _Sources:_
 
-* __[_What is Statistical Significance? (Statistics How To)_](https://www.statisticshowto.datasciencecentral.com/what-is-statistical-significance/)__
+* [_What is Statistical Significance? (Statistics How To)_](https://www.statisticshowto.datasciencecentral.com/what-is-statistical-significance/)
 {% endhint %}
 
 ## **Overview**

@@ -3,9 +3,9 @@
 {% hint style="info" %}
 _Sources:_
 
-* __[_Understanding Categorical Cross-Entropy Loss, Binary Cross-Entropy Loss, Softmax Loss, Logistic Loss, Focal Loss and all those confusing names (Raúl Gómez blog)_](https://gombru.github.io/2018/05/23/cross\_entropy\_loss/)
-* __[_What is loss function? (Christophee Pere_](https://towardsdatascience.com/what-is-loss-function-1e2605aeb904)_)_
-* __[_Machine Learning Glossary_](https://ml-cheatsheet.readthedocs.io/en/latest/index.html)__
+* [_Understanding Categorical Cross-Entropy Loss, Binary Cross-Entropy Loss, Softmax Loss, Logistic Loss, Focal Loss and all those confusing names (Raúl Gómez blog)_](https://gombru.github.io/2018/05/23/cross\_entropy\_loss/)
+* [_What is loss function? (Christophee Pere_](https://towardsdatascience.com/what-is-loss-function-1e2605aeb904)_)_
+* [_Machine Learning Glossary_](https://ml-cheatsheet.readthedocs.io/en/latest/index.html)
 {% endhint %}
 
 {% content-ref url="regularization.md" %}

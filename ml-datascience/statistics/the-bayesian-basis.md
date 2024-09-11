@@ -1,7 +1,7 @@
 # The bayesian basis
 
 {% hint style="info" %}
-__[_Chapter 1 - Probabilistic Programming and Bayesian Methods for Hackers_](https://nbviewer.jupyter.org/github/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/blob/master/Chapter1\_Introduction/Ch1\_Introduction\_TFP.ipynb#Probability-Distributions)__
+[_Chapter 1 - Probabilistic Programming and Bayesian Methods for Hackers_](https://nbviewer.jupyter.org/github/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/blob/master/Chapter1\_Introduction/Ch1\_Introduction\_TFP.ipynb#Probability-Distributions)
 {% endhint %}
 
 ## Bayesian vs Frequentist

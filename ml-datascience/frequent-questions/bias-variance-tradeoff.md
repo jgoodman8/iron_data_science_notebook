@@ -54,11 +54,11 @@ _total\_error = bias\_error² + variance\_error + irreducible\_error_
 
 > If our model complexity exceeds this sweet spot, we are in effect over-fitting our model; while if our complexity falls short of the sweet spot, we are under-fitting the model. In practice, **there is not an analytical way to find this location**. Instead we **must use an accurate measure of prediction error** and explore differing levels of model complexity and then choose the complexity level that minimizes the overall error. A key to this process is the selection of an _accurate_ error measure as often grossly inaccurate measures are used which can be deceptive.
 >
-> _Scott Fortmann-Roe -_ [_Understanding the Bias-Variance tradeoff_](http://scott.fortmann-roe.com/docs/BiasVariance.html)__
+> _Scott Fortmann-Roe -_ [_Understanding the Bias-Variance tradeoff_](http://scott.fortmann-roe.com/docs/BiasVariance.html)
 
 Some ways to achieve the Bias-Variance Tradeoff:
 
-* ****[**Regularizacion**](../ml-techniques/regularization.md) techniques (L1 or L2)
+* [**Regularizacion**](../ml-techniques/regularization.md) techniques (L1 or L2)
 * A good option would be **applying** [**cross-validation**](../ml-techniques/cross-validation.md)**.**
 * Using [**ensemble methods**](../ml-techniques/ensemble-methods.md) like bagging and **Resampling** techniques
   * One modeling algorithm that makes use of bagging is **Random Forests**. Here, the bias of the full model is equivalent to the bias of a single decision tree–which itself has high variance. By creating many of these trees, in effect a “forest”, and then averaging them the variance of the final model can be greatly reduced over that of a single tree.
@@ -68,7 +68,7 @@ Some ways to achieve the Bias-Variance Tradeoff:
 Additional marks:
 
 * Generally, **resampling-based measures** such as **cross-validation** should help. Generally, resampling-based measures such as cross-validation should be **preferred over theoretical measures such as Aikake's Information Criteria**.
-  * Akaike’s information criterion ([AIC](https://www.statisticshowto.com/akaikes-information-criterion/)) compares the quality of a set of statistical models to each other. For example, you might be interested in what variables contribute to low socioeconomic status and how each ~~~~ variable contributes to that status. Let’s say you create several [regression ](https://www.statisticshowto.com/probability-and-statistics/regression-analysis/)models for various factors like education, family size, or disability status; the AIC will take each model and rank them from best to worst. The “best” model will be the one that neither under-fits nor over-fits.
+  * Akaike’s information criterion ([AIC](https://www.statisticshowto.com/akaikes-information-criterion/)) compares the quality of a set of statistical models to each other. For example, you might be interested in what variables contribute to low socioeconomic status and how each variable contributes to that status. Let’s say you create several [regression ](https://www.statisticshowto.com/probability-and-statistics/regression-analysis/)models for various factors like education, family size, or disability status; the AIC will take each model and rank them from best to worst. The “best” model will be the one that neither under-fits nor over-fits.
 * **Adjusting minor parameters** in some estimators:
   * Both the **k-nearest** and Support Vector Machines(**SVM**) algorithms have **low bias and high variance**. But the trade-offs in both these cases can be changed:
     * In the K-nearest algorithm, the value of k can be increased, which would simultaneously increase the number of neighbors that contribute to the prediction. This in turn would increase the bias of the model.&#x20;

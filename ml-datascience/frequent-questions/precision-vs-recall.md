@@ -3,9 +3,9 @@
 {% hint style="info" %}
 _Sources:_
 
-* __[_Precision vs Recall (Shurti Saxena)_](https://towardsdatascience.com/precision-vs-recall-386cf9f89488)
-* __[_Identification of Similar and Complementary Subparts in B-Rep Mechanical Models_](http://computingengineering.asmedigitalcollection.asme.org/article.aspx?articleid=2610217)__
-* __[_Beyond Accuracy: Precision and Recall (Will Koehrsen)_](https://towardsdatascience.com/beyond-accuracy-precision-and-recall-3da06bea9f6c)__
+* [_Precision vs Recall (Shurti Saxena)_](https://towardsdatascience.com/precision-vs-recall-386cf9f89488)
+* [_Identification of Similar and Complementary Subparts in B-Rep Mechanical Models_](http://computingengineering.asmedigitalcollection.asme.org/article.aspx?articleid=2610217)
+* [_Beyond Accuracy: Precision and Recall (Will Koehrsen)_](https://towardsdatascience.com/beyond-accuracy-precision-and-recall-3da06bea9f6c)
 {% endhint %}
 
 ## Overview

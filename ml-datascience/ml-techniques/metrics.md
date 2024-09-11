@@ -3,9 +3,9 @@
 {% hint style="info" %}
 _Sources:_
 
-* __[_Understanding confusion matrix (Sarang Narkhede)_](https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62)__
-* __[_Accuracy, Precision, Recall or F1? (Koo Ping Shung)_](https://towardsdatascience.com/accuracy-precision-recall-or-f1-331fb37c5cb9)__
-* __[_Cost Matrix (IBM Knowledge Center)_](https://www.ibm.com/support/knowledgecenter/da/SSEPGG\_9.7.0/com.ibm.im.model.doc/c\_cost\_matrix.html)__
+* [_Understanding confusion matrix (Sarang Narkhede)_](https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62)
+* [_Accuracy, Precision, Recall or F1? (Koo Ping Shung)_](https://towardsdatascience.com/accuracy-precision-recall-or-f1-331fb37c5cb9)
+* [_Cost Matrix (IBM Knowledge Center)_](https://www.ibm.com/support/knowledgecenter/da/SSEPGG\_9.7.0/com.ibm.im.model.doc/c\_cost\_matrix.html)
 {% endhint %}
 
 ## In regression

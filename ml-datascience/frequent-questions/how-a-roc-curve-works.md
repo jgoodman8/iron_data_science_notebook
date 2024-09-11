@@ -3,9 +3,9 @@
 {% hint style="info" %}
 Source:
 
-* __[_Understanding AUC-ROC curve (Sarang Narkhede)_](https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5)__
-* __[_How and When to Use ROC Curves and Precision-Recall Curves for Classification in Python (Jaon Browniee)_](https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-classification-in-python/)__
-* __[_Beyond Accuracy: Precision and Recall (Will Koehrsen)_](https://towardsdatascience.com/beyond-accuracy-precision-and-recall-3da06bea9f6c)__
+* [_Understanding AUC-ROC curve (Sarang Narkhede)_](https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5)
+* [_How and When to Use ROC Curves and Precision-Recall Curves for Classification in Python (Jaon Browniee)_](https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-classification-in-python/)
+* [_Beyond Accuracy: Precision and Recall (Will Koehrsen)_](https://towardsdatascience.com/beyond-accuracy-precision-and-recall-3da06bea9f6c)
 {% endhint %}
 
 ## Overview
@@ -38,7 +38,7 @@ In the **ideal situation**, the distribution curve of the **positive class is eq
 {% endtab %}
 
 {% tab title="AUC_ROC = 0.7" %}
-![](<../../.gitbook/assets/image (8).png>)
+![](<../../.gitbook/assets/image (8) (1).png>)
 {% endtab %}
 
 {% tab title="AUC_ROC = 0.5" %}

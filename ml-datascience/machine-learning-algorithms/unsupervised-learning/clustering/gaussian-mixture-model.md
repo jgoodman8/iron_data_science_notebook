@@ -3,8 +3,8 @@
 {% hint style="info" %}
 _Sources:_
 
-* __[_Gaussian Mixture Models Explained (Towards Data Science)_](https://towardsdatascience.com/gaussian-mixture-models-explained-6986aaf5a95)__
-* __[_Gaussian Mixture Models Algorithm Explained (Cory Maklin)_](https://towardsdatascience.com/gaussian-mixture-models-d13a5e915c8e)__
+* [_Gaussian Mixture Models Explained (Towards Data Science)_](https://towardsdatascience.com/gaussian-mixture-models-explained-6986aaf5a95)
+* [_Gaussian Mixture Models Algorithm Explained (Cory Maklin)_](https://towardsdatascience.com/gaussian-mixture-models-d13a5e915c8e)
 {% endhint %}
 
 ## What is a Gaussian Mixture?

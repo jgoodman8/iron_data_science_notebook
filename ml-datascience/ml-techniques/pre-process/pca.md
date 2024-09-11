@@ -3,9 +3,9 @@
 {% hint style="info" %}
 _Credits:_
 
-* __[_Understanding Principal Components Analysis (Rishav Kumar)_](https://medium.com/@aptrishu/understanding-principle-component-analysis-e32be0253ef0)
-* __[_Understanding Principal Components Analysis (Chathurangi Shyalika  )_](https://medium.com/datadriveninvestor/principal-components-analysis-pca-71cc9d43d9fb)__
-* __[_StatQuest: Principal Component Analysis, Step-by-Step  &#x20;(YouTube)_](https://www.youtube.com/watch?v=FgakZw6K1QQ)__
+* [_Understanding Principal Components Analysis (Rishav Kumar)_](https://medium.com/@aptrishu/understanding-principle-component-analysis-e32be0253ef0)
+* [_Understanding Principal Components Analysis (Chathurangi Shyalika  )_](https://medium.com/datadriveninvestor/principal-components-analysis-pca-71cc9d43d9fb)
+* [_StatQuest: Principal Component Analysis, Step-by-Step  &#x20;(YouTube)_](https://www.youtube.com/watch?v=FgakZw6K1QQ)
 {% endhint %}
 
 ## Overview
@@ -19,7 +19,7 @@ If any good data scientist could choose an **ideal dataset**, it would be plenty
 ### Related concepts
 
 {% hint style="success" %}
-Check out the  [**Variance**](../../statistics/the-basics.md#variance) **** and [**Covariance**](../../statistics/the-basics.md#covariance) concepts!
+Check out the  [**Variance**](../../statistics/the-basics.md#variance) and [**Covariance**](../../statistics/the-basics.md#covariance) concepts!
 {% endhint %}
 
 #### Eigenvectors

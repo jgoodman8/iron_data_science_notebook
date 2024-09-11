@@ -3,10 +3,10 @@
 {% hint style="info" %}
 _Sources:_
 
-* [_About probability distributions (Statistics How To)_](https://www.statisticshowto.datasciencecentral.com/probability-distribution/)__
-* __[_Skewness (Math is Fun)_](https://www.mathsisfun.com/data/skewness.html)__
-* __[_How do I determine whether my data are normal?  &#x20;(Psychwiki.com)_](http://www.psychwiki.com/wiki/How\_do\_I\_determine\_whether\_my\_data\_are\_normal%3F)__
-* __[_Skew and Kurtosis: 2 Important Statistics terms you need to know in Data Science  &#x20;(Diva Jain)_](https://codeburst.io/2-important-statistics-terms-you-need-to-know-in-data-science-skewness-and-kurtosis-388fef94eeaa)__
+* [_About probability distributions (Statistics How To)_](https://www.statisticshowto.datasciencecentral.com/probability-distribution/)
+* [_Skewness (Math is Fun)_](https://www.mathsisfun.com/data/skewness.html)
+* [_How do I determine whether my data are normal?  &#x20;(Psychwiki.com)_](http://www.psychwiki.com/wiki/How\_do\_I\_determine\_whether\_my\_data\_are\_normal%3F)
+* [_Skew and Kurtosis: 2 Important Statistics terms you need to know in Data Science  &#x20;(Diva Jain)_](https://codeburst.io/2-important-statistics-terms-you-need-to-know-in-data-science-skewness-and-kurtosis-388fef94eeaa)
 {% endhint %}
 
 ## Continuous distributions
@@ -60,7 +60,7 @@ The exponential distribution (also called the negative exponential distribution)
 
 The exponential distribution is mostly used for testing [product reliability](http://www.ni.com/white-paper/14412/en/). It’s also an important distribution for building continuous-time [Markov chains](https://www.statisticshowto.datasciencecentral.com/markov-chain-monte-carlo/). The exponential often **models waiting times** and can help you to answer questions like: “How much time will go by before a major hurricane hits the Atlantic Seaboard?”
 
-![](<../../.gitbook/assets/image (1).png>)
+![](<../../.gitbook/assets/image (1) (1).png>)
 
 The most common form of its probability distribution function is:
 
@@ -151,4 +151,4 @@ np.stats.skew(np.random.rand(100))
 
 * &#x20;**Mesokurtic**: the kurtosis statistic is similar to the on of a normal distribution. It's is usually said that a  normal distribution has a _kurtosis= 3._
 * &#x20;**Leptokurtic**: longer distribution with fatter tails. The peak is higher and sharper than _Mesokurtic_, which means that data are heavy-tailed or profusion of outliers. _Kurtosis > 3_
-* &#x20;**Platykurtic**: **** shorter distribution with thinner tails. The peak is lower and broader than Mesokurtic, which means that data are light-tailed or lack of outliers. _Kurtosis < 3_
+* &#x20;**Platykurtic**: shorter distribution with thinner tails. The peak is lower and broader than Mesokurtic, which means that data are light-tailed or lack of outliers. _Kurtosis < 3_

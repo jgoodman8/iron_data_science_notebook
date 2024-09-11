@@ -1,7 +1,7 @@
 # Probability vs Likelihood
 
 {% hint style="info" %}
-__[_StatQuest: Probability vs Likelihood (YouTube)_](https://www.youtube.com/watch?v=pYxNSUDSFH4)__
+[_StatQuest: Probability vs Likelihood (YouTube)_](https://www.youtube.com/watch?v=pYxNSUDSFH4)
 {% endhint %}
 
 ## Probability

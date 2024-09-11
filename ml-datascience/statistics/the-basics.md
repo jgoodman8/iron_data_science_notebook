@@ -5,19 +5,19 @@
 {% hint style="info" %}
 _Credits & Sources:_
 
-* __[_What would be some examples of when the "mean" would be preferred over the "median"?_](https://www.quora.com/What-would-be-some-examples-of-when-the-mean-would-be-preferred-over-the-median)__
-* __[_Mean, Median, Mode: What They Are, How to Find Them (Statistics How To)_](https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/statistics-definitions/mean-median-mode/)__
-* __[_Mean (Wikipedia)_](https://en.wikipedia.org/wiki/Mean)__
-* __[_Median (Wikipedia)_](https://en.wikipedia.org/wiki/Median)
-* __[_Range (Wikipedia)_](https://en.wikipedia.org/wiki/Range)__
-* __[_Mode (Wikipedia)_](https://en.wikipedia.org/wiki/Mode\_\(statistics\))
-* __[_Variance (Wikipedia)_](https://en.wikipedia.org/wiki/Variance)__
-* __[_Standard deviation (Wikipedia)_](https://en.wikipedia.org/wiki/Standard\_deviation)__
-* __[_Standard eror (Wikipedia)_](https://en.wikipedia.org/wiki/Standard\_error)__
-* __[_Statistical mean, median, mode and range (Margaret Rouse, Tech Target)_](https://searchdatacenter.techtarget.com/definition/statistical-mean-median-mode-and-range)__
-* __[_Mean vs. Median: When to Use? (Stack Exchange)_](https://math.stackexchange.com/questions/2304710/mean-vs-median-when-to-use)
-* __[_Standard deviation and Variance (Math is Fun)_](https://www.mathsisfun.com/data/standard-deviation.html)__
-* __[_Understanding Principal Components Analysis (Rishav Kumar)_](https://medium.com/@aptrishu/understanding-principle-component-analysis-e32be0253ef0)__
+* [_What would be some examples of when the "mean" would be preferred over the "median"?_](https://www.quora.com/What-would-be-some-examples-of-when-the-mean-would-be-preferred-over-the-median)
+* [_Mean, Median, Mode: What They Are, How to Find Them (Statistics How To)_](https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/statistics-definitions/mean-median-mode/)
+* [_Mean (Wikipedia)_](https://en.wikipedia.org/wiki/Mean)
+* [_Median (Wikipedia)_](https://en.wikipedia.org/wiki/Median)
+* [_Range (Wikipedia)_](https://en.wikipedia.org/wiki/Range)
+* [_Mode (Wikipedia)_](https://en.wikipedia.org/wiki/Mode\_\(statistics\))
+* [_Variance (Wikipedia)_](https://en.wikipedia.org/wiki/Variance)
+* [_Standard deviation (Wikipedia)_](https://en.wikipedia.org/wiki/Standard\_deviation)
+* [_Standard eror (Wikipedia)_](https://en.wikipedia.org/wiki/Standard\_error)
+* [_Statistical mean, median, mode and range (Margaret Rouse, Tech Target)_](https://searchdatacenter.techtarget.com/definition/statistical-mean-median-mode-and-range)
+* [_Mean vs. Median: When to Use? (Stack Exchange)_](https://math.stackexchange.com/questions/2304710/mean-vs-median-when-to-use)
+* [_Standard deviation and Variance (Math is Fun)_](https://www.mathsisfun.com/data/standard-deviation.html)
+* [_Understanding Principal Components Analysis (Rishav Kumar)_](https://medium.com/@aptrishu/understanding-principle-component-analysis-e32be0253ef0)
 {% endhint %}
 
 ## Properties of distributions
@@ -42,8 +42,8 @@ $$
 {% endtab %}
 
 {% tab title="Types" %}
-* ****[**Geometric mean**](https://en.wikipedia.org/wiki/Geometric\_mean)****
-* ****[**Harmonic mean**](https://en.wikipedia.org/wiki/Harmonic\_mean)****
+* [**Geometric mean**](https://en.wikipedia.org/wiki/Geometric\_mean)
+* [**Harmonic mean**](https://en.wikipedia.org/wiki/Harmonic\_mean)
 * **...**
 {% endtab %}
 {% endtabs %}
@@ -87,7 +87,7 @@ It's quite common to find **more than one mode**, especially if there aren't man
 {% tab title="Continuous distribution" %}
 It's the **maximum value** of the function. As with discrete distributions, there may be more than one mode.
 
-![](<../../.gitbook/assets/image (5).png>)
+![](<../../.gitbook/assets/image (5) (1).png>)
 {% endtab %}
 {% endtabs %}
 

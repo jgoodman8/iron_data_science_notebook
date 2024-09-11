@@ -3,9 +3,9 @@
 {% hint style="info" %}
 _Sources:_
 
-* __[_k-Means (Towards Data Science)_](https://link.medium.com/5M1Coj4HM0)__
-* __[_Step by Step to K-Means Clustering_](https://healthcare.ai/step-step-k-means-clustering/)__
-* __[_KMeans clustering from A to Z_](https://towardsdatascience.com/k-means-clustering-from-a-to-z-f6242a314e9a)__
+* [_k-Means (Towards Data Science)_](https://link.medium.com/5M1Coj4HM0)
+* [_Step by Step to K-Means Clustering_](https://healthcare.ai/step-step-k-means-clustering/)
+* [_KMeans clustering from A to Z_](https://towardsdatascience.com/k-means-clustering-from-a-to-z-f6242a314e9a)
 {% endhint %}
 
 ## Overview

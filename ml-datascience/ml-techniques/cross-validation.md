@@ -1,11 +1,11 @@
 # Cross-validation
 
 {% hint style="info" %}
-__[_Scikit-Learn: Cross-validation: evaluating estimator performance_](https://scikit-learn.org/stable/modules/cross\_validation.html)__
+[_Scikit-Learn: Cross-validation: evaluating estimator performance_](https://scikit-learn.org/stable/modules/cross\_validation.html)
 
-__[_A Gentle Introduction to k-fold Cross-Validation_](https://machinelearningmastery.com/k-fold-cross-validation/)
+[_A Gentle Introduction to k-fold Cross-Validation_](https://machinelearningmastery.com/k-fold-cross-validation/)
 
-__[_Why and how to Cross Validate a Model?_](https://towardsdatascience.com/why-and-how-to-cross-validate-a-model-d6424b45261f)
+[_Why and how to Cross Validate a Model?_](https://towardsdatascience.com/why-and-how-to-cross-validate-a-model-d6424b45261f)
 {% endhint %}
 
 ![](https://media.giphy.com/media/c0NwRD0Vi5Cta/giphy.gif)

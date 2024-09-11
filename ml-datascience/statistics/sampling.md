@@ -3,10 +3,10 @@
 {% hint style="info" %}
 _Sources:_
 
-* __[_Methods of sampling from a population (Health Knowledge)_](https://www.healthknowledge.org.uk/public-health-textbook/research-methods/1a-epidemiology/methods-of-sampling-population)__
-* __[_Sampling Techniques (Seema Singh)_](https://towardsdatascience.com/sampling-techniques-a4e34111d808)__
-* __[_A Gentle Introduction to Statistical Sampling and Resampling_](https://machinelearningmastery.com/statistical-sampling-and-resampling/)
-* __[_Statistical Learning (II): Data Sampling & Resampling_](https://towardsdatascience.com/statistical-learning-ii-data-sampling-resampling-93a0208d6bb8)
+* [_Methods of sampling from a population (Health Knowledge)_](https://www.healthknowledge.org.uk/public-health-textbook/research-methods/1a-epidemiology/methods-of-sampling-population)
+* [_Sampling Techniques (Seema Singh)_](https://towardsdatascience.com/sampling-techniques-a4e34111d808)
+* [_A Gentle Introduction to Statistical Sampling and Resampling_](https://machinelearningmastery.com/statistical-sampling-and-resampling/)
+* [_Statistical Learning (II): Data Sampling & Resampling_](https://towardsdatascience.com/statistical-learning-ii-data-sampling-resampling-93a0208d6bb8)
 {% endhint %}
 
 ## Sampling

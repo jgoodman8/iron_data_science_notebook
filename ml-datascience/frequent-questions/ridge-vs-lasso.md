@@ -3,8 +3,8 @@
 {% hint style="info" %}
 _Credit:_
 
-* __[_Regularization in Machine Learning (Prashant Gupta)_](https://towardsdatascience.com/regularization-in-machine-learning-76441ddcf99a)__
-* __[_L1 and L2 Regularization Methods_ _(Anuja Nagpal)_](https://towardsdatascience.com/l1-and-l2-regularization-methods-ce25e7fc831c)__
+* [_Regularization in Machine Learning (Prashant Gupta)_](https://towardsdatascience.com/regularization-in-machine-learning-76441ddcf99a)
+* [_L1 and L2 Regularization Methods_ _(Anuja Nagpal)_](https://towardsdatascience.com/l1-and-l2-regularization-methods-ce25e7fc831c)
 {% endhint %}
 
 ## Overview

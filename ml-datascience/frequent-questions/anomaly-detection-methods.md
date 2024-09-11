@@ -3,13 +3,13 @@
 {% hint style="info" %}
 _Sources & credit:_
 
-* __[_What machine learning technique is usually used to solve anomaly detection? (Quora)_](https://www.quora.com/What-machine-learning-technique-is-usually-used-to-solve-anomaly-detection)__
-* __[_How to use machine learning for anomaly detection and condition monitoring (Vegard Flovik)_](https://towardsdatascience.com/how-to-use-machine-learning-for-anomaly-detection-and-condition-monitoring-6742f82900d7)__
-* __[_5 Ways to Detect Outliers/Anomalies That Every Data Scientist Should Know (Will Badr)_](https://towardsdatascience.com/5-ways-to-detect-outliers-that-every-data-scientist-should-know-python-code-70a54335a623)__
-* __[_A Brief Overview of Outlier Detection Techniques (Sergio Santoyo)_](https://towardsdatascience.com/a-brief-overview-of-outlier-detection-techniques-1e0b2c19e561)__
-* __[_Intuitively Understanding Variational Autoencoders (Irhum Shafkat)_](https://towardsdatascience.com/intuitively-understanding-variational-autoencoders-1bfe67eb5daf)__
-* __[_DBSCAN: What is it? When to use it? How to use it?_](https://medium.com/@elutins/dbscan-what-is-it-when-to-use-it-how-to-use-it-8bd506293818)
-* __[_Best clustering algorithms for anomaly detection_](https://towardsdatascience.com/best-clustering-algorithms-for-anomaly-detection-d5b7412537c8)__
+* [_What machine learning technique is usually used to solve anomaly detection? (Quora)_](https://www.quora.com/What-machine-learning-technique-is-usually-used-to-solve-anomaly-detection)
+* [_How to use machine learning for anomaly detection and condition monitoring (Vegard Flovik)_](https://towardsdatascience.com/how-to-use-machine-learning-for-anomaly-detection-and-condition-monitoring-6742f82900d7)
+* [_5 Ways to Detect Outliers/Anomalies That Every Data Scientist Should Know (Will Badr)_](https://towardsdatascience.com/5-ways-to-detect-outliers-that-every-data-scientist-should-know-python-code-70a54335a623)
+* [_A Brief Overview of Outlier Detection Techniques (Sergio Santoyo)_](https://towardsdatascience.com/a-brief-overview-of-outlier-detection-techniques-1e0b2c19e561)
+* [_Intuitively Understanding Variational Autoencoders (Irhum Shafkat)_](https://towardsdatascience.com/intuitively-understanding-variational-autoencoders-1bfe67eb5daf)
+* [_DBSCAN: What is it? When to use it? How to use it?_](https://medium.com/@elutins/dbscan-what-is-it-when-to-use-it-how-to-use-it-8bd506293818)
+* [_Best clustering algorithms for anomaly detection_](https://towardsdatascience.com/best-clustering-algorithms-for-anomaly-detection-d5b7412537c8)
 {% endhint %}
 
 Depending on the **presence or lack of labels**, there are two approaches to face yourself to an anomaly detection problem.

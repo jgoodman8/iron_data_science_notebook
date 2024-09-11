@@ -3,8 +3,8 @@
 {% hint style="info" %}
 _Sources:_
 
-* __[_F Statistic / F Value: Simple Definition and Interpretation (Statistics How To)_](https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/f-statistic-value-test/)__
-* __[_Understanding Analysis of Variance (ANOVA) and the F-test (Minitab)_](https://blog.minitab.com/blog/adventures-in-statistics-2/understanding-analysis-of-variance-anova-and-the-f-test)__
+* [_F Statistic / F Value: Simple Definition and Interpretation (Statistics How To)_](https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/f-statistic-value-test/)
+* [_Understanding Analysis of Variance (ANOVA) and the F-test (Minitab)_](https://blog.minitab.com/blog/adventures-in-statistics-2/understanding-analysis-of-variance-anova-and-the-f-test)
 {% endhint %}
 
 ## Overview

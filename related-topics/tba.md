@@ -3,9 +3,9 @@
 {% hint style="info" %}
 _Sources:_
 
-* __[_Combinatorics (Mathigon)_](https://mathigon.org/world/Combinatorics)__
-* __[_Combinations and Permutation (Math is Fun)_](https://www.mathsisfun.com/combinatorics/combinations-permutations.html)__
-* __[_Math Stack Exchange Question_](https://math.stackexchange.com/questions/208377/combination-with-repetitions)__
+* [_Combinatorics (Mathigon)_](https://mathigon.org/world/Combinatorics)
+* [_Combinations and Permutation (Math is Fun)_](https://www.mathsisfun.com/combinatorics/combinations-permutations.html)
+* [_Math Stack Exchange Question_](https://math.stackexchange.com/questions/208377/combination-with-repetitions)
 {% endhint %}
 
 ## All about order and repetition
@@ -42,17 +42,17 @@ $$
 \frac{N!}{(N-R)!} \\ R \text{ items selected out of } N \text{ with no repetition}
 $$
 
-In the particular case, that _**R**_** is equal to **_**N**_, we get up to _**N!** _ possibilities.
+In the particular case, that _**R**_** is equal to **_**N**_, we get up to _**N!**_ possibilities.
 
 ## Combinations
 
 ### With no repetition
 
-Here, we can discover the number of possible results in lotteries. We take _**R from**_**  **_**N**_** unique items.** However, we **don't mind the order** of the taken items.
+Here, we can discover the number of possible results in lotteries. We take _**R from**_ _**N**_** unique items.** However, we **don't mind the order** of the taken items.
 
 ![](<../.gitbook/assets/image (74).png>)
 
-We have to divide the possible $$N!$$ __ elements by the $$(N-R)!$$ possible repetitions and the $$R!$$ possible combination of the taken items. This is expressed as:
+We have to divide the possible $$N!$$ elements by the $$(N-R)!$$ possible repetitions and the $$R!$$ possible combination of the taken items. This is expressed as:
 
 $$
 C(n, r) = nCr = \binom{N}{R} = \frac{N!}{R!(N-R)!}

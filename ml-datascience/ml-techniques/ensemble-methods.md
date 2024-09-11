@@ -3,8 +3,8 @@
 {% hint style="info" %}
 _Sources:_
 
-* __[_Ensemble methods: bagging, boosting and stacking (Joseph Rocca)_](https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205)
-* __[_Boosting, Bagging, and Stacking — Ensemble Methods with sklearn and mlens (Robert R.F. DeFilippi)_](https://medium.com/@rrfd/boosting-bagging-and-stacking-ensemble-methods-with-sklearn-and-mlens-a455c0c982de)__
+* [_Ensemble methods: bagging, boosting and stacking (Joseph Rocca)_](https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205)
+* [_Boosting, Bagging, and Stacking — Ensemble Methods with sklearn and mlens (Robert R.F. DeFilippi)_](https://medium.com/@rrfd/boosting-bagging-and-stacking-ensemble-methods-with-sklearn-and-mlens-a455c0c982de)
 {% endhint %}
 
 ## Overview

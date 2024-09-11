@@ -3,14 +3,14 @@
 {% hint style="info" %}
 _Sources:_
 
-* __[_Regularization in Machine Learning (Prashant Gupta)_](https://towardsdatascience.com/regularization-in-machine-learning-76441ddcf99a)__
-* __[_What is regularization in machine learning? (Quora)_](https://www.quora.com/What-is-regularization-in-machine-learning)
+* [_Regularization in Machine Learning (Prashant Gupta)_](https://towardsdatascience.com/regularization-in-machine-learning-76441ddcf99a)
+* [_What is regularization in machine learning? (Quora)_](https://www.quora.com/What-is-regularization-in-machine-learning)
 {% endhint %}
 
 {% hint style="warning" %}
 _Related sources_:
 
-* __[_Differences between L1 and L2 as Loss Function and Regularization_](http://www.chioka.in/differences-between-l1-and-l2-as-loss-function-and-regularization/)__
+* [_Differences between L1 and L2 as Loss Function and Regularization_](http://www.chioka.in/differences-between-l1-and-l2-as-loss-function-and-regularization/)
 {% endhint %}
 
 {% content-ref url="loss-functions.md" %}
@@ -49,7 +49,7 @@ $$
 
 ### Lasso (L1)
 
-It penalizes the loss function by adding the _shrinkage quantity_. This way, the coefficients are estimated by minimizing the whole quantity. _ **Lasso**_** applies the modulus** $$| \beta_j|$$ **to every coefficient**. This is also called _**L1 regularization** or L1 norm._
+It penalizes the loss function by adding the _shrinkage quantity_. This way, the coefficients are estimated by minimizing the whole quantity. _**Lasso**_** applies the modulus** $$| \beta_j|$$ **to every coefficient**. This is also called _**L1 regularization** or L1 norm._
 
 $$
 RSS + \lambda \sum_{j=1}^{p} | \beta_j| = \sum_{i=1}^{n} \left( y_i - \beta_0 - \sum_{i=1}^{p} \beta_jx_{ij} \right)^2 + \lambda \sum_{j=1}^{p} | \beta_j|
@@ -61,7 +61,7 @@ Here, **λ is the regularization parameter** that decides **how much we want to 
 
 ### Ridge (L2)
 
-As _lasso_ does, it penalizes the loss function by adding the _shrinkage quantity_. It's also parametrized by the **λ is the regularization parameter**. However, _ **ridge**_** applies the square** $$\beta_j^2$$ **to every coefficient**. It's also called _**L2 regularization**_ or _L2 norm._
+As _lasso_ does, it penalizes the loss function by adding the _shrinkage quantity_. It's also parametrized by the **λ is the regularization parameter**. However, _**ridge**_** applies the square** $$\beta_j^2$$ **to every coefficient**. It's also called _**L2 regularization**_ or _L2 norm._
 
 $$
 RSS + \lambda \sum_{j=1}^{p} \beta_j^2 =

@@ -1,7 +1,7 @@
 # Mutability
 
 {% hint style="info" %}
-__[_Python Basics: Mutable vs Immutable Objects_](https://towardsdatascience.com/https-towardsdatascience-com-python-basics-mutable-vs-immutable-objects-829a0cb1530a)__
+[_Python Basics: Mutable vs Immutable Objects_](https://towardsdatascience.com/https-towardsdatascience-com-python-basics-mutable-vs-immutable-objects-829a0cb1530a)
 {% endhint %}
 
 ### Some concepts
@@ -17,7 +17,7 @@ _All **variable names** in Python are said to be **references to the values.**_&
 
 _Python keeps an **internal counter** on **how many references** an object has**.**_&#x20;
 
-Once the **counter goes to zero **_****_ the **GB** in Python removes the object, thus **freeing up the memory**.
+Once the **counter goes to zero** the **GB** in Python removes the object, thus **freeing up the memory**.
 {% endhint %}
 
 ### Immutable Objects
@@ -83,7 +83,7 @@ print(person)
 {% hint style="info" %}
 _Related sources:_
 
-* __[_Common Gotchas (The Hitchhiker’s Guide to Python!)_](https://docs.python-guide.org/writing/gotchas/#mutable-default-arguments)__
+* [_Common Gotchas (The Hitchhiker’s Guide to Python!)_](https://docs.python-guide.org/writing/gotchas/#mutable-default-arguments)
 {% endhint %}
 
 ```python

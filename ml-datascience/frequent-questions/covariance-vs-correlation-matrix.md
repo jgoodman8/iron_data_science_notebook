@@ -3,8 +3,8 @@
 {% hint style="info" %}
 _Sources:_
 
-* __[_Baffled by Covariance and Correlation??? Get the Math and the Application in Analytics for both the terms..._](https://towardsdatascience.com/let-us-understand-the-correlation-matrix-and-covariance-matrix-d42e6b643c22) __ [_(Srishti Saha)_](https://towardsdatascience.com/@srishtisaha?source=post\_page-----d42e6b643c22----------------------)__
-* __[_Understanding the Covariance Matrix (Data Science Plus)_](https://datascienceplus.com/understanding-the-covariance-matrix/)__
+* [_Baffled by Covariance and Correlation??? Get the Math and the Application in Analytics for both the terms..._](https://towardsdatascience.com/let-us-understand-the-correlation-matrix-and-covariance-matrix-d42e6b643c22) [_(Srishti Saha)_](https://towardsdatascience.com/@srishtisaha?source=post\_page-----d42e6b643c22----------------------)
+* [_Understanding the Covariance Matrix (Data Science Plus)_](https://datascienceplus.com/understanding-the-covariance-matrix/)
 {% endhint %}
 
 ## Overview

@@ -66,6 +66,11 @@
       * [DBSCAN](ml-datascience/machine-learning-algorithms/unsupervised-learning/clustering/dbscan.md)
 * [Computer Vision](ml-datascience/computer-vision/README.md)
   * [Object Detection](ml-datascience/computer-vision/object-detection/README.md)
+    * [Traditional Detection Models](ml-datascience/computer-vision/object-detection/traditional-detection-models/README.md)
+      * [R-CNN](ml-datascience/computer-vision/object-detection/traditional-detection-models/r-cnn.md)
+      * [Fast R-CNN](ml-datascience/computer-vision/object-detection/traditional-detection-models/fast-r-cnn.md)
+      * [Faster R-CNN](ml-datascience/computer-vision/object-detection/traditional-detection-models/faster-r-cnn.md)
+    * [ROI Pooling](ml-datascience/computer-vision/object-detection/roi-pooling.md)
     * [Coco Metrics](ml-datascience/computer-vision/object-detection/coco-metrics.md)
 
 ## Related Topics
