@@ -6,7 +6,7 @@ Compared to the generic traditional pipeline, the feature extraction is performe
 2. The CNN model extracts a 4,096 vector for each region.
 3. An SVM classifies the region into background or object classes.
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 **Drawbacks:**
 

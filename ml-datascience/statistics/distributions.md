@@ -60,7 +60,7 @@ The exponential distribution (also called the negative exponential distribution)
 
 The exponential distribution is mostly used for testing [product reliability](http://www.ni.com/white-paper/14412/en/). It’s also an important distribution for building continuous-time [Markov chains](https://www.statisticshowto.datasciencecentral.com/markov-chain-monte-carlo/). The exponential often **models waiting times** and can help you to answer questions like: “How much time will go by before a major hurricane hits the Atlantic Seaboard?”
 
-![](<../../.gitbook/assets/image (1) (1).png>)
+![](<../../.gitbook/assets/image (1) (1) (1).png>)
 
 The most common form of its probability distribution function is:
 
