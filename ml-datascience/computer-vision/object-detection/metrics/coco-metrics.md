@@ -1,7 +1,7 @@
 # Coco Metrics
 
-{% content-ref url="../../frequent-questions/precision-vs-recall.md" %}
-[precision-vs-recall.md](../../frequent-questions/precision-vs-recall.md)
+{% content-ref url="../../../frequent-questions/precision-vs-recall.md" %}
+[precision-vs-recall.md](../../../frequent-questions/precision-vs-recall.md)
 {% endcontent-ref %}
 
 {% hint style="info" %}

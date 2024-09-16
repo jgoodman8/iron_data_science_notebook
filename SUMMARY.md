@@ -73,8 +73,19 @@
       * [Faster R-CNN](ml-datascience/computer-vision/object-detection/two-stage-detectors/faster-r-cnn.md)
     * [One-Stage detectors](ml-datascience/computer-vision/object-detection/one-stage-detectors/README.md)
       * [YOLO](ml-datascience/computer-vision/object-detection/one-stage-detectors/yolo.md)
-    * [ROI Pooling](ml-datascience/computer-vision/object-detection/roi-pooling.md)
-    * [Coco Metrics](ml-datascience/computer-vision/object-detection/coco-metrics.md)
+      * [YOLO v2](ml-datascience/computer-vision/object-detection/one-stage-detectors/yolo-v2.md)
+      * [YOLO v3](ml-datascience/computer-vision/object-detection/one-stage-detectors/yolo-v3.md)
+      * [YOLOX](ml-datascience/computer-vision/object-detection/one-stage-detectors/yolox.md)
+    * [Techniques](ml-datascience/computer-vision/object-detection/techniques/README.md)
+      * [NMS](ml-datascience/computer-vision/object-detection/techniques/nms.md)
+      * [ROI Pooling](ml-datascience/computer-vision/object-detection/techniques/roi-pooling.md)
+    * [Metrics](ml-datascience/computer-vision/object-detection/metrics/README.md)
+      * [Objectness Score](ml-datascience/computer-vision/object-detection/metrics/objectness-score.md)
+      * [Coco Metrics](ml-datascience/computer-vision/object-detection/metrics/coco-metrics.md)
+      * [IoU](ml-datascience/computer-vision/object-detection/metrics/iou.md)
+  * [MOT](ml-datascience/computer-vision/mot/README.md)
+    * [SORT](ml-datascience/computer-vision/mot/sort.md)
+    * [Deep SORT](ml-datascience/computer-vision/mot/deep-sort.md)
 
 ## Related Topics
 
