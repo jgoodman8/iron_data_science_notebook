@@ -43,6 +43,7 @@
   * [Hyperparameter tuning](ml-datascience/ml-techniques/hyperparameter-tuning.md)
   * [Ensemble methods](ml-datascience/ml-techniques/ensemble-methods.md)
   * [Hard negative mining](ml-datascience/ml-techniques/hard-negative-mining.md)
+  * [Quantization](ml-datascience/ml-techniques/quantization.md)
 * [Machine Learning Algorithms](ml-datascience/machine-learning-algorithms/README.md)
   * [Supervised Learning](ml-datascience/machine-learning-algorithms/supervised-learning/README.md)
     * [Support Vector Machines](ml-datascience/machine-learning-algorithms/supervised-learning/support-vector-machines.md)
