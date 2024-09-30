@@ -69,6 +69,8 @@
       * [Gaussian Mixture Model](ml-datascience/machine-learning-algorithms/unsupervised-learning/clustering/gaussian-mixture-model.md)
       * [Hierarchical clustering](ml-datascience/machine-learning-algorithms/unsupervised-learning/clustering/hierarchical-clustering.md)
       * [DBSCAN](ml-datascience/machine-learning-algorithms/unsupervised-learning/clustering/dbscan.md)
+  * [Cameras](ml-datascience/machine-learning-algorithms/cameras/README.md)
+    * [Intrinsic and extrinsic parameters](ml-datascience/machine-learning-algorithms/cameras/intrinsic-and-extrinsic-parameters.md)
 * [Computer Vision](ml-datascience/computer-vision/README.md)
   * [Object Detection](ml-datascience/computer-vision/object-detection/README.md)
     * [Two-Stage detectors](ml-datascience/computer-vision/object-detection/two-stage-detectors/README.md)
