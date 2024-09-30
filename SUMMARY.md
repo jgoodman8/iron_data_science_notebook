@@ -46,6 +46,7 @@
   * [ML Serving](ml-datascience/ml-techniques/ml-serving/README.md)
     * [Quantization](ml-datascience/ml-techniques/ml-serving/quantization.md)
     * [Kernel Auto-Tuning](ml-datascience/ml-techniques/ml-serving/kernel-auto-tuning.md)
+    * [NVIDIA TensorRT vs ONNX Runtime](ml-datascience/ml-techniques/ml-serving/nvidia-tensorrt-vs-onnx-runtime.md)
 * [Machine Learning Algorithms](ml-datascience/machine-learning-algorithms/README.md)
   * [Supervised Learning](ml-datascience/machine-learning-algorithms/supervised-learning/README.md)
     * [Support Vector Machines](ml-datascience/machine-learning-algorithms/supervised-learning/support-vector-machines.md)
