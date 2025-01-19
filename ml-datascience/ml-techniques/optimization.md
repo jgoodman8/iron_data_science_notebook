@@ -24,7 +24,7 @@ In practice, we will follow the analytic gradient (Newton-Raphson method).
 
 ## Gradient descent
 
-### Vanilla GD
+### Vanilla Gradient Descent (GD)
 
 ```python
 weights = np.random(N)
@@ -40,6 +40,29 @@ _Step size_ updates the weights in the opposite direction to the gradient. Since
 [hyperparameter-tuning.md](hyperparameter-tuning.md)
 {% endcontent-ref %}
 
+To go more in detail about how GD works, we can observe this pseudo code:
+
+```python
+from ai_framework import activation_fn  # output of the model
+
+n = 1000  # number of data samples
+epochs = 10  # number of iterations across all the dataset
+alpha = 0.2  # learning rate
+weight1 = 0  # model weigth
+bias = 0  # model bias
+
+for _ in range(epochs):
+    overall_loss = 0
+    for x, y in range(n):
+        z = pred(weight1, bias, x)
+        output = activation(z)
+        overall_loss += loss_fn(output, y)
+    overall_loss /= n    
+    derivative_weight1, derivative_bias = compute_partial_derivatives(overall_loss)
+    weight1 -= alpha * derivative_weight1
+    bias -= alpha * derivative_bias
+```
+
 ### Stochastic GD
 
 {% hint style="info" %}
@@ -47,6 +70,12 @@ Source:&#x20;
 
 * [Deep Learning Part 2: Vanilla vs Stochastic Gradient Descent](https://medium.com/geekculture/deep-learning-part-2-vanilla-vs-stochastic-gradient-descent-6bcecc26fd51)
 {% endhint %}
+
+We want the Slope to be closer to 0, to minimize it. To compute the partial derivative of the loss w.r.t. $$w_1$$, we can apply the chain rule:
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="420"><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 In stochastic gradient descent, rather than calculating the error as an average of **all** the training examples, we select _M random training examples_ from the entire dataset and use that in our cost function. We call this subset a **mini-batch**.
 

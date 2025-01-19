@@ -50,7 +50,6 @@
 * [Machine Learning Algorithms](ml-datascience/machine-learning-algorithms/README.md)
   * [Supervised Learning](ml-datascience/machine-learning-algorithms/supervised-learning/README.md)
     * [Support Vector Machines](ml-datascience/machine-learning-algorithms/supervised-learning/support-vector-machines.md)
-    * [Logistic Regression](ml-datascience/machine-learning-algorithms/supervised-learning/logistic-regression.md)
     * [Adaptative boosting](ml-datascience/machine-learning-algorithms/supervised-learning/adaptative-boosting.md)
     * [Gradient boosting](ml-datascience/machine-learning-algorithms/supervised-learning/gradient-boosting.md)
     * [Regression algorithms](ml-datascience/machine-learning-algorithms/supervised-learning/regression-algorithms/README.md)

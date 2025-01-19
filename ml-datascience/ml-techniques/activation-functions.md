@@ -65,3 +65,11 @@ tf.math.sigmoid(
 
 ## Softmax
 
+Transforms raw scores into probabilities in a multi-label classification. All the probabilities are normalized to sum 1 all of them.&#x20;
+
+$$
+f(s_i) = \frac{ e^{x_i}}{\sum_j e^{x_j}}
+$$
+
+
+

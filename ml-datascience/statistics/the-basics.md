@@ -87,7 +87,7 @@ It's quite common to find **more than one mode**, especially if there aren't man
 {% tab title="Continuous distribution" %}
 It's the **maximum value** of the function. As with discrete distributions, there may be more than one mode.
 
-![](<../../.gitbook/assets/image (5) (1).png>)
+![](<../../.gitbook/assets/image (5) (1) (1).png>)
 {% endtab %}
 {% endtabs %}
 

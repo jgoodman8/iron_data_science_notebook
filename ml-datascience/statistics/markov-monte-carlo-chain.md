@@ -64,7 +64,7 @@ By the nature of the MCMC algorithm, we will always be returned samples that exh
 
 If there is high-autocorrelation between posterior samples. Many post-processing algorithms require samples to be _independent_ of each other. This can be solved, or at least reduced, by only returning to the user every _n-th_ sample, thus removing some autocorrelation. **With more thinning, the autocorrelation drops quicker**. There is a tradeoff though: **higher thinning requires more MCMC iterations** to achieve the same number of returned samples.
 
-![](<../../.gitbook/assets/image (2) (1) (1).png>)
+![](<../../.gitbook/assets/image (2) (1) (1) (1).png>)
 
 #### Intelligence starting values
 

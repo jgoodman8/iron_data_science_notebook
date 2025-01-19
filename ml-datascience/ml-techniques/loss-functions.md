@@ -3,7 +3,7 @@
 {% hint style="info" %}
 _Sources:_
 
-* [_Understanding Categorical Cross-Entropy Loss, Binary Cross-Entropy Loss, Softmax Loss, Logistic Loss, Focal Loss and all those confusing names (Raúl Gómez blog)_](https://gombru.github.io/2018/05/23/cross\_entropy\_loss/)
+* [_Understanding Categorical Cross-Entropy Loss, Binary Cross-Entropy Loss, Softmax Loss, Logistic Loss, Focal Loss and all those confusing names (Raúl Gómez blog)_](https://gombru.github.io/2018/05/23/cross_entropy_loss/)
 * [_What is loss function? (Christophee Pere_](https://towardsdatascience.com/what-is-loss-function-1e2605aeb904)_)_
 * [_Machine Learning Glossary_](https://ml-cheatsheet.readthedocs.io/en/latest/index.html)
 {% endhint %}
@@ -94,12 +94,26 @@ $$
 −∑c=1Myo,clog(po,c)
 $$
 
+#### Binary cross-entropy
+
+Also called **Negative Log-Likelihood**, it is only related to binary classification problems.
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
+
+$$
+Loss = \frac{1}{n} \space \sum_{i=1}^n \space - y^i \space log(\sigma(z))\space - \space(1 - y^i)\space log(1 - \sigma(z))
+$$
+
+For a given sample, if the GT is 0, the left side of the formula won't do anything. And, the GT class is 1, the right side of the formula won't operate.
+
 ### ​Log-Loss
 
 The Log-Loss is the Binary cross-entropy up to a factor 1 / log(2). This loss function is convex and grows linearly for negative values: this means it's less sensitive to outliers. The common algorithm which uses the Log-loss is the _**logistic regression**_.
 
-{% content-ref url="../machine-learning-algorithms/supervised-learning/logistic-regression.md" %}
-[logistic-regression.md](../machine-learning-algorithms/supervised-learning/logistic-regression.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ### Exponential Loss
