@@ -57,6 +57,8 @@
       * [Linear Regression](ml-datascience/machine-learning-algorithms/supervised-learning/regression-algorithms/linear-regression.md)
       * [Lasso regression](ml-datascience/machine-learning-algorithms/supervised-learning/regression-algorithms/lasso-regression.md)
     * [Classification algorithms](ml-datascience/machine-learning-algorithms/supervised-learning/classification-algorithms/README.md)
+      * [Perceptron](ml-datascience/machine-learning-algorithms/supervised-learning/classification-algorithms/perceptron.md)
+      * [Logistic Regression](ml-datascience/machine-learning-algorithms/supervised-learning/classification-algorithms/logistic-regression.md)
       * [kNN](ml-datascience/machine-learning-algorithms/supervised-learning/classification-algorithms/knn.md)
       * [Naive Bayes](ml-datascience/machine-learning-algorithms/supervised-learning/classification-algorithms/naive-bayes.md)
       * [Decision Trees](ml-datascience/machine-learning-algorithms/supervised-learning/classification-algorithms/decision-trees.md)

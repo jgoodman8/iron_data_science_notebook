@@ -15,7 +15,7 @@
 {% hint style="success" %}
 _All **variable names** in Python are said to be **references to the values.**_&#x20;
 
-_Python keeps an **internal counter** on **how many references** an object has**.**_&#x20;
+_Python keeps an **internal counter** on **how many references** an object ha&#x73;**.**_&#x20;
 
 Once the **counter goes to zero** the **GB** in Python removes the object, thus **freeing up the memory**.
 {% endhint %}

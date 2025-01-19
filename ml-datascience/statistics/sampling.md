@@ -59,7 +59,7 @@ Steps:
 
 1. Get a sample from a population with sample size n.
 2. Draw a sample from the original sample data **with replacement** with size n, and replicate B times, each re-sampled sample is called a Bootstrap Sample, and t**here will totally B Bootstrap Samples**.
-3. Evaluate the **statistic** of _**θ**_** for each Bootstrap Sample**, and there will be totally B estimates of _θ_.
+3. Evaluate the **statistic** of _**θ**_**&#x20;for each Bootstrap Sample**, and there will be totally B estimates of _θ_.
 4. Construct a **sampling distribution** with these B Bootstrap statistics and use it to make a further statistical inference, such as:
    * Estimating the standard error of statistics for _θ._
    * Obtaining a Confidence Interval for _θ_.

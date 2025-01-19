@@ -49,7 +49,7 @@ $$
 
 ### Lasso (L1)
 
-It penalizes the loss function by adding the _shrinkage quantity_. This way, the coefficients are estimated by minimizing the whole quantity. _**Lasso**_** applies the modulus** $$| \beta_j|$$ **to every coefficient**. This is also called _**L1 regularization** or L1 norm._
+It penalizes the loss function by adding the _shrinkage quantity_. This way, the coefficients are estimated by minimizing the whole quantity. _**Lasso**_**&#x20;applies the modulus** $$| \beta_j|$$ **to every coefficient**. This is also called _**L1 regularization** or L1 norm._
 
 $$
 RSS + \lambda \sum_{j=1}^{p} | \beta_j| = \sum_{i=1}^{n} \left( y_i - \beta_0 - \sum_{i=1}^{p} \beta_jx_{ij} \right)^2 + \lambda \sum_{j=1}^{p} | \beta_j|
@@ -57,11 +57,11 @@ $$
 
 Here, **λ is the regularization parameter** that decides **how much we want to penalize** the flexibility of our model. The increase in flexibility of a model is represented by increase in its coefficients, and if we want to minimize the above function, then these coefficients need to be small.&#x20;
 
-&#x20;_When **λ = 0, the penalty term has no**_** eﬀect**, and the estimates produced by ridge regression will be equal to least squares. However, as **λ→∞**, the impact of the shrinkage **penalty grows**.
+&#x20;_When **λ = 0, the penalty term has no**_**&#x20;eﬀect**, and the estimates produced by ridge regression will be equal to least squares. However, as **λ→∞**, the impact of the shrinkage **penalty grows**.
 
 ### Ridge (L2)
 
-As _lasso_ does, it penalizes the loss function by adding the _shrinkage quantity_. It's also parametrized by the **λ is the regularization parameter**. However, _**ridge**_** applies the square** $$\beta_j^2$$ **to every coefficient**. It's also called _**L2 regularization**_ or _L2 norm._
+As _lasso_ does, it penalizes the loss function by adding the _shrinkage quantity_. It's also parametrized by the **λ is the regularization parameter**. However, _**ridge**_**&#x20;applies the square** $$\beta_j^2$$ **to every coefficient**. It's also called _**L2 regularization**_ or _L2 norm._
 
 $$
 RSS + \lambda \sum_{j=1}^{p} \beta_j^2 =

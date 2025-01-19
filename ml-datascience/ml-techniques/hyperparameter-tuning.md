@@ -16,7 +16,7 @@ It takes a **dictionary** of all of the **different hyperparameters** that you w
 
 ### Random Search
 
-To avoid going through all the possible combinations, this method **evaluates **_**n**_** uniformly random points in the hyperparameter space**, and selects the one producing the best performance.
+To avoid going through all the possible combinations, this method **evaluates&#x20;**_**n**_**&#x20;uniformly random points in the hyperparameter space**, and selects the one producing the best performance.
 
 ### Hand tunning
 

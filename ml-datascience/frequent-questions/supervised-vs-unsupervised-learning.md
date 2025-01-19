@@ -7,14 +7,14 @@
 ## Supervised learning
 
 * It requires **labeled data** for training.&#x20;
-* Tasks are mainly focused on **getting a **_**solution**_** or **_**prediction**_ expressed as a:
+* Tasks are mainly focused on **getting a&#x20;**_**solution**_**&#x20;or&#x20;**_**prediction**_ expressed as a:
   * Classification
   * Regression
 
 ## Unsupervised learning
 
 * It does **not require labeled data** due to it does not perform training.
-* Tasks are mainly focused on **getting **_**insights**_** or **_**guesses**_ through:
+* Tasks are mainly focused on **getting&#x20;**_**insights**_**&#x20;or&#x20;**_**guesses**_ through:
   * Clustering
   * Visualization
   * Dimensionality reduction

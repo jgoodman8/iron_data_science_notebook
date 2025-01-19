@@ -5,7 +5,7 @@ _Sources:_
 
 * [_About probability distributions (Statistics How To)_](https://www.statisticshowto.datasciencecentral.com/probability-distribution/)
 * [_Skewness (Math is Fun)_](https://www.mathsisfun.com/data/skewness.html)
-* [_How do I determine whether my data are normal?  &#x20;(Psychwiki.com)_](http://www.psychwiki.com/wiki/How\_do\_I\_determine\_whether\_my\_data\_are\_normal%3F)
+* [_How do I determine whether my data are normal?  &#x20;(Psychwiki.com)_](http://www.psychwiki.com/wiki/How_do_I_determine_whether_my_data_are_normal%3F)
 * [_Skew and Kurtosis: 2 Important Statistics terms you need to know in Data Science  &#x20;(Diva Jain)_](https://codeburst.io/2-important-statistics-terms-you-need-to-know-in-data-science-skewness-and-kurtosis-388fef94eeaa)
 {% endhint %}
 
@@ -34,7 +34,7 @@ A normal distribution, sometimes called the bell curve, is a distribution that o
 
 * Plotting data using an histogram may give an intuitive insight.
 * Also, a [Normal Q-Q Plot](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.probplot.html) provides a graphical way to determine the level of normality.
-* The [Kolmogorov-Smirnov test ](https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Smirnov\_test)and [Shapiro-Wilk test](https://en.wikipedia.org/wiki/Shapiro%E2%80%93Wilk\_test) are designed to test normality by comparing your data to a normal distribution with the same mean and standard deviation of the sample. If the test is NOT significant, then the data are normal, so any value above .05 indicates normality.
+* The [Kolmogorov-Smirnov test ](https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Smirnov_test)and [Shapiro-Wilk test](https://en.wikipedia.org/wiki/Shapiro%E2%80%93Wilk_test) are designed to test normality by comparing your data to a normal distribution with the same mean and standard deviation of the sample. If the test is NOT significant, then the data are normal, so any value above .05 indicates normality.
 * **Measuring** [**kurtosis** ](distributions.md#about-kurtosis)**and** [**skewness**](distributions.md#about-skewed-distributions) and compare with the normal to see how symmetric and sharp it is compared to it.
 * Measuring the **square error with respect to a normal with same mean and variance**.
 
@@ -60,7 +60,7 @@ The exponential distribution (also called the negative exponential distribution)
 
 The exponential distribution is mostly used for testing [product reliability](http://www.ni.com/white-paper/14412/en/). It’s also an important distribution for building continuous-time [Markov chains](https://www.statisticshowto.datasciencecentral.com/markov-chain-monte-carlo/). The exponential often **models waiting times** and can help you to answer questions like: “How much time will go by before a major hurricane hits the Atlantic Seaboard?”
 
-![](<../../.gitbook/assets/image (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (1) (1) (1) (1) (1).png>)
 
 The most common form of its probability distribution function is:
 
@@ -122,7 +122,7 @@ If a random variable $$Z$$ has a **mass distribution**, we denote this by writin
 
 ## About skewed distributions
 
-Skewness  is the _**degree of distortion**_** from the normal distribution** or the symmetrical bell curve. It measures the **lack of symmetry** in data distribution. It differentiates extreme values in one versus the other tail.
+Skewness  is the _**degree of distortion**_**&#x20;from the normal distribution** or the symmetrical bell curve. It measures the **lack of symmetry** in data distribution. It differentiates extreme values in one versus the other tail.
 
 A [Normal Distribution](distributions.md#normal) is not skewed. It's symmetrical and the mean is exactly at the peak. Thus, the **mean, median and mode concur**.
 
@@ -143,7 +143,7 @@ np.stats.skew(np.random.rand(100))
 
 ## About kurtosis
 
-&#x20;Kurtosis is all about the tails of the distribution. And it's used to describe the extreme values in one versus the other tail. It is actually the _**measure of outliers**_** present in the distribution**.&#x20;
+&#x20;Kurtosis is all about the tails of the distribution. And it's used to describe the extreme values in one versus the other tail. It is actually the _**measure of outliers**_**&#x20;present in the distribution**.&#x20;
 
 &#x20;**High kurtosis** in a data set is an indicator that data has heavy tails or outliers. Meanwhile,  **low kurtosis** in a data set is an indicator that data has light tails or lack of outliers.&#x20;
 

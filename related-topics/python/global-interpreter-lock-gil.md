@@ -25,7 +25,7 @@ _Related sources:_
 ### How to bypass it?
 
 * C libraries like pandas, numpy, or numba use the CPython macros to [manually release the GIL](https://stackoverflow.com/a/36480941).
-* Another option to take advantage of multicore machines is **creating processes instead of threads**. However, this creates an **overhead (**by generating a copy of the parent memory state) and making less efficient the communication between processes (and shared variables).
+* Another option to take advantage of multicore machines is **creating processes instead of threads**. However, this creates an **overhead (**&#x62;y generating a copy of the parent memory state) and making less efficient the communication between processes (and shared variables).
 
 {% content-ref url="../distributed-computation/" %}
 [distributed-computation](../distributed-computation/)

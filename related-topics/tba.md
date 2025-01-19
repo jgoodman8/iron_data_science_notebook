@@ -32,7 +32,7 @@ $$
 
 ### With no repetition
 
-If what to know all the **order of **_**N**_** pool balls be in,** for each ball taken we have $$N_{i+1} = N_i - 1$$ possibilities.
+If what to know all the **order of&#x20;**_**N**_**&#x20;pool balls be in,** for each ball taken we have $$N_{i+1} = N_i - 1$$ possibilities.
 
 ![](<../.gitbook/assets/image (14).png>)
 
@@ -42,13 +42,13 @@ $$
 \frac{N!}{(N-R)!} \\ R \text{ items selected out of } N \text{ with no repetition}
 $$
 
-In the particular case, that _**R**_** is equal to **_**N**_, we get up to _**N!**_ possibilities.
+In the particular case, that _**R**_**&#x20;is equal to&#x20;**_**N**_, we get up to _**N!**_ possibilities.
 
 ## Combinations
 
 ### With no repetition
 
-Here, we can discover the number of possible results in lotteries. We take _**R from**_ _**N**_** unique items.** However, we **don't mind the order** of the taken items.
+Here, we can discover the number of possible results in lotteries. We take _**R from**_ _**N**_**&#x20;unique items.** However, we **don't mind the order** of the taken items.
 
 ![](<../.gitbook/assets/image (74).png>)
 

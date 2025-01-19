@@ -17,7 +17,7 @@ For every unlabeled instance (the ones to be classified):
 
 1. It measures the **distance to every labeled sample**.
 2. It **sorts** the distances incrementally.
-3. It selects the **closets **_**k**_** instances**.
+3. It selects the **closets&#x20;**_**k**_**&#x20;instances**.
 4. It **assigns the most frequent class** on the selected _k_ instances.
 
 ![Source: DataCamp](<../../../../.gitbook/assets/image (6) (1).png>)

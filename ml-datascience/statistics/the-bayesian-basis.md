@@ -1,7 +1,7 @@
 # The bayesian basis
 
 {% hint style="info" %}
-[_Chapter 1 - Probabilistic Programming and Bayesian Methods for Hackers_](https://nbviewer.jupyter.org/github/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/blob/master/Chapter1\_Introduction/Ch1\_Introduction\_TFP.ipynb#Probability-Distributions)
+[_Chapter 1 - Probabilistic Programming and Bayesian Methods for Hackers_](https://nbviewer.jupyter.org/github/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/blob/master/Chapter1_Introduction/Ch1_Introduction_TFP.ipynb#Probability-Distributions)
 {% endhint %}
 
 ## Bayesian vs Frequentist
@@ -13,7 +13,7 @@
 ## So what?
 
 * The belief about event _A_ is denoted as _P(A)_. We call this quantity the **prior probability**.
-* Given a **new evidence **_**X**_, it cannot be ignored. Even if the evidence is counter to what was initially believed, the evidence.
+* Given a **new evidence&#x20;**_**X**_, it cannot be ignored. Even if the evidence is counter to what was initially believed, the evidence.
 * We denote our updated belief as _P(A|X)_, interpreted as the probability of A given the evidence X. We call the updated belief the **posterior probability** so as to contrast it with the prior probability.
 
 ### Bayes' Theorem

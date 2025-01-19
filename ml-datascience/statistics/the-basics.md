@@ -10,10 +10,10 @@ _Credits & Sources:_
 * [_Mean (Wikipedia)_](https://en.wikipedia.org/wiki/Mean)
 * [_Median (Wikipedia)_](https://en.wikipedia.org/wiki/Median)
 * [_Range (Wikipedia)_](https://en.wikipedia.org/wiki/Range)
-* [_Mode (Wikipedia)_](https://en.wikipedia.org/wiki/Mode\_\(statistics\))
+* [_Mode (Wikipedia)_](https://en.wikipedia.org/wiki/Mode_\(statistics\))
 * [_Variance (Wikipedia)_](https://en.wikipedia.org/wiki/Variance)
-* [_Standard deviation (Wikipedia)_](https://en.wikipedia.org/wiki/Standard\_deviation)
-* [_Standard eror (Wikipedia)_](https://en.wikipedia.org/wiki/Standard\_error)
+* [_Standard deviation (Wikipedia)_](https://en.wikipedia.org/wiki/Standard_deviation)
+* [_Standard eror (Wikipedia)_](https://en.wikipedia.org/wiki/Standard_error)
 * [_Statistical mean, median, mode and range (Margaret Rouse, Tech Target)_](https://searchdatacenter.techtarget.com/definition/statistical-mean-median-mode-and-range)
 * [_Mean vs. Median: When to Use? (Stack Exchange)_](https://math.stackexchange.com/questions/2304710/mean-vs-median-when-to-use)
 * [_Standard deviation and Variance (Math is Fun)_](https://www.mathsisfun.com/data/standard-deviation.html)
@@ -42,8 +42,8 @@ $$
 {% endtab %}
 
 {% tab title="Types" %}
-* [**Geometric mean**](https://en.wikipedia.org/wiki/Geometric\_mean)
-* [**Harmonic mean**](https://en.wikipedia.org/wiki/Harmonic\_mean)
+* [**Geometric mean**](https://en.wikipedia.org/wiki/Geometric_mean)
+* [**Harmonic mean**](https://en.wikipedia.org/wiki/Harmonic_mean)
 * **...**
 {% endtab %}
 {% endtabs %}
@@ -63,7 +63,7 @@ It depends on whether the number of terms in the distribution. Once the values a
 {% endtab %}
 
 {% tab title="Continuos distribution" %}
-It's the value _m_ such that the **probability is at least 0.5** that a **randomly chosen poin**t on the function will be **less than or equal to **_**m**_.
+It's the value _m_ such that the **probability is at least 0.5** that a **randomly chosen poin**t on the function will be **less than or equal to&#x20;**_**m**_.
 
 $$
 \operatorname {P} (X\geq m)=\operatorname {P} (X\leq m)=\int _{-\infty }^{m}f(x)\,dx={\frac {1}{2}}
@@ -201,15 +201,15 @@ $$
 * However, almost all **analytic calculations** on sets of data are **more natural in terms of the mean** than the median.
 * The **difference between the median and the mean** is useful to represent **how skewed the data is**.
 * The **real use of the median** comes **when the data set may contain extreme outliers**. Then, describing the distribution in terms of quartiles can be more informative than quoting $$\mu$$ and $$\sigma$$.
-* For [skewed distributions](https://en.wikipedia.org/wiki/Skewness), the mean is not necessarily the same as the median or the mode. For example, mean income is typically skewed upwards by a small number of people with very large incomes, so that the majority have an income lower than the mean. By contrast, the median income is the level at which half the population is below and half is above. The mode income is the most likely income and favors the larger number of people with lower incomes. **Median** and **mode** are often **more intuitive** measures for such **skewed data**, **BUT many skewed distributions are in fact best described by their mean**, including the [**Exponential**](https://en.wikipedia.org/wiki/Exponential\_distribution) and [**Poisson**](https://en.wikipedia.org/wiki/Poisson\_distribution) distributions.
+* For [skewed distributions](https://en.wikipedia.org/wiki/Skewness), the mean is not necessarily the same as the median or the mode. For example, mean income is typically skewed upwards by a small number of people with very large incomes, so that the majority have an income lower than the mean. By contrast, the median income is the level at which half the population is below and half is above. The mode income is the most likely income and favors the larger number of people with lower incomes. **Median** and **mode** are often **more intuitive** measures for such **skewed data**, **BUT many skewed distributions are in fact best described by their mean**, including the [**Exponential**](https://en.wikipedia.org/wiki/Exponential_distribution) and [**Poisson**](https://en.wikipedia.org/wiki/Poisson_distribution) distributions.
 
 ![Comparison of mean, median and mode of two log-normal distributions with different skewness.](<../../.gitbook/assets/image (13).png>)
 
 ### Difference between standard deviation of a sample and standard error of the population mean
 
-Meanwhile the [**standard deviation**](the-basics.md#standard-deviation) expresses **how disperse is data with respect to the** [**mean**](the-basics.md#mean), the **standard error** measures the  [**standard deviation**](https://en.wikipedia.org/wiki/Standard\_deviation) **of its** [**sampling distribution**](https://en.wikipedia.org/wiki/Sampling\_distribution).
+Meanwhile the [**standard deviation**](the-basics.md#standard-deviation) expresses **how disperse is data with respect to the** [**mean**](the-basics.md#mean), the **standard error** measures the  [**standard deviation**](https://en.wikipedia.org/wiki/Standard_deviation) **of its** [**sampling distribution**](https://en.wikipedia.org/wiki/Sampling_distribution).
 
-The [**sampling distribution**](https://en.wikipedia.org/wiki/Sampling\_distribution) of a population mean is **generated by repeated sampling** and recording of the means obtained. This forms a distribution of different means, and this distribution has its own [mean](https://en.wikipedia.org/wiki/Mean) and [variance](https://en.wikipedia.org/wiki/Variance).
+The [**sampling distribution**](https://en.wikipedia.org/wiki/Sampling_distribution) of a population mean is **generated by repeated sampling** and recording of the means obtained. This forms a distribution of different means, and this distribution has its own [mean](https://en.wikipedia.org/wiki/Mean) and [variance](https://en.wikipedia.org/wiki/Variance).
 
 {% tabs %}
 {% tab title="Standard Error of a Population" %}
@@ -221,7 +221,7 @@ $$
 {% endtab %}
 
 {% tab title="Standard Error of a Sample" %}
-&#x20;Since the [population standard deviation](https://en.wikipedia.org/wiki/Standard\_deviation) is seldom known, the standard deviation of a sample is used to approximate this statistic:
+&#x20;Since the [population standard deviation](https://en.wikipedia.org/wiki/Standard_deviation) is seldom known, the standard deviation of a sample is used to approximate this statistic:
 
 $$
 s_{x}^{-} = \frac{s}{\sqrt{n}}

@@ -8,7 +8,7 @@ A comprehensive review of YOLO architectures in Computer Vision: From YOLOV1 to 
 
 You Only Look Once (YOLO) achieved SoTA results in real-time detectors in 2015. A family of detectors emerged since then:
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 The YOLO architecture is simple:&#x20;
 
@@ -16,7 +16,7 @@ The YOLO architecture is simple:&#x20;
 * The first 20 layers are pre-trained on Imagenet with half-resolution images
 * Then it's trained on detection with full-resolution images
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * YOLO divides the input image into a S × S grid&#x20;
 * and predicts B bounding boxes of the same class, along with its confidence for C different classes per grid element

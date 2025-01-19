@@ -10,14 +10,14 @@ _Sources:_
 
 ## Overview
 
-* It defines _**k**_** centroids** (_k_ is **manually selected**).
+* It defines _**k**_**&#x20;centroids** (_k_ is **manually selected**).
 * _k_ $$\Rightarrow$$ _number of clusters._
 * Every instance MUST be assigned to a centroid.
 * Each data point owns to a single cluster.
 
 ## The algorithm
 
-1. **Randomly selects **_**k**_** centroids** from the dataset.
+1. **Randomly selects&#x20;**_**k**_**&#x20;centroids** from the dataset.
 2. **Computes the distances** (euclidean, cosine...) between for each non-centroid point to the _k_ centroids.
 3. Assigns each non-centroid point to a cluster, based on the smallest computed distances.
 4. Recalculates the cluster centroids: the **new centroid is the average or the mean value of all the cluster instances**.
@@ -53,6 +53,6 @@ Always converges after enough iterations to a **local optimum**. However, it **d
 * Evaluate the [inertia](clustering-metrics.md#inertia) of each cluster. The goal is:
   * &#x20;a low metric value
   * a low number number of clusters
-* The [elbow method](https://en.wikipedia.org/wiki/Elbow\_method\_\(clustering\)) is a good tool to select the optimal value of _k_.
+* The [elbow method](https://en.wikipedia.org/wiki/Elbow_method_\(clustering\)) is a good tool to select the optimal value of _k_.
 
 ![](<../../../../.gitbook/assets/image (67).png>)
