@@ -40,6 +40,12 @@ _Step size_ updates the weights in the opposite direction to the gradient. Since
 [hyperparameter-tuning.md](hyperparameter-tuning.md)
 {% endcontent-ref %}
 
+We want the Slope to be closer to 0, to minimize it. To compute the partial derivative of the loss w.r.t. $$w_1$$, we can apply the chain rule:
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="420"><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
 To go more in detail about how GD works, we can observe this pseudo code:
 
 ```python
@@ -63,7 +69,7 @@ for _ in range(epochs):
     bias -= alpha * derivative_bias
 ```
 
-### Stochastic GD
+### Stochastic Gradient Descent
 
 {% hint style="info" %}
 Source:&#x20;
@@ -71,15 +77,27 @@ Source:&#x20;
 * [Deep Learning Part 2: Vanilla vs Stochastic Gradient Descent](https://medium.com/geekculture/deep-learning-part-2-vanilla-vs-stochastic-gradient-descent-6bcecc26fd51)
 {% endhint %}
 
-We want the Slope to be closer to 0, to minimize it. To compute the partial derivative of the loss w.r.t. $$w_1$$, we can apply the chain rule:
-
-<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="420"><figcaption></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
-
 In stochastic gradient descent, rather than calculating the error as an average of **all** the training examples, we select _M random training examples_ from the entire dataset and use that in our cost function. We call this subset a **mini-batch**.
 
 Once our network has been trained on all the data points in our mini-batch, we select a new subset of random points and train our model with that. We continue this process until we’ve exhausted all training points, at which point we’ve completed an **epoch**. We then start with a new **epoch** and continue until convergence.
+
+{% hint style="success" %}
+Main differences w.r.t. the "standard" Gradient Descent:
+
+* Partial derivates are computed on every training sample
+* Meaning, model weights, and bias are updated after each sample
+* The step size (alpha) is smaller to avoid big changes between samples
+{% endhint %}
+
+{% hint style="info" %}
+There's a variant called **Minibatch GD:**
+
+* Mini batches are used (with $$2^x$$ sizes)
+* Parameters are updated after each mini-batch
+* This solution is **less noisy** than SGD
+* But converges **faster** than Vanilla GD
+* Better GPU usage
+{% endhint %}
 
 ### GD with momentum
 
