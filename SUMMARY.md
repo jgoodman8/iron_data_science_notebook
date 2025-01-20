@@ -39,6 +39,7 @@
   * [Metrics](ml-datascience/ml-techniques/metrics.md)
     * [Distance measures](ml-datascience/statistics/distance-measures.md)
   * [Activation Functions](ml-datascience/ml-techniques/activation-functions.md)
+  * [Feature Normalization](ml-datascience/ml-techniques/feature-normalization.md)
   * [Cross-validation](ml-datascience/ml-techniques/cross-validation.md)
   * [Hyperparameter tuning](ml-datascience/ml-techniques/hyperparameter-tuning.md)
   * [Ensemble methods](ml-datascience/ml-techniques/ensemble-methods.md)
