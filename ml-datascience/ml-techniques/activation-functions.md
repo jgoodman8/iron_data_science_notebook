@@ -12,12 +12,6 @@ The input equals the output $$f(z)  = z$$. Meaning the output is continuous.
 
 <figure><img src="../../.gitbook/assets/image (128).png" alt=""><figcaption></figcaption></figure>
 
-## Threshold function
-
-The output is 0 if it's below the threshold, otherwise it's 1.
-
-<figure><img src="../../.gitbook/assets/image (129).png" alt=""><figcaption></figcaption></figure>
-
 ## Sigmoid or Logistic function
 
 It transforms a vector in the continuous range \[0, 1].
@@ -65,11 +59,25 @@ tf.math.sigmoid(
 
 ## Softmax
 
-Transforms raw scores into probabilities in a multi-label classification. All the probabilities are normalized to sum 1 all of them.&#x20;
+{% hint style="success" %}
+Converts its input values into a probability distribution among _N_ classes.
+{% endhint %}
+
+Transforms raw scores into probabilities in a multi-label classification. All the p**robabilities are normalized to sum 1** all of them.&#x20;
 
 $$
 f(s_i) = \frac{ e^{x_i}}{\sum_j e^{x_j}}
 $$
 
+### ReLU
 
+Also called Rectified Linear Unit,
 
+* if the input value is ≥ 0, (acts as a [#linear](activation-functions.md#linear "mention") function)
+* it the input value is < 0, it returns 0
+
+{% hint style="success" %}
+It can be summarized as $$ReLU(z) = max(0, z)$$
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure>

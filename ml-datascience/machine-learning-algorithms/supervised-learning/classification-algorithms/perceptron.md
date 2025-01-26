@@ -1,5 +1,9 @@
 # Perceptron
 
+{% hint style="warning" %}
+**Never converges on non-linearly separable data**
+{% endhint %}
+
 * It's the foundation of MLP and Deep Learning
 * Each input value has a related weight and a bias value is added:
 

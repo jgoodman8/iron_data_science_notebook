@@ -108,6 +108,25 @@ $$
 
 For a given sample, if the GT is 0, the left side of the formula won't do anything. And, the GT class is 1, the right side of the formula won't operate.
 
+
+
+### Multi-category cross-entropy loss
+
+{% hint style="info" %}
+[Related source](https://lightning.ai/courses/deep-learning-fundamentals/training-multilayer-neural-networks-overview/logistic-regression-for-multiple-classes-part-1-5/) (video)
+{% endhint %}
+
+* Computes the **cross-entropy** for:
+  * Multiple training examples (N) and
+  * Multiple classes (K)
+* Expect **One-hot encoded** class labels
+  * This means each training sample only has a (K) with a 1 label.
+  * It implies the formula below will only sum values for one class on each sample:
+
+$$
+L = \frac{1}{n} \sum_{i=1}^n \sum_{k=1}^K -y_k^{[i]} log(a_k^{[i]})
+$$
+
 ### ​Log-Loss
 
 The Log-Loss is the Binary cross-entropy up to a factor 1 / log(2). This loss function is convex and grows linearly for negative values: this means it's less sensitive to outliers. The common algorithm which uses the Log-loss is the _**logistic regression**_.
