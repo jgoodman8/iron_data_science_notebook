@@ -57,6 +57,7 @@
     * [Regression algorithms](ml-datascience/machine-learning-algorithms/supervised-learning/regression-algorithms/README.md)
       * [Linear Regression](ml-datascience/machine-learning-algorithms/supervised-learning/regression-algorithms/linear-regression.md)
       * [Lasso regression](ml-datascience/machine-learning-algorithms/supervised-learning/regression-algorithms/lasso-regression.md)
+      * [Multi Layer Perceptron](ml-datascience/machine-learning-algorithms/supervised-learning/regression-algorithms/multi-layer-perceptron.md)
     * [Classification algorithms](ml-datascience/machine-learning-algorithms/supervised-learning/classification-algorithms/README.md)
       * [Perceptron](ml-datascience/machine-learning-algorithms/supervised-learning/classification-algorithms/perceptron.md)
       * [Logistic Regression](ml-datascience/machine-learning-algorithms/supervised-learning/classification-algorithms/logistic-regression.md)
