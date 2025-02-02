@@ -20,6 +20,10 @@ It can be seen as a [#multiclass-logistic-regression](logistic-regression.md#mul
 
 <figure><img src="../../../../.gitbook/assets/image (133).png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="info" %}
+Normally, [#cross-entropy](../../../ml-techniques/loss-functions.md#cross-entropy "mention") loss is used to train it!
+{% endhint %}
+
 ### Wide vs Deep Networks
 
 * In theory, an MLP with 1 hidden layer should be enough. But:
