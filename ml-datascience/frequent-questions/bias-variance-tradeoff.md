@@ -1,14 +1,18 @@
 # Bias-Variance Tradeoff
 
 {% hint style="info" %}
-_More reading:_ [_Bias-Variance Tradeoff (Wikipedia)_](https://en.wikipedia.org/wiki/Bias-variance\_tradeoff)
+_More reading:_ [_Bias-Variance Tradeoff (Wikipedia)_](https://en.wikipedia.org/wiki/Bias-variance_tradeoff)
 {% endhint %}
 
 ![](<../../.gitbook/assets/image (64).png>)
 
 ## What is the bias error?
 
-In statistics, an estimator's bias (or **bias function**) is the **difference between the estimator's expected value and the true value** of the instance being estimated. An estimator or decision rule with zero bias is called **unbiased.** So. it measures the difference between the estimated value by a model or measurement method and the real one.
+{% hint style="success" %}
+Bias is the error a model makes **in making too simple guesses** about the data. For example, if you use a linear regression to capture a non-linear pattern, the model won't learn well, no matter how much data is available. This is called **underfitting**.
+{% endhint %}
+
+In statistics, an estimator's bias (or **bias function**) is the **difference between the estimator's expected value and the true value** of the instance being estimated. An estimator or decision rule with zero bias is called **unbiased.** So, it measures the difference between the estimated value by a model or measurement method and the real one.
 
 ![The bias is expressed as the systematic error](../../.gitbook/assets/illustration-of-precision-error-and-bias-error-reprinted-with-minor-changes-from-asme.png)
 
@@ -20,19 +24,25 @@ In statistics, an estimator's bias (or **bias function**) is the **difference be
 
 ## What is variance error?
 
-Variance is the variability of model prediction for a given data point or a value that tells us the spread of our data. A model with **high variance pays** a lot of **attention to training data and** does **not generalize on unseen data**. As a result, such models **perform very well on training data** but have **high error rates on test data**.
+{% hint style="success" %}
+Variance is the error produced when the **model adapts too well to training data**, **capturing even the noise**. This makes it too sensitive to small changes in the data. This is called **overfitting**.
+{% endhint %}
+
+Variance is the variability of model predictions for a given data point or a value that tells us the spread of our data. A model with **high variance pays** a lot of **attention to training data and** does **not generalize to unseen data**. As a result, such models **perform very well on training data** but have **high error rates on test data**.
 
 ## Bias vs Variance
 
-This **tradeoff** is the property of a set of predictive models whereby models with a lower [bias](https://en.wikipedia.org/wiki/Bias\_of\_an\_estimator) in [parameter](https://en.wikipedia.org/wiki/Statistical\_parameter) [estimation](https://en.wikipedia.org/wiki/Estimation\_theory) have a higher [variance](https://en.wikipedia.org/wiki/Variance) of the parameter estimates across [samples](https://en.wikipedia.org/wiki/Sample\_\(statistics\)) and vice versa. The **bias-variance dilemma** or **problem** is the conflict in trying to simultaneously minimize these two sources of [error](https://en.wikipedia.org/wiki/Errors\_and\_residuals\_in\_statistics) that prevent [supervised learning](https://en.wikipedia.org/wiki/Supervised\_learning) algorithms from generalizing beyond their [training set](https://en.wikipedia.org/wiki/Training\_set).
+This **tradeoff** is the property of a set of predictive models whereby models with a lower [bias](https://en.wikipedia.org/wiki/Bias_of_an_estimator) in [parameter](https://en.wikipedia.org/wiki/Statistical_parameter) [estimation](https://en.wikipedia.org/wiki/Estimation_theory) have a higher [variance](https://en.wikipedia.org/wiki/Variance) of the parameter estimates across [samples](https://en.wikipedia.org/wiki/Sample_\(statistics\)) and vice versa. The **bias-variance dilemma** or **problem** is the conflict in trying to simultaneously minimize these two sources of [error](https://en.wikipedia.org/wiki/Errors_and_residuals_in_statistics) that prevent [supervised learning](https://en.wikipedia.org/wiki/Supervised_learning) algorithms from generalizing beyond their [training set](https://en.wikipedia.org/wiki/Training_set).
 
-![Relation with overfit and underfit](../../.gitbook/assets/bias\_var.png)
+![Relation with overfit and underfit](../../.gitbook/assets/bias_var.png)
 
 A high **bias** error is due to erroneous or overly **simplistic assumptions in the learning algorithm** you’re using. This can lead to the model **underfitting** your data, making it hard for it to have high predictive accuracy and for you to generalize your knowledge from the training set to the test set.
 
 A high **variance** error is due to **too much complexity in the learning algorithm you’re using**. This leads to the algorithm being highly sensitive to high degrees of variation in your training data, which can lead your model to **overfit** the data. You’ll be carrying **too much noise** from your training data for your model to be very useful for your test data.
 
 ![](<../../.gitbook/assets/image (16).png>)
+
+<table data-header-hidden><thead><tr><th></th><th width="118.18359375"></th><th width="121.85546875"></th><th></th></tr></thead><tbody><tr><td><strong>Model Type</strong></td><td><strong>Bias</strong></td><td><strong>Variance</strong></td><td><strong>Characteristics</strong></td></tr><tr><td>Linear Regresion</td><td>High</td><td>Low</td><td>Very stiff model, doesn't capure non-linear relations. Easy to interpret.</td></tr><tr><td>Deep Decisision Tree</td><td>Low</td><td>High</td><td>It adjusts too much to the training set. Overfitting.</td></tr><tr><td>Shallow Tree</td><td>Moderate</td><td>Moderate</td><td>Better balance but less stregth.</td></tr><tr><td>Random Forest (many trees)</td><td>Low</td><td>Low</td><td>Reduces variance by averaging trees. Generalizes well.</td></tr><tr><td>KNN with k=1</td><td>Low</td><td>Very high</td><td>Totally depending on training data. Very sensitive.</td></tr><tr><td>Neural Network (tiny with few layers)</td><td>High</td><td>Low</td><td>Cannot learn too complex relationships</td></tr><tr><td>Big non-regularized Neural Network</td><td>Low</td><td>High</td><td>High tendency to overfitting.</td></tr></tbody></table>
 
 {% hint style="success" %}
 Too Simple Models [![U+21E8.gif](https://upload.wikimedia.org/wikipedia/commons/6/61/U%2B21E8.gif)](https://en.wikipedia.org/wiki/File:U%2B21E8.gif)Bias Error
